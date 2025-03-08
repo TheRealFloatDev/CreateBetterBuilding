@@ -43,6 +43,22 @@ public class CreateBetterBuildingModItems {
 	public static final RegistryObject<Item> MANGROVE_BARREL = block(CreateBetterBuildingModBlocks.MANGROVE_BARREL, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
 	public static final RegistryObject<Item> SPRUCE_BARREL = block(CreateBetterBuildingModBlocks.SPRUCE_BARREL, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
 	public static final RegistryObject<Item> WARPED_BARREL = block(CreateBetterBuildingModBlocks.WARPED_BARREL, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_WHITE_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_WHITE_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_LIGHT_GRAY_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_LIGHT_GRAY_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_GRAY_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_GRAY_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_BLACK_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_BLACK_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_BROWN_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_BROWN_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_RED_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_RED_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_ORANGE_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_ORANGE_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_YELLOW_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_YELLOW_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_LIME_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_LIME_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_GREEN_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_GREEN_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_CYAN_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_CYAN_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_LIGHT_BLUE_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_LIGHT_BLUE_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_BLUE_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_BLUE_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_PURPLE_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_PURPLE_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_MAGENTA_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_MAGENTA_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOSSY_PINK_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_PINK_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
 
 	// Start of user code block custom items
 	// End of user code block custom items

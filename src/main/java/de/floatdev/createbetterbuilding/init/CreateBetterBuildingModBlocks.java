@@ -18,6 +18,22 @@ import de.floatdev.createbetterbuilding.block.PurpleStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.PinkStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.OrangeStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.OakBarrelBlock;
+import de.floatdev.createbetterbuilding.block.MossyYellowStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyWhiteStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyRedStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyPurpleStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyPinkStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyOrangeStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyMagentaStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyLimeStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyLightGrayStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyLightBlueStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyGreenStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyGrayStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyCyanStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyBrownStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyBlueStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.MossyBlackStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.MangroveBarrelBlock;
 import de.floatdev.createbetterbuilding.block.MagentaStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.LimeStoneBrickBlock;
@@ -65,6 +81,22 @@ public class CreateBetterBuildingModBlocks {
 	public static final RegistryObject<Block> MANGROVE_BARREL = REGISTRY.register("mangrove_barrel", () -> new MangroveBarrelBlock());
 	public static final RegistryObject<Block> SPRUCE_BARREL = REGISTRY.register("spruce_barrel", () -> new SpruceBarrelBlock());
 	public static final RegistryObject<Block> WARPED_BARREL = REGISTRY.register("warped_barrel", () -> new WarpedBarrelBlock());
+	public static final RegistryObject<Block> MOSSY_WHITE_STONE_BRICK = REGISTRY.register("mossy_white_stone_brick", () -> new MossyWhiteStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_LIGHT_GRAY_STONE_BRICK = REGISTRY.register("mossy_light_gray_stone_brick", () -> new MossyLightGrayStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_GRAY_STONE_BRICK = REGISTRY.register("mossy_gray_stone_brick", () -> new MossyGrayStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_BLACK_STONE_BRICK = REGISTRY.register("mossy_black_stone_brick", () -> new MossyBlackStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_BROWN_STONE_BRICK = REGISTRY.register("mossy_brown_stone_brick", () -> new MossyBrownStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_RED_STONE_BRICK = REGISTRY.register("mossy_red_stone_brick", () -> new MossyRedStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_ORANGE_STONE_BRICK = REGISTRY.register("mossy_orange_stone_brick", () -> new MossyOrangeStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_YELLOW_STONE_BRICK = REGISTRY.register("mossy_yellow_stone_brick", () -> new MossyYellowStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_LIME_STONE_BRICK = REGISTRY.register("mossy_lime_stone_brick", () -> new MossyLimeStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_GREEN_STONE_BRICK = REGISTRY.register("mossy_green_stone_brick", () -> new MossyGreenStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_CYAN_STONE_BRICK = REGISTRY.register("mossy_cyan_stone_brick", () -> new MossyCyanStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_LIGHT_BLUE_STONE_BRICK = REGISTRY.register("mossy_light_blue_stone_brick", () -> new MossyLightBlueStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_BLUE_STONE_BRICK = REGISTRY.register("mossy_blue_stone_brick", () -> new MossyBlueStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_PURPLE_STONE_BRICK = REGISTRY.register("mossy_purple_stone_brick", () -> new MossyPurpleStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_MAGENTA_STONE_BRICK = REGISTRY.register("mossy_magenta_stone_brick", () -> new MossyMagentaStoneBrickBlock());
+	public static final RegistryObject<Block> MOSSY_PINK_STONE_BRICK = REGISTRY.register("mossy_pink_stone_brick", () -> new MossyPinkStoneBrickBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

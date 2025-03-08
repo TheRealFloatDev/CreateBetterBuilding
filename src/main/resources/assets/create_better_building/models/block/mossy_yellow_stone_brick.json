@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_better_building:block/mossy_yellow_stone_brick",
+    "up": "create_better_building:block/mossy_yellow_stone_brick",
+    "north": "create_better_building:block/mossy_yellow_stone_brick",
+    "east": "create_better_building:block/mossy_yellow_stone_brick",
+    "south": "create_better_building:block/mossy_yellow_stone_brick",
+    "west": "create_better_building:block/mossy_yellow_stone_brick",
+    "particle": "create_better_building:block/mossy_yellow_stone_brick"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "create_better_building:lime_stone_brick"
+  },
+  "result": "create_better_building:mossy_lime_stone_brick"
+}

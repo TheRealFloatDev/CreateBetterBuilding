@@ -173,7 +173,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/white_stone_brick.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "WhiteStoneBrickCrafting",
@@ -186,7 +186,7 @@
           "src/main/resources/data/create_better_building/recipes/white_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "LightGrayStoneBrick",
@@ -203,7 +203,7 @@
           "src/main/resources/assets/create_better_building/models/item/light_gray_stone_brick.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "LightGrayStoneBrickCrafting",
@@ -216,7 +216,7 @@
           "src/main/resources/data/create_better_building/recipes/light_gray_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "GrayStoneBrick",
@@ -233,7 +233,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/GrayStoneBrickBlock.java"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "GrayStoneBrickCrafting",
@@ -246,7 +246,7 @@
           "src/main/resources/data/create_better_building/recipes/gray_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "BlackStoneBrick",
@@ -263,7 +263,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/black_stone_brick.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "BlackStoneBrickCrafting",
@@ -276,7 +276,7 @@
           "src/main/resources/data/create_better_building/recipes/black_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "BrownStoneBrick",
@@ -293,7 +293,7 @@
           "src/main/resources/assets/create_better_building/models/block/brown_stone_brick.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "BrownStoneBrickCrafting",
@@ -306,7 +306,7 @@
           "src/main/resources/data/create_better_building/recipes/brown_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "RedStoneBrick",
@@ -323,7 +323,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/RedStoneBrickBlock.java"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "RedStoneBrickCrafting",
@@ -336,7 +336,7 @@
           "src/main/resources/data/create_better_building/recipes/red_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "OrangeStoneBrick",
@@ -353,7 +353,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/orange_stone_brick.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "OrangeStoneBrickCrafting",
@@ -366,7 +366,7 @@
           "src/main/resources/data/create_better_building/recipes/orange_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "UndyeStoneBrickRecipe",
@@ -379,7 +379,7 @@
           "src/main/resources/data/create_better_building/recipes/undye_stone_brick_recipe.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "YellowStoneBrick",
@@ -396,7 +396,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/YellowStoneBrickBlock.java"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "YellowStoneBrickCrafting",
@@ -409,7 +409,7 @@
           "src/main/resources/data/create_better_building/recipes/yellow_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "LimeStoneBrick",
@@ -426,7 +426,7 @@
           "src/main/resources/assets/create_better_building/blockstates/lime_stone_brick.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "LimeStoneBrickCrafting",
@@ -439,7 +439,7 @@
           "src/main/resources/data/create_better_building/recipes/lime_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "GreenStoneBrick",
@@ -456,7 +456,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/green_stone_brick.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "GreenStoneBrickCrafting",
@@ -469,7 +469,7 @@
           "src/main/resources/data/create_better_building/recipes/green_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "CyanStoneBrick",
@@ -486,7 +486,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/CyanStoneBrickBlock.java"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "CyanStoneBrickCrafting",
@@ -499,7 +499,7 @@
           "src/main/resources/data/create_better_building/recipes/cyan_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "LightBlueStoneBrick",
@@ -516,7 +516,7 @@
           "src/main/resources/assets/create_better_building/models/block/light_blue_stone_brick.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "LightBlueStoneBrickCrafting",
@@ -529,7 +529,7 @@
           "src/main/resources/data/create_better_building/recipes/light_blue_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "BlueStoneBrick",
@@ -546,7 +546,7 @@
           "src/main/resources/assets/create_better_building/blockstates/blue_stone_brick.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "BlueStoneBrickCrafting",
@@ -559,7 +559,7 @@
           "src/main/resources/data/create_better_building/recipes/blue_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "PurpleStoneBrick",
@@ -576,7 +576,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/purple_stone_brick.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "PurpleStoneBrickCrafting",
@@ -589,7 +589,7 @@
           "src/main/resources/data/create_better_building/recipes/purple_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "MagentaStoneBrick",
@@ -606,7 +606,7 @@
           "src/main/resources/assets/create_better_building/blockstates/magenta_stone_brick.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "MagentaStoneBrickCrafting",
@@ -619,7 +619,7 @@
           "src/main/resources/data/create_better_building/recipes/magenta_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "PinkStoneBrick",
@@ -636,7 +636,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/pink_stone_brick.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "PinkStoneBrickCrafting",
@@ -649,7 +649,7 @@
           "src/main/resources/data/create_better_building/recipes/pink_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks"
+      "path": "~/Bricks/Standard"
     },
     {
       "name": "AcaciaBarrel",
@@ -911,12 +911,508 @@
         ]
       },
       "path": "~/Barrel/Recipes"
+    },
+    {
+      "name": "MossyWhiteStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_white_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/mossy_white_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_white_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_white_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyWhiteStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/item/mossy_white_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyLightGrayStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_light_gray_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyLightGrayStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/mossy_light_gray_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/mossy_light_gray_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_light_gray_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_light_gray_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyGrayStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_gray_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/item/mossy_gray_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyGrayStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/mossy_gray_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_gray_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_gray_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyBlackStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_black_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/item/mossy_black_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/mossy_black_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_black_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_black_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyBlackStoneBrickBlock.java"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyBrownStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_brown_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/item/mossy_brown_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_brown_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/mossy_brown_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyBrownStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_brown_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyRedStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_red_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyRedStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/item/mossy_red_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/mossy_red_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_red_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_red_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyOrangeStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_orange_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/item/mossy_orange_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_orange_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_orange_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/mossy_orange_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyOrangeStoneBrickBlock.java"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyYellowStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_yellow_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_yellow_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyYellowStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/mossy_yellow_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/mossy_yellow_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_yellow_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyLimeStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_lime_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/mossy_lime_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_lime_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/mossy_lime_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyLimeStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/mossy_lime_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyGreenStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_green_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyGreenStoneBrickBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_green_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_green_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/mossy_green_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/mossy_green_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyCyanStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cyan_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_cyan_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/mossy_cyan_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyCyanStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_cyan_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/mossy_cyan_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyLightBlueStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_light_blue_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_light_blue_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyLightBlueStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_light_blue_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/mossy_light_blue_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/mossy_light_blue_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyBlueStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_blue_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/mossy_blue_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/mossy_blue_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_blue_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/mossy_blue_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyBlueStoneBrickBlock.java"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyPurpleStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_purple_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyPurpleStoneBrickBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_purple_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/mossy_purple_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_purple_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/mossy_purple_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyMagentaStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_magenta_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_magenta_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/mossy_magenta_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_magenta_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyMagentaStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/mossy_magenta_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyPinkStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_pink_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/item/mossy_pink_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/mossy_pink_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/mossy_pink_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MossyPinkStoneBrickBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_pink_stone_brick.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyWhiteStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_white_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_white_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyLightGrayStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_light_gray_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_light_gray_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyGrayStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_gray_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_gray_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyBlackStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_black_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_black_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyBrownStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_brown_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_brown_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyRedStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_red_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_red_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyOrangeStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_orange_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_orange_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyYellowStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_yellow_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_yellow_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyLimeStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_lime_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_lime_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyGreenStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_green_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_green_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyCyanStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cyan_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_cyan_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyLightBlueStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_light_blue_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_light_blue_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyBlueStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_blue_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_blue_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyPurpleStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_purple_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_purple_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyMagentaStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_magenta_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_magenta_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "MossyPinkStoneBrickCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_pink_stone_brick_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mossy_pink_stone_brick_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Mossy"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MossyPinkStoneBrick",
+      "~CUSTOM:MossyMagentaStoneBrick",
+      "~CUSTOM:MossyPurpleStoneBrick",
+      "~CUSTOM:MossyBlueStoneBrick",
+      "~CUSTOM:MossyLightBlueStoneBrick",
+      "~CUSTOM:MossyCyanStoneBrick",
+      "~CUSTOM:MossyGreenStoneBrick",
+      "~CUSTOM:MossyLimeStoneBrick",
+      "~CUSTOM:MossyYellowStoneBrick",
+      "~CUSTOM:MossyOrangeStoneBrick",
+      "~CUSTOM:MossyRedStoneBrick",
+      "~CUSTOM:MossyBrownStoneBrick",
+      "~CUSTOM:MossyBlackStoneBrick",
+      "~CUSTOM:MossyGrayStoneBrick",
+      "~CUSTOM:MossyLightGrayStoneBrick",
+      "~CUSTOM:MossyWhiteStoneBrick",
       "~CUSTOM:PinkStoneBrick",
       "~CUSTOM:MagentaStoneBrick",
       "~CUSTOM:PurpleStoneBrick",
@@ -973,35 +1469,51 @@
     "en_us": {
       "advancements.safety_first_advancement.descr": "Equip your factory with handrails",
       "block.create_better_building.mangrove_barrel": "Mangrove Barrel",
-      "block.create_better_building.red_stone_brick": "Red Stone Brick",
-      "block.create_better_building.dark_oak_barrel": "Dark Oak Barrel",
+      "block.create_better_building.mossy_green_stone_brick": "Mossy Green Stone Brick",
       "block.create_better_building.green_stone_brick": "Green Stone Brick",
+      "block.create_better_building.mossy_gray_stone_brick": "Mossy Gray Stone Brick",
       "block.create_better_building.warped_barrel": "Warped Barrel",
-      "gui.create_better_building.barrel_gui.label_inventory": "Inventory",
       "block.create_better_building.pink_stone_brick": "Pink Stone Brick",
       "block.create_better_building.white_stone_brick": "White Stone Brick",
-      "block.create_better_building.jungle_barrel": "Jungle Barrel",
-      "block.create_better_building.spruce_barrel": "Spruce Barrel",
-      "block.create_better_building.magenta_stone_brick": "Magenta Stone Brick",
+      "block.create_better_building.mossy_pink_stone_brick": "Mossy Pink Stone Brick",
       "advancements.safety_first_advancement.title": "Safety First",
       "block.create_better_building.brown_stone_brick": "Brown Stone Brick",
       "block.create_better_building.cyan_stone_brick": "Cyan Stone Brick",
       "block.create_better_building.lime_stone_brick": "Lime Stone Brick",
-      "block.create_better_building.handrail": "Handrail",
+      "block.create_better_building.mossy_lime_stone_brick": "Mossy Lime Stone Brick",
       "block.create_better_building.purple_stone_brick": "Purple Stone Brick",
-      "block.create_better_building.orange_stone_brick": "Orange Stone Brick",
       "block.create_better_building.light_gray_stone_brick": "Light Gray Stone Brick",
       "gui.create_better_building.barrel_gui.label_barrel": "Barrel",
-      "itemGroup.tab_creative_tab": "Create: Better Building",
       "block.create_better_building.oak_barrel": "Oak Barrel",
       "block.create_better_building.black_stone_brick": "Black Stone Brick",
+      "block.create_better_building.mossy_brown_stone_brick": "Mossy Brown Stone Brick",
+      "block.create_better_building.mossy_purple_stone_brick": "Mossy Purple Stone Brick",
+      "block.create_better_building.mossy_black_stone_brick": "Mossy Black Stone Brick",
+      "block.create_better_building.acacia_barrel": "Acacia Barrel",
+      "block.create_better_building.light_blue_stone_brick": "Light Blue Stone Brick",
+      "block.create_better_building.red_stone_brick": "Red Stone Brick",
+      "block.create_better_building.dark_oak_barrel": "Dark Oak Barrel",
+      "block.create_better_building.mossy_magenta_stone_brick": "Mossy Magenta Stone Brick",
+      "block.create_better_building.mossy_yellow_stone_brick": "Mossy Yellow Stone Brick",
+      "gui.create_better_building.barrel_gui.label_inventory": "Inventory",
+      "block.create_better_building.mossy_light_gray_stone_brick": "Mossy Light Gray Stone Brick",
+      "block.create_better_building.mossy_blue_stone_brick": "Mossy Blue Stone Brick",
+      "block.create_better_building.jungle_barrel": "Jungle Barrel",
+      "block.create_better_building.spruce_barrel": "Spruce Barrel",
+      "block.create_better_building.magenta_stone_brick": "Magenta Stone Brick",
+      "block.create_better_building.mossy_orange_stone_brick": "Mossy Orange Stone Brick",
+      "block.create_better_building.mossy_cyan_stone_brick": "Mossy Cyan Stone Brick",
+      "block.create_better_building.handrail": "Handrail",
+      "block.create_better_building.mossy_red_stone_brick": "Mossy Red Stone Brick",
+      "block.create_better_building.orange_stone_brick": "Orange Stone Brick",
+      "itemGroup.tab_creative_tab": "Create: Better Building",
+      "block.create_better_building.mossy_white_stone_brick": "Mossy White Stone Brick",
+      "block.create_better_building.mossy_light_blue_stone_brick": "Mossy Light Blue Stone Brick",
       "item_group.create_better_building.creative_tab": "Create: Better Building",
       "block.create_better_building.blue_stone_brick": "Blue Stone Brick",
       "block.create_better_building.birch_barrel": "Birch Barrel",
       "block.create_better_building.yellow_stone_brick": "Yellow Stone Brick",
       "block.create_better_building.gray_stone_brick": "Gray Stone Brick",
-      "block.create_better_building.acacia_barrel": "Acacia Barrel",
-      "block.create_better_building.light_blue_stone_brick": "Light Blue Stone Brick",
       "block.create_better_building.crimson_barrel": "Crimson Barrel"
     }
   },
@@ -1031,7 +1543,16 @@
       },
       {
         "name": "Bricks",
-        "children": []
+        "children": [
+          {
+            "name": "Standard",
+            "children": []
+          },
+          {
+            "name": "Mossy",
+            "children": []
+          }
+        ]
       }
     ]
   },

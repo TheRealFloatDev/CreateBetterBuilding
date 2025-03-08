@@ -1714,6 +1714,214 @@
         ]
       },
       "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "WhiteStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/white_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "LightGrayStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/light_gray_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "GrayStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/gray_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "BlackStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/black_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "BrownStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/brown_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "RedStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/red_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "OrangeStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/orange_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "YellowStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/yellow_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "LimeStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/lime_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "GreenStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/green_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "CyanStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/cyan_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "LightBlueStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/light_blue_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "BlueStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/blue_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "PurpleStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/purple_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "MagentaStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/magenta_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "PinkStoneBrickSlabCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_stone_brick_slab_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/pink_stone_brick_slab_cutting.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
     }
   ],
   "variable_elements": [],

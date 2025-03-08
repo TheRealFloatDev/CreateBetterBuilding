@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "create_better_building:orange_stone_brick"
+  },
+  "result": "create_better_building:orange_stone_brick_slab"
+}

@@ -80,7 +80,7 @@
           "src/main/resources/assets/create_better_building/models/block/oak_barrel.json"
         ]
       },
-      "path": "~/Barrel"
+      "path": "~/Barrel/Blocks"
     },
     {
       "name": "BarrelGui",
@@ -94,7 +94,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/world/inventory/BarrelGuiMenu.java"
         ]
       },
-      "path": "~/Barrel"
+      "path": "~/Barrel/UI"
     },
     {
       "name": "BarrelGuiOpenProcedure",
@@ -125,7 +125,7 @@
           }
         ]
       },
-      "path": "~/Barrel"
+      "path": "~/Barrel/UI"
     },
     {
       "name": "BarrelGuiCloseProcedure",
@@ -156,7 +156,7 @@
           }
         ]
       },
-      "path": "~/Barrel"
+      "path": "~/Barrel/UI"
     },
     {
       "name": "WhiteStoneBrick",
@@ -667,7 +667,7 @@
           "src/main/resources/assets/create_better_building/models/item/acacia_barrel.json"
         ]
       },
-      "path": "~/Barrel"
+      "path": "~/Barrel/Blocks"
     },
     {
       "name": "BirchBarrel",
@@ -685,7 +685,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/BirchBarrelBlock.java"
         ]
       },
-      "path": "~/Barrel"
+      "path": "~/Barrel/Blocks"
     },
     {
       "name": "CrimsonBarrel",
@@ -703,7 +703,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/CrimsonBarrelBlock.java"
         ]
       },
-      "path": "~/Barrel"
+      "path": "~/Barrel/Blocks"
     },
     {
       "name": "DarkOakBarrel",
@@ -721,7 +721,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/entity/DarkOakBarrelBlockEntity.java"
         ]
       },
-      "path": "~/Barrel"
+      "path": "~/Barrel/Blocks"
     },
     {
       "name": "JungleBarrel",
@@ -739,7 +739,7 @@
           "src/main/resources/assets/create_better_building/models/block/jungle_barrel.json"
         ]
       },
-      "path": "~/Barrel"
+      "path": "~/Barrel/Blocks"
     },
     {
       "name": "MangroveBarrel",
@@ -757,7 +757,7 @@
           "src/main/resources/assets/create_better_building/models/block/mangrove_barrel.json"
         ]
       },
-      "path": "~/Barrel"
+      "path": "~/Barrel/Blocks"
     },
     {
       "name": "SpruceBarrel",
@@ -775,7 +775,7 @@
           "src/main/resources/assets/create_better_building/models/block/spruce_barrel.json"
         ]
       },
-      "path": "~/Barrel"
+      "path": "~/Barrel/Blocks"
     },
     {
       "name": "WarpedBarrel",
@@ -793,7 +793,124 @@
           "src/main/resources/assets/create_better_building/blockstates/warped_barrel.json"
         ]
       },
-      "path": "~/Barrel"
+      "path": "~/Barrel/Blocks"
+    },
+    {
+      "name": "AcaciaBarrelCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_barrel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/acacia_barrel_crafting.json"
+        ]
+      },
+      "path": "~/Barrel/Recipes"
+    },
+    {
+      "name": "BirchBarrelCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_barrel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/birch_barrel_crafting.json"
+        ]
+      },
+      "path": "~/Barrel/Recipes"
+    },
+    {
+      "name": "CrimsonBarrelCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_barrel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/crimson_barrel_crafting.json"
+        ]
+      },
+      "path": "~/Barrel/Recipes"
+    },
+    {
+      "name": "DarkOakBarrelCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_barrel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/dark_oak_barrel_crafting.json"
+        ]
+      },
+      "path": "~/Barrel/Recipes"
+    },
+    {
+      "name": "JungleBarrelCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_barrel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/jungle_barrel_crafting.json"
+        ]
+      },
+      "path": "~/Barrel/Recipes"
+    },
+    {
+      "name": "MangroveBarrelCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_barrel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/mangrove_barrel_crafting.json"
+        ]
+      },
+      "path": "~/Barrel/Recipes"
+    },
+    {
+      "name": "OakBarrelCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_barrel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/oak_barrel_crafting.json"
+        ]
+      },
+      "path": "~/Barrel/Recipes"
+    },
+    {
+      "name": "SpruceBarrelCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_barrel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/spruce_barrel_crafting.json"
+        ]
+      },
+      "path": "~/Barrel/Recipes"
+    },
+    {
+      "name": "WarpedBarrelCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_barrel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/warped_barrel_crafting.json"
+        ]
+      },
+      "path": "~/Barrel/Recipes"
     }
   ],
   "variable_elements": [],
@@ -893,7 +1010,20 @@
     "children": [
       {
         "name": "Barrel",
-        "children": []
+        "children": [
+          {
+            "name": "UI",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Handrail",

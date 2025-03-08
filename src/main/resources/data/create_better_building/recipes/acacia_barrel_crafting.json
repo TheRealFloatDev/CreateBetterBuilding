@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:acacia_planks"
+    },
+    "b": {
+      "item": "minecraft:acacia_slab"
+    },
+    "c": {
+      "item": "minecraft:air"
+    }
+  },
+  "result": {
+    "item": "create_better_building:acacia_barrel",
+    "count": 1
+  }
+}

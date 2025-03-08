@@ -1922,12 +1922,312 @@
         ]
       },
       "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "LightGrayStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/LightGrayStoneBrickStairsBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/light_gray_stone_brick_stairs_inner.json",
+          "src/main/resources/assets/create_better_building/models/item/light_gray_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/light_gray_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/create_better_building/models/block/light_gray_stone_brick_stairs.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/light_gray_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/blockstates/light_gray_stone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "GrayStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/gray_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/create_better_building/models/item/gray_stone_brick_stairs.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/gray_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/gray_stone_brick_stairs_inner.json",
+          "src/main/resources/assets/create_better_building/models/block/gray_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/blockstates/gray_stone_brick_stairs.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/GrayStoneBrickStairsBlock.java"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "BlackStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/black_stone_brick_stairs.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/black_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/blockstates/black_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/black_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/create_better_building/models/item/black_stone_brick_stairs.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/BlackStoneBrickStairsBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/black_stone_brick_stairs_inner.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "BrownStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/loot_tables/blocks/brown_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/item/brown_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/brown_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/create_better_building/models/block/brown_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/brown_stone_brick_stairs_inner.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/BrownStoneBrickStairsBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/brown_stone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "RedStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/red_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/item/red_stone_brick_stairs.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/red_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/red_stone_brick_stairs_inner.json",
+          "src/main/resources/assets/create_better_building/models/block/red_stone_brick_stairs_outer.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/RedStoneBrickStairsBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/red_stone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "OrangeStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/orange_stone_brick_stairs.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/orange_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/orange_stone_brick_stairs_outer.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/OrangeStoneBrickStairsBlock.java",
+          "src/main/resources/assets/create_better_building/models/item/orange_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/orange_stone_brick_stairs_inner.json",
+          "src/main/resources/assets/create_better_building/models/block/orange_stone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "YellowStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/yellow_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/create_better_building/blockstates/yellow_stone_brick_stairs.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/YellowStoneBrickStairsBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/yellow_stone_brick_stairs_inner.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/yellow_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/item/yellow_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/yellow_stone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "LimeStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/lime_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/create_better_building/models/item/lime_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/lime_stone_brick_stairs_inner.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/LimeStoneBrickStairsBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/lime_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/lime_stone_brick_stairs.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/lime_stone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "GreenStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/item/green_stone_brick_stairs.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/GreenStoneBrickStairsBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/green_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/blockstates/green_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/green_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/green_stone_brick_stairs_inner.json",
+          "src/main/resources/assets/create_better_building/models/block/green_stone_brick_stairs_outer.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "CyanStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/item/cyan_stone_brick_stairs.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/cyan_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/cyan_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/blockstates/cyan_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/cyan_stone_brick_stairs_outer.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/CyanStoneBrickStairsBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/cyan_stone_brick_stairs_inner.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "LightBlueStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/LightBlueStoneBrickStairsBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/light_blue_stone_brick_stairs_inner.json",
+          "src/main/resources/assets/create_better_building/models/item/light_blue_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/light_blue_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/create_better_building/models/block/light_blue_stone_brick_stairs.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/light_blue_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/blockstates/light_blue_stone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "BlueStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/blue_stone_brick_stairs_inner.json",
+          "src/main/resources/assets/create_better_building/models/item/blue_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/blue_stone_brick_stairs.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/blue_stone_brick_stairs.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/BlueStoneBrickStairsBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/blue_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/create_better_building/blockstates/blue_stone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "PurpleStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/purple_stone_brick_stairs.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/purple_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/purple_stone_brick_stairs_inner.json",
+          "src/main/resources/assets/create_better_building/models/block/purple_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/create_better_building/models/item/purple_stone_brick_stairs.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/PurpleStoneBrickStairsBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/purple_stone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "MagentaStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/magenta_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/create_better_building/models/block/magenta_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/blockstates/magenta_stone_brick_stairs.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MagentaStoneBrickStairsBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/magenta_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/item/magenta_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/magenta_stone_brick_stairs_inner.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "PinkStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/PinkStoneBrickStairsBlock.java",
+          "src/main/resources/assets/create_better_building/models/item/pink_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/pink_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/pink_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/create_better_building/blockstates/pink_stone_brick_stairs.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/pink_stone_brick_stairs.json",
+          "src/main/resources/assets/create_better_building/models/block/pink_stone_brick_stairs_inner.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PinkStoneBrickStairs",
+      "~CUSTOM:MagentaStoneBrickStairs",
+      "~CUSTOM:PurpleStoneBrickStairs",
+      "~CUSTOM:BlueStoneBrickStairs",
+      "~CUSTOM:LightBlueStoneBrickStairs",
+      "~CUSTOM:CyanStoneBrickStairs",
+      "~CUSTOM:GreenStoneBrickStairs",
+      "~CUSTOM:LimeStoneBrickStairs",
+      "~CUSTOM:YellowStoneBrickStairs",
+      "~CUSTOM:OrangeStoneBrickStairs",
+      "~CUSTOM:RedStoneBrickStairs",
+      "~CUSTOM:BrownStoneBrickStairs",
+      "~CUSTOM:BlackStoneBrickStairs",
+      "~CUSTOM:GrayStoneBrickStairs",
+      "~CUSTOM:LightGrayStoneBrickStairs",
       "~CUSTOM:PinkStoneBrickSlab",
       "~CUSTOM:Magenta",
       "~CUSTOM:PurpleStoneBrickSlab",
@@ -2030,6 +2330,21 @@
       "CUSTOM:PinkStoneBrick"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:PinkStoneBrickStairs",
+      "~CUSTOM:MagentaStoneBrickStairs",
+      "~CUSTOM:PurpleStoneBrickStairs",
+      "~CUSTOM:BlueStoneBrickStairs",
+      "~CUSTOM:LightBlueStoneBrickStairs",
+      "~CUSTOM:CyanStoneBrickStairs",
+      "~CUSTOM:GreenStoneBrickStairs",
+      "~CUSTOM:LimeStoneBrickStairs",
+      "~CUSTOM:YellowStoneBrickStairs",
+      "~CUSTOM:OrangeStoneBrickStairs",
+      "~CUSTOM:RedStoneBrickStairs",
+      "~CUSTOM:BrownStoneBrickStairs",
+      "~CUSTOM:BlackStoneBrickStairs",
+      "~CUSTOM:GrayStoneBrickStairs",
+      "~CUSTOM:LightGrayStoneBrickStairs",
       "~CUSTOM:WhiteStoneBrickStair"
     ]
   },
@@ -2041,30 +2356,40 @@
       "block.create_better_building.yellow_stone_brick_slab": "Yellow Stone Brick Slab",
       "block.create_better_building.mossy_green_stone_brick": "Mossy Green Stone Brick",
       "block.create_better_building.magenta": "Magenta Stone Brick Slab",
+      "block.create_better_building.gray_stone_brick_stairs": "Gray Stone Brick Stairs",
       "block.create_better_building.green_stone_brick": "Green Stone Brick",
+      "block.create_better_building.black_stone_brick_stairs": "Black Stone Brick Stairs",
       "block.create_better_building.mossy_gray_stone_brick": "Mossy Gray Stone Brick",
       "block.create_better_building.warped_barrel": "Warped Barrel",
       "block.create_better_building.pink_stone_brick": "Pink Stone Brick",
+      "block.create_better_building.purple_stone_brick_stairs": "Purple Stone Brick Stairs",
+      "block.create_better_building.magenta_stone_brick_stairs": "Magenta Stone Brick Stairs",
       "block.create_better_building.white_stone_brick": "White Stone Brick",
       "block.create_better_building.orange_stone_brick_slab": "Orange Stone Brick Slab",
+      "block.create_better_building.pink_stone_brick_stairs": "Pink Stone Brick Stairs",
       "block.create_better_building.blue_stone_brick_slab": "Blue Stone Brick Slab",
       "block.create_better_building.mossy_pink_stone_brick": "Mossy Pink Stone Brick",
       "advancements.safety_first_advancement.title": "Safety First",
       "block.create_better_building.brown_stone_brick": "Brown Stone Brick",
       "block.create_better_building.cyan_stone_brick": "Cyan Stone Brick",
+      "block.create_better_building.brown_stone_brick_stairs": "Brown Stone Brick Stairs",
       "block.create_better_building.lime_stone_brick": "Lime Stone Brick",
       "block.create_better_building.mossy_lime_stone_brick": "Mossy Lime Stone Brick",
       "block.create_better_building.black_stone_brick_slab": "Black Stone Brick Slab",
       "block.create_better_building.purple_stone_brick": "Purple Stone Brick",
+      "block.create_better_building.orange_stone_brick_stairs": "Orange Stone Brick Stairs",
       "block.create_better_building.light_gray_stone_brick": "Light Gray Stone Brick",
       "gui.create_better_building.barrel_gui.label_barrel": "Barrel",
       "block.create_better_building.white_stone_brick_stair": "White Stone Brick Stairs",
       "block.create_better_building.oak_barrel": "Oak Barrel",
       "block.create_better_building.black_stone_brick": "Black Stone Brick",
+      "block.create_better_building.light_gray_stone_brick_stairs": "Light Gray Stone Brick Stairs",
+      "block.create_better_building.blue_stone_brick_stairs": "Blue Stone Brick Stairs",
       "block.create_better_building.lime_stone_brick_slab": "Lime Stone Brick Slab",
       "block.create_better_building.mossy_brown_stone_brick": "Mossy Brown Stone Brick",
       "block.create_better_building.mossy_purple_stone_brick": "Mossy Purple Stone Brick",
       "block.create_better_building.mossy_black_stone_brick": "Mossy Black Stone Brick",
+      "block.create_better_building.yellow_stone_brick_stairs": "Yellow Stone Brick Stairs",
       "block.create_better_building.acacia_barrel": "Acacia Barrel",
       "block.create_better_building.light_blue_stone_brick": "Light Blue Stone Brick",
       "block.create_better_building.pink_stone_brick_slab": "Pink Stone Brick Slab",
@@ -2076,6 +2401,7 @@
       "gui.create_better_building.barrel_gui.label_inventory": "Inventory",
       "block.create_better_building.mossy_light_gray_stone_brick": "Mossy Light Gray Stone Brick",
       "block.create_better_building.red_stone_brick_slab": "Red Stone Brick Slab",
+      "block.create_better_building.cyan_stone_brick_stairs": "Cyan Stone Brick Stairs",
       "block.create_better_building.mossy_blue_stone_brick": "Mossy Blue Stone Brick",
       "block.create_better_building.jungle_barrel": "Jungle Barrel",
       "block.create_better_building.gray_stone_brick_slab": "Gray Stone Brick Slab",
@@ -2084,6 +2410,7 @@
       "block.create_better_building.light_blue_stone_brick_slab": "Light Blue Stone Brick Slab",
       "block.create_better_building.magenta_stone_brick": "Magenta Stone Brick",
       "block.create_better_building.mossy_orange_stone_brick": "Mossy Orange Stone Brick",
+      "block.create_better_building.light_blue_stone_brick_stairs": "Light Blue Stone Brick Stairs",
       "block.create_better_building.mossy_cyan_stone_brick": "Mossy Cyan Stone Brick",
       "block.create_better_building.light_gray_stone_brick_slab": "Light Gray Stone Brick Slab",
       "block.create_better_building.handrail": "Handrail",
@@ -2091,6 +2418,8 @@
       "block.create_better_building.green_stone_brick_slab": "Green Stone Brick Slab",
       "block.create_better_building.mossy_red_stone_brick": "Mossy Red Stone Brick",
       "block.create_better_building.orange_stone_brick": "Orange Stone Brick",
+      "block.create_better_building.red_stone_brick_stairs": "Red Stone Brick Stairs",
+      "block.create_better_building.green_stone_brick_stairs": "Green Stone Brick Stairs",
       "itemGroup.tab_creative_tab": "Create: Better Building",
       "block.create_better_building.mossy_white_stone_brick": "Mossy White Stone Brick",
       "block.create_better_building.mossy_light_blue_stone_brick": "Mossy Light Blue Stone Brick",
@@ -2100,7 +2429,8 @@
       "block.create_better_building.birch_barrel": "Birch Barrel",
       "block.create_better_building.yellow_stone_brick": "Yellow Stone Brick",
       "block.create_better_building.gray_stone_brick": "Gray Stone Brick",
-      "block.create_better_building.crimson_barrel": "Crimson Barrel"
+      "block.create_better_building.crimson_barrel": "Crimson Barrel",
+      "block.create_better_building.lime_stone_brick_stairs": "Lime Stone Brick Stairs"
     }
   },
   "foldersRoot": {

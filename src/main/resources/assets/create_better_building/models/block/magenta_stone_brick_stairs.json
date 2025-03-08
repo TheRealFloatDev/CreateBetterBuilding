@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "create_better_building:block/magenta_stone_brick",
+    "bottom": "create_better_building:block/magenta_stone_brick",
+    "top": "create_better_building:block/magenta_stone_brick",
+    "side": "create_better_building:block/magenta_stone_brick"
+  },
+  "render_type": "solid"
+}

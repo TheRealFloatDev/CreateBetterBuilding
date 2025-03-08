@@ -1,11 +1,11 @@
 {
   "parent": "create_better_building:custom/barrel",
   "textures": {
-    "all": "create_better_building:block/oak_planks",
-    "particle": "create_better_building:block/oak_planks",
+    "all": "create_better_building:block/barrel_preview",
+    "particle": "create_better_building:block/barrel_preview",
     "1": "create_better_building:block/oak_planks",
     "2": "create_better_building:block/iron_block",
-    "missing": "create_better_building:block/"
+    "missing": "create_better_building:block/barrel_preview"
   },
   "render_type": "solid"
 }

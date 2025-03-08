@@ -2,19 +2,19 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "barrel_preview",
+    "texture": "spruce_planks",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "barrel:default",
+    "customModelName": "barrel:spruce",
     "rotationMode": 2,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "barrel_preview",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Oak Barrel",
+    "name": "Spruce Barrel",
     "specialInformation": {
       "fixedValue": []
     },

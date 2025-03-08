@@ -11,22 +11,30 @@ import net.minecraft.world.level.block.Block;
 
 import de.floatdev.createbetterbuilding.block.YellowStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.WhiteStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.WarpedBarrelBlock;
+import de.floatdev.createbetterbuilding.block.SpruceBarrelBlock;
 import de.floatdev.createbetterbuilding.block.RedStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.PurpleStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.PinkStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.OrangeStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.OakBarrelBlock;
+import de.floatdev.createbetterbuilding.block.MangroveBarrelBlock;
 import de.floatdev.createbetterbuilding.block.MagentaStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.LimeStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.LightGrayStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.LightBlueStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.JungleBarrelBlock;
 import de.floatdev.createbetterbuilding.block.HandrailBlock;
 import de.floatdev.createbetterbuilding.block.GreenStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.GrayStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.DarkOakBarrelBlock;
 import de.floatdev.createbetterbuilding.block.CyanStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.CrimsonBarrelBlock;
 import de.floatdev.createbetterbuilding.block.BrownStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.BlueStoneBrickBlock;
 import de.floatdev.createbetterbuilding.block.BlackStoneBrickBlock;
+import de.floatdev.createbetterbuilding.block.BirchBarrelBlock;
+import de.floatdev.createbetterbuilding.block.AcaciaBarrelBlock;
 import de.floatdev.createbetterbuilding.CreateBetterBuildingMod;
 
 public class CreateBetterBuildingModBlocks {
@@ -49,6 +57,14 @@ public class CreateBetterBuildingModBlocks {
 	public static final RegistryObject<Block> PURPLE_STONE_BRICK = REGISTRY.register("purple_stone_brick", () -> new PurpleStoneBrickBlock());
 	public static final RegistryObject<Block> MAGENTA_STONE_BRICK = REGISTRY.register("magenta_stone_brick", () -> new MagentaStoneBrickBlock());
 	public static final RegistryObject<Block> PINK_STONE_BRICK = REGISTRY.register("pink_stone_brick", () -> new PinkStoneBrickBlock());
+	public static final RegistryObject<Block> ACACIA_BARREL = REGISTRY.register("acacia_barrel", () -> new AcaciaBarrelBlock());
+	public static final RegistryObject<Block> BIRCH_BARREL = REGISTRY.register("birch_barrel", () -> new BirchBarrelBlock());
+	public static final RegistryObject<Block> CRIMSON_BARREL = REGISTRY.register("crimson_barrel", () -> new CrimsonBarrelBlock());
+	public static final RegistryObject<Block> DARK_OAK_BARREL = REGISTRY.register("dark_oak_barrel", () -> new DarkOakBarrelBlock());
+	public static final RegistryObject<Block> JUNGLE_BARREL = REGISTRY.register("jungle_barrel", () -> new JungleBarrelBlock());
+	public static final RegistryObject<Block> MANGROVE_BARREL = REGISTRY.register("mangrove_barrel", () -> new MangroveBarrelBlock());
+	public static final RegistryObject<Block> SPRUCE_BARREL = REGISTRY.register("spruce_barrel", () -> new SpruceBarrelBlock());
+	public static final RegistryObject<Block> WARPED_BARREL = REGISTRY.register("warped_barrel", () -> new WarpedBarrelBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

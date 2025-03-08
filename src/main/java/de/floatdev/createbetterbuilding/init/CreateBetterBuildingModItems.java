@@ -35,6 +35,14 @@ public class CreateBetterBuildingModItems {
 	public static final RegistryObject<Item> PURPLE_STONE_BRICK = block(CreateBetterBuildingModBlocks.PURPLE_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
 	public static final RegistryObject<Item> MAGENTA_STONE_BRICK = block(CreateBetterBuildingModBlocks.MAGENTA_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
 	public static final RegistryObject<Item> PINK_STONE_BRICK = block(CreateBetterBuildingModBlocks.PINK_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> ACACIA_BARREL = block(CreateBetterBuildingModBlocks.ACACIA_BARREL, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> BIRCH_BARREL = block(CreateBetterBuildingModBlocks.BIRCH_BARREL, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> CRIMSON_BARREL = block(CreateBetterBuildingModBlocks.CRIMSON_BARREL, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> DARK_OAK_BARREL = block(CreateBetterBuildingModBlocks.DARK_OAK_BARREL, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> JUNGLE_BARREL = block(CreateBetterBuildingModBlocks.JUNGLE_BARREL, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MANGROVE_BARREL = block(CreateBetterBuildingModBlocks.MANGROVE_BARREL, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> SPRUCE_BARREL = block(CreateBetterBuildingModBlocks.SPRUCE_BARREL, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> WARPED_BARREL = block(CreateBetterBuildingModBlocks.WARPED_BARREL, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
 
 	// Start of user code block custom items
 	// End of user code block custom items

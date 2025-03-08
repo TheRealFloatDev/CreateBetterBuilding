@@ -24,7 +24,8 @@
           "src/main/resources/assets/create_better_building/models/item/handrail.json",
           "src/main/resources/assets/create_better_building/models/block/handrail.json"
         ]
-      }
+      },
+      "path": "~/Handrail"
     },
     {
       "name": "HandrailCraftingRecipe",
@@ -36,7 +37,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/handrail_crafting_recipe.json"
         ]
-      }
+      },
+      "path": "~/Handrail"
     },
     {
       "name": "SafetyFirstAdvancement",
@@ -48,7 +50,8 @@
         "files": [
           "src/main/resources/data/create_better_building/advancements/safety_first_advancement.json"
         ]
-      }
+      },
+      "path": "~/Handrail"
     },
     {
       "name": "HandrailTrade",
@@ -58,7 +61,8 @@
       "registry_name": "handrail_trade",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Handrail"
     },
     {
       "name": "OakBarrel",
@@ -75,7 +79,8 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/oak_barrel.json",
           "src/main/resources/assets/create_better_building/models/block/oak_barrel.json"
         ]
-      }
+      },
+      "path": "~/Barrel"
     },
     {
       "name": "BarrelGui",
@@ -88,7 +93,8 @@
           "src/main/java/de/floatdev/createbetterbuilding/client/gui/BarrelGuiScreen.java",
           "src/main/java/de/floatdev/createbetterbuilding/world/inventory/BarrelGuiMenu.java"
         ]
-      }
+      },
+      "path": "~/Barrel"
     },
     {
       "name": "BarrelGuiOpenProcedure",
@@ -118,7 +124,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Barrel"
     },
     {
       "name": "BarrelGuiCloseProcedure",
@@ -148,7 +155,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Barrel"
     },
     {
       "name": "WhiteStoneBrick",
@@ -164,7 +172,8 @@
           "src/main/resources/assets/create_better_building/models/block/white_stone_brick.json",
           "src/main/resources/data/create_better_building/loot_tables/blocks/white_stone_brick.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "WhiteStoneBrickCrafting",
@@ -176,7 +185,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/white_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "LightGrayStoneBrick",
@@ -192,7 +202,8 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/LightGrayStoneBrickBlock.java",
           "src/main/resources/assets/create_better_building/models/item/light_gray_stone_brick.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "LightGrayStoneBrickCrafting",
@@ -204,7 +215,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/light_gray_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "GrayStoneBrick",
@@ -220,7 +232,8 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/gray_stone_brick.json",
           "src/main/java/de/floatdev/createbetterbuilding/block/GrayStoneBrickBlock.java"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "GrayStoneBrickCrafting",
@@ -232,7 +245,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/gray_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "BlackStoneBrick",
@@ -248,7 +262,8 @@
           "src/main/resources/assets/create_better_building/models/block/black_stone_brick.json",
           "src/main/resources/data/create_better_building/loot_tables/blocks/black_stone_brick.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "BlackStoneBrickCrafting",
@@ -260,7 +275,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/black_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "BrownStoneBrick",
@@ -276,7 +292,8 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/brown_stone_brick.json",
           "src/main/resources/assets/create_better_building/models/block/brown_stone_brick.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "BrownStoneBrickCrafting",
@@ -288,7 +305,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/brown_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "RedStoneBrick",
@@ -304,7 +322,8 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/red_stone_brick.json",
           "src/main/java/de/floatdev/createbetterbuilding/block/RedStoneBrickBlock.java"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "RedStoneBrickCrafting",
@@ -316,7 +335,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/red_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "OrangeStoneBrick",
@@ -332,7 +352,8 @@
           "src/main/resources/assets/create_better_building/models/item/orange_stone_brick.json",
           "src/main/resources/data/create_better_building/loot_tables/blocks/orange_stone_brick.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "OrangeStoneBrickCrafting",
@@ -344,7 +365,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/orange_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "UndyeStoneBrickRecipe",
@@ -356,7 +378,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/undye_stone_brick_recipe.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "YellowStoneBrick",
@@ -372,7 +395,8 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/yellow_stone_brick.json",
           "src/main/java/de/floatdev/createbetterbuilding/block/YellowStoneBrickBlock.java"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "YellowStoneBrickCrafting",
@@ -384,7 +408,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/yellow_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "LimeStoneBrick",
@@ -400,7 +425,8 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/lime_stone_brick.json",
           "src/main/resources/assets/create_better_building/blockstates/lime_stone_brick.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "LimeStoneBrickCrafting",
@@ -412,7 +438,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/lime_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "GreenStoneBrick",
@@ -428,7 +455,8 @@
           "src/main/resources/assets/create_better_building/models/block/green_stone_brick.json",
           "src/main/resources/data/create_better_building/loot_tables/blocks/green_stone_brick.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "GreenStoneBrickCrafting",
@@ -440,7 +468,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/green_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "CyanStoneBrick",
@@ -456,7 +485,8 @@
           "src/main/resources/assets/create_better_building/models/item/cyan_stone_brick.json",
           "src/main/java/de/floatdev/createbetterbuilding/block/CyanStoneBrickBlock.java"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "CyanStoneBrickCrafting",
@@ -468,7 +498,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/cyan_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "LightBlueStoneBrick",
@@ -484,7 +515,8 @@
           "src/main/resources/assets/create_better_building/blockstates/light_blue_stone_brick.json",
           "src/main/resources/assets/create_better_building/models/block/light_blue_stone_brick.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "LightBlueStoneBrickCrafting",
@@ -496,7 +528,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/light_blue_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "BlueStoneBrick",
@@ -512,7 +545,8 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/blue_stone_brick.json",
           "src/main/resources/assets/create_better_building/blockstates/blue_stone_brick.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "BlueStoneBrickCrafting",
@@ -524,7 +558,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/blue_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "PurpleStoneBrick",
@@ -540,7 +575,8 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/PurpleStoneBrickBlock.java",
           "src/main/resources/data/create_better_building/loot_tables/blocks/purple_stone_brick.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "PurpleStoneBrickCrafting",
@@ -552,7 +588,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/purple_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "MagentaStoneBrick",
@@ -568,7 +605,8 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/magenta_stone_brick.json",
           "src/main/resources/assets/create_better_building/blockstates/magenta_stone_brick.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "MagentaStoneBrickCrafting",
@@ -580,7 +618,8 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/magenta_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "PinkStoneBrick",
@@ -596,7 +635,8 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/PinkStoneBrickBlock.java",
           "src/main/resources/data/create_better_building/loot_tables/blocks/pink_stone_brick.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
     },
     {
       "name": "PinkStoneBrickCrafting",
@@ -608,7 +648,152 @@
         "files": [
           "src/main/resources/data/create_better_building/recipes/pink_stone_brick_crafting.json"
         ]
-      }
+      },
+      "path": "~/Bricks"
+    },
+    {
+      "name": "AcaciaBarrel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_barrel",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/entity/AcaciaBarrelBlockEntity.java",
+          "src/main/resources/assets/create_better_building/models/block/acacia_barrel.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/acacia_barrel.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/AcaciaBarrelBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/acacia_barrel.json",
+          "src/main/resources/assets/create_better_building/models/item/acacia_barrel.json"
+        ]
+      },
+      "path": "~/Barrel"
+    },
+    {
+      "name": "BirchBarrel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_barrel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/birch_barrel.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/entity/BirchBarrelBlockEntity.java",
+          "src/main/resources/assets/create_better_building/models/item/birch_barrel.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/birch_barrel.json",
+          "src/main/resources/assets/create_better_building/blockstates/birch_barrel.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/BirchBarrelBlock.java"
+        ]
+      },
+      "path": "~/Barrel"
+    },
+    {
+      "name": "CrimsonBarrel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_barrel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/crimson_barrel.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/crimson_barrel.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/entity/CrimsonBarrelBlockEntity.java",
+          "src/main/resources/assets/create_better_building/models/block/crimson_barrel.json",
+          "src/main/resources/assets/create_better_building/models/item/crimson_barrel.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/CrimsonBarrelBlock.java"
+        ]
+      },
+      "path": "~/Barrel"
+    },
+    {
+      "name": "DarkOakBarrel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_barrel",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/DarkOakBarrelBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/dark_oak_barrel.json",
+          "src/main/resources/assets/create_better_building/blockstates/dark_oak_barrel.json",
+          "src/main/resources/assets/create_better_building/models/item/dark_oak_barrel.json",
+          "src/main/resources/assets/create_better_building/models/block/dark_oak_barrel.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/entity/DarkOakBarrelBlockEntity.java"
+        ]
+      },
+      "path": "~/Barrel"
+    },
+    {
+      "name": "JungleBarrel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_barrel",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/entity/JungleBarrelBlockEntity.java",
+          "src/main/resources/assets/create_better_building/models/item/jungle_barrel.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/JungleBarrelBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/jungle_barrel.json",
+          "src/main/resources/assets/create_better_building/blockstates/jungle_barrel.json",
+          "src/main/resources/assets/create_better_building/models/block/jungle_barrel.json"
+        ]
+      },
+      "path": "~/Barrel"
+    },
+    {
+      "name": "MangroveBarrel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_barrel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/item/mangrove_barrel.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/mangrove_barrel.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MangroveBarrelBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/mangrove_barrel.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/entity/MangroveBarrelBlockEntity.java",
+          "src/main/resources/assets/create_better_building/models/block/mangrove_barrel.json"
+        ]
+      },
+      "path": "~/Barrel"
+    },
+    {
+      "name": "SpruceBarrel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_barrel",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/SpruceBarrelBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/spruce_barrel.json",
+          "src/main/resources/assets/create_better_building/blockstates/spruce_barrel.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/entity/SpruceBarrelBlockEntity.java",
+          "src/main/resources/assets/create_better_building/models/item/spruce_barrel.json",
+          "src/main/resources/assets/create_better_building/models/block/spruce_barrel.json"
+        ]
+      },
+      "path": "~/Barrel"
+    },
+    {
+      "name": "WarpedBarrel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_barrel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/warped_barrel.json",
+          "src/main/resources/assets/create_better_building/models/item/warped_barrel.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/WarpedBarrelBlock.java",
+          "src/main/java/de/floatdev/createbetterbuilding/block/entity/WarpedBarrelBlockEntity.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/warped_barrel.json",
+          "src/main/resources/assets/create_better_building/blockstates/warped_barrel.json"
+        ]
+      },
+      "path": "~/Barrel"
     }
   ],
   "variable_elements": [],
@@ -634,6 +819,14 @@
       "~CUSTOM:Handrail"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:WarpedBarrel",
+      "~CUSTOM:SpruceBarrel",
+      "~CUSTOM:MangroveBarrel",
+      "~CUSTOM:JungleBarrel",
+      "~CUSTOM:DarkOakBarrel",
+      "~CUSTOM:CrimsonBarrel",
+      "~CUSTOM:BirchBarrel",
+      "~CUSTOM:AcaciaBarrel",
       "~CUSTOM:OakBarrel"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
@@ -662,32 +855,53 @@
   "language_map": {
     "en_us": {
       "advancements.safety_first_advancement.descr": "Equip your factory with handrails",
+      "block.create_better_building.mangrove_barrel": "Mangrove Barrel",
+      "block.create_better_building.red_stone_brick": "Red Stone Brick",
+      "block.create_better_building.dark_oak_barrel": "Dark Oak Barrel",
+      "block.create_better_building.green_stone_brick": "Green Stone Brick",
+      "block.create_better_building.warped_barrel": "Warped Barrel",
+      "block.create_better_building.pink_stone_brick": "Pink Stone Brick",
+      "block.create_better_building.white_stone_brick": "White Stone Brick",
+      "block.create_better_building.jungle_barrel": "Jungle Barrel",
+      "block.create_better_building.spruce_barrel": "Spruce Barrel",
+      "block.create_better_building.magenta_stone_brick": "Magenta Stone Brick",
+      "advancements.safety_first_advancement.title": "Safety First",
       "block.create_better_building.brown_stone_brick": "Brown Stone Brick",
       "block.create_better_building.cyan_stone_brick": "Cyan Stone Brick",
-      "block.create_better_building.red_stone_brick": "Red Stone Brick",
       "block.create_better_building.lime_stone_brick": "Lime Stone Brick",
       "block.create_better_building.handrail": "Handrail",
-      "block.create_better_building.green_stone_brick": "Green Stone Brick",
       "block.create_better_building.purple_stone_brick": "Purple Stone Brick",
       "block.create_better_building.orange_stone_brick": "Orange Stone Brick",
       "block.create_better_building.light_gray_stone_brick": "Light Gray Stone Brick",
       "itemGroup.tab_creative_tab": "Create: Better Building",
-      "block.create_better_building.pink_stone_brick": "Pink Stone Brick",
-      "block.create_better_building.white_stone_brick": "White Stone Brick",
       "block.create_better_building.oak_barrel": "Oak Barrel",
       "block.create_better_building.black_stone_brick": "Black Stone Brick",
       "item_group.create_better_building.creative_tab": "Create: Better Building",
       "block.create_better_building.blue_stone_brick": "Blue Stone Brick",
+      "block.create_better_building.birch_barrel": "Birch Barrel",
       "block.create_better_building.yellow_stone_brick": "Yellow Stone Brick",
       "block.create_better_building.gray_stone_brick": "Gray Stone Brick",
-      "block.create_better_building.magenta_stone_brick": "Magenta Stone Brick",
-      "advancements.safety_first_advancement.title": "Safety First",
-      "block.create_better_building.light_blue_stone_brick": "Light Blue Stone Brick"
+      "block.create_better_building.acacia_barrel": "Acacia Barrel",
+      "block.create_better_building.light_blue_stone_brick": "Light Blue Stone Brick",
+      "block.create_better_building.crimson_barrel": "Crimson Barrel"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Barrel",
+        "children": []
+      },
+      {
+        "name": "Handrail",
+        "children": []
+      },
+      {
+        "name": "Bricks",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "create_better_building",
@@ -695,7 +909,7 @@
     "version": "1.0.0",
     "description": "This mod adds a variety of new (mainly decorative) building blocks to the game, which are themed around Create and factories.",
     "author": "FloatDev",
-    "websiteURL": "https://modrinth.com/project/create-better-building/",
+    "websiteURL": "https://modrinth.com/mod/create-better-building/",
     "license": "GNU Lesser General Public License version 3 (LGPLv3)",
     "serverSideOnly": false,
     "modPicture": "mod_logo",

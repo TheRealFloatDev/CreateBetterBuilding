@@ -1391,12 +1391,352 @@
         ]
       },
       "path": "~/Bricks/Mossy"
+    },
+    {
+      "name": "WhiteStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/white_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/white_stone_brick_slab_top.json",
+          "src/main/resources/assets/create_better_building/models/block/white_stone_brick_slab.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/white_stone_brick_slab.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/WhiteStoneBrickSlabBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/white_stone_brick_slab_full.json",
+          "src/main/resources/assets/create_better_building/models/item/white_stone_brick_slab.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "WhiteStoneBrickStair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_stone_brick_stair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/white_stone_brick_stair_outer.json",
+          "src/main/resources/assets/create_better_building/blockstates/white_stone_brick_stair.json",
+          "src/main/resources/assets/create_better_building/models/block/white_stone_brick_stair.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/WhiteStoneBrickStairBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/white_stone_brick_stair.json",
+          "src/main/resources/assets/create_better_building/models/item/white_stone_brick_stair.json",
+          "src/main/resources/assets/create_better_building/models/block/white_stone_brick_stair_inner.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Stairs"
+    },
+    {
+      "name": "LightGrayStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/light_gray_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/light_gray_stone_brick_slab_top.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/light_gray_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/light_gray_stone_brick_slab_full.json",
+          "src/main/resources/assets/create_better_building/models/block/light_gray_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/item/light_gray_stone_brick_slab.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/LightGrayStoneBrickSlabBlock.java"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "GrayStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/GrayStoneBrickSlabBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/gray_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/gray_stone_brick_slab_full.json",
+          "src/main/resources/assets/create_better_building/blockstates/gray_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/gray_stone_brick_slab_top.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/gray_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/item/gray_stone_brick_slab.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "BlackStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/black_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/black_stone_brick_slab_full.json",
+          "src/main/resources/assets/create_better_building/models/block/black_stone_brick_slab.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/BlackStoneBrickSlabBlock.java",
+          "src/main/resources/assets/create_better_building/models/item/black_stone_brick_slab.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/black_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/black_stone_brick_slab_top.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "BrownStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/BrownStoneBrickSlabBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/brown_stone_brick_slab_full.json",
+          "src/main/resources/assets/create_better_building/models/item/brown_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/brown_stone_brick_slab_top.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/brown_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/brown_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/blockstates/brown_stone_brick_slab.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "RedStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/red_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/red_stone_brick_slab_full.json",
+          "src/main/resources/assets/create_better_building/models/item/red_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/red_stone_brick_slab_top.json",
+          "src/main/resources/assets/create_better_building/models/block/red_stone_brick_slab.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/red_stone_brick_slab.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/RedStoneBrickSlabBlock.java"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "OrangeStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/orange_stone_brick_slab.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/orange_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/item/orange_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/orange_stone_brick_slab_top.json",
+          "src/main/resources/assets/create_better_building/models/block/orange_stone_brick_slab_full.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/OrangeStoneBrickSlabBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/orange_stone_brick_slab.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "YellowStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/YellowStoneBrickSlabBlock.java",
+          "src/main/resources/assets/create_better_building/models/item/yellow_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/blockstates/yellow_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/yellow_stone_brick_slab_top.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/yellow_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/yellow_stone_brick_slab_full.json",
+          "src/main/resources/assets/create_better_building/models/block/yellow_stone_brick_slab.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "LimeStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/lime_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/lime_stone_brick_slab.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/LimeStoneBrickSlabBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/lime_stone_brick_slab_full.json",
+          "src/main/resources/assets/create_better_building/models/item/lime_stone_brick_slab.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/lime_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/lime_stone_brick_slab_top.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "GreenStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/loot_tables/blocks/green_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/item/green_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/green_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/green_stone_brick_slab_top.json",
+          "src/main/resources/assets/create_better_building/blockstates/green_stone_brick_slab.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/GreenStoneBrickSlabBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/green_stone_brick_slab_full.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "CyanStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/loot_tables/blocks/cyan_stone_brick_slab.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/CyanStoneBrickSlabBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/cyan_stone_brick_slab_full.json",
+          "src/main/resources/assets/create_better_building/blockstates/cyan_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/cyan_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/item/cyan_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/cyan_stone_brick_slab_top.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "LightBlueStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/LightBlueStoneBrickSlabBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/light_blue_stone_brick_slab.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/light_blue_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/light_blue_stone_brick_slab_full.json",
+          "src/main/resources/assets/create_better_building/models/item/light_blue_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/light_blue_stone_brick_slab_top.json",
+          "src/main/resources/assets/create_better_building/blockstates/light_blue_stone_brick_slab.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "BlueStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/BlueStoneBrickSlabBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/blue_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/blue_stone_brick_slab_top.json",
+          "src/main/resources/assets/create_better_building/models/item/blue_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/blue_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/blockstates/blue_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/blue_stone_brick_slab_full.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "PurpleStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/purple_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/purple_stone_brick_slab_top.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/purple_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/purple_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/purple_stone_brick_slab_full.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/PurpleStoneBrickSlabBlock.java",
+          "src/main/resources/assets/create_better_building/models/item/purple_stone_brick_slab.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "Magenta",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/magenta_full.json",
+          "src/main/resources/assets/create_better_building/models/block/magenta.json",
+          "src/main/resources/assets/create_better_building/blockstates/magenta.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/magenta.json",
+          "src/main/resources/assets/create_better_building/models/item/magenta.json",
+          "src/main/resources/assets/create_better_building/models/block/magenta_top.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MagentaBlock.java"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
+    },
+    {
+      "name": "PinkStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/pink_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/blockstates/pink_stone_brick_slab.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/PinkStoneBrickSlabBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/pink_stone_brick_slab_top.json",
+          "src/main/resources/assets/create_better_building/models/item/pink_stone_brick_slab.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/pink_stone_brick_slab.json",
+          "src/main/resources/assets/create_better_building/models/block/pink_stone_brick_slab_full.json"
+        ]
+      },
+      "path": "~/Bricks/Standard/Slabs"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PinkStoneBrickSlab",
+      "~CUSTOM:Magenta",
+      "~CUSTOM:PurpleStoneBrickSlab",
+      "~CUSTOM:BlueStoneBrickSlab",
+      "~CUSTOM:LightBlueStoneBrickSlab",
+      "~CUSTOM:CyanStoneBrickSlab",
+      "~CUSTOM:GreenStoneBrickSlab",
+      "~CUSTOM:LimeStoneBrickSlab",
+      "~CUSTOM:YellowStoneBrickSlab",
+      "~CUSTOM:OrangeStoneBrickSlab",
+      "~CUSTOM:RedStoneBrickSlab",
+      "~CUSTOM:BrownStoneBrickSlab",
+      "~CUSTOM:BlackStoneBrickSlab",
+      "~CUSTOM:GrayStoneBrickSlab",
+      "~CUSTOM:LightGrayStoneBrickSlab",
+      "~CUSTOM:WhiteStoneBrickStair",
+      "~CUSTOM:WhiteStoneBrickSlab",
       "~CUSTOM:MossyPinkStoneBrick",
       "~CUSTOM:MossyMagentaStoneBrick",
       "~CUSTOM:MossyPurpleStoneBrick",
@@ -1442,6 +1782,24 @@
       "~CUSTOM:AcaciaBarrel",
       "~CUSTOM:OakBarrel"
     ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:PinkStoneBrickSlab",
+      "~CUSTOM:Magenta",
+      "~CUSTOM:PurpleStoneBrickSlab",
+      "~CUSTOM:BlueStoneBrickSlab",
+      "~CUSTOM:LightBlueStoneBrickSlab",
+      "~CUSTOM:CyanStoneBrickSlab",
+      "~CUSTOM:GreenStoneBrickSlab",
+      "~CUSTOM:LimeStoneBrickSlab",
+      "~CUSTOM:YellowStoneBrickSlab",
+      "~CUSTOM:OrangeStoneBrickSlab",
+      "~CUSTOM:RedStoneBrickSlab",
+      "~CUSTOM:BrownStoneBrickSlab",
+      "~CUSTOM:BlackStoneBrickSlab",
+      "~CUSTOM:GrayStoneBrickSlab",
+      "~CUSTOM:LightGrayStoneBrickSlab",
+      "~CUSTOM:WhiteStoneBrickSlab"
+    ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Handrail"
     ],
@@ -1462,6 +1820,9 @@
       "CUSTOM:PurpleStoneBrick",
       "CUSTOM:MagentaStoneBrick",
       "CUSTOM:PinkStoneBrick"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:WhiteStoneBrickStair"
     ]
   },
   "tab_element_order": {},
@@ -1469,41 +1830,57 @@
     "en_us": {
       "advancements.safety_first_advancement.descr": "Equip your factory with handrails",
       "block.create_better_building.mangrove_barrel": "Mangrove Barrel",
+      "block.create_better_building.yellow_stone_brick_slab": "Yellow Stone Brick Slab",
       "block.create_better_building.mossy_green_stone_brick": "Mossy Green Stone Brick",
+      "block.create_better_building.magenta": "Magenta Stone Brick Slab",
       "block.create_better_building.green_stone_brick": "Green Stone Brick",
       "block.create_better_building.mossy_gray_stone_brick": "Mossy Gray Stone Brick",
       "block.create_better_building.warped_barrel": "Warped Barrel",
       "block.create_better_building.pink_stone_brick": "Pink Stone Brick",
       "block.create_better_building.white_stone_brick": "White Stone Brick",
+      "block.create_better_building.orange_stone_brick_slab": "Orange Stone Brick Slab",
+      "block.create_better_building.blue_stone_brick_slab": "Blue Stone Brick Slab",
       "block.create_better_building.mossy_pink_stone_brick": "Mossy Pink Stone Brick",
       "advancements.safety_first_advancement.title": "Safety First",
       "block.create_better_building.brown_stone_brick": "Brown Stone Brick",
       "block.create_better_building.cyan_stone_brick": "Cyan Stone Brick",
       "block.create_better_building.lime_stone_brick": "Lime Stone Brick",
       "block.create_better_building.mossy_lime_stone_brick": "Mossy Lime Stone Brick",
+      "block.create_better_building.black_stone_brick_slab": "Black Stone Brick Slab",
       "block.create_better_building.purple_stone_brick": "Purple Stone Brick",
       "block.create_better_building.light_gray_stone_brick": "Light Gray Stone Brick",
       "gui.create_better_building.barrel_gui.label_barrel": "Barrel",
+      "block.create_better_building.white_stone_brick_stair": "White Stone Brick Stairs",
       "block.create_better_building.oak_barrel": "Oak Barrel",
       "block.create_better_building.black_stone_brick": "Black Stone Brick",
+      "block.create_better_building.lime_stone_brick_slab": "Lime Stone Brick Slab",
       "block.create_better_building.mossy_brown_stone_brick": "Mossy Brown Stone Brick",
       "block.create_better_building.mossy_purple_stone_brick": "Mossy Purple Stone Brick",
       "block.create_better_building.mossy_black_stone_brick": "Mossy Black Stone Brick",
       "block.create_better_building.acacia_barrel": "Acacia Barrel",
       "block.create_better_building.light_blue_stone_brick": "Light Blue Stone Brick",
+      "block.create_better_building.pink_stone_brick_slab": "Pink Stone Brick Slab",
+      "block.create_better_building.purple_stone_brick_slab": "Purple Stone Brick Slab",
       "block.create_better_building.red_stone_brick": "Red Stone Brick",
       "block.create_better_building.dark_oak_barrel": "Dark Oak Barrel",
       "block.create_better_building.mossy_magenta_stone_brick": "Mossy Magenta Stone Brick",
       "block.create_better_building.mossy_yellow_stone_brick": "Mossy Yellow Stone Brick",
       "gui.create_better_building.barrel_gui.label_inventory": "Inventory",
       "block.create_better_building.mossy_light_gray_stone_brick": "Mossy Light Gray Stone Brick",
+      "block.create_better_building.red_stone_brick_slab": "Red Stone Brick Slab",
       "block.create_better_building.mossy_blue_stone_brick": "Mossy Blue Stone Brick",
       "block.create_better_building.jungle_barrel": "Jungle Barrel",
+      "block.create_better_building.gray_stone_brick_slab": "Gray Stone Brick Slab",
       "block.create_better_building.spruce_barrel": "Spruce Barrel",
+      "block.create_better_building.cyan_stone_brick_slab": "Cyan Stone Brick Slab",
+      "block.create_better_building.light_blue_stone_brick_slab": "Light Blue Stone Brick Slab",
       "block.create_better_building.magenta_stone_brick": "Magenta Stone Brick",
       "block.create_better_building.mossy_orange_stone_brick": "Mossy Orange Stone Brick",
       "block.create_better_building.mossy_cyan_stone_brick": "Mossy Cyan Stone Brick",
+      "block.create_better_building.light_gray_stone_brick_slab": "Light Gray Stone Brick Slab",
       "block.create_better_building.handrail": "Handrail",
+      "block.create_better_building.brown_stone_brick_slab": "Brown Stone Brick Slab",
+      "block.create_better_building.green_stone_brick_slab": "Green Stone Brick Slab",
       "block.create_better_building.mossy_red_stone_brick": "Mossy Red Stone Brick",
       "block.create_better_building.orange_stone_brick": "Orange Stone Brick",
       "itemGroup.tab_creative_tab": "Create: Better Building",
@@ -1511,6 +1888,7 @@
       "block.create_better_building.mossy_light_blue_stone_brick": "Mossy Light Blue Stone Brick",
       "item_group.create_better_building.creative_tab": "Create: Better Building",
       "block.create_better_building.blue_stone_brick": "Blue Stone Brick",
+      "block.create_better_building.white_stone_brick_slab": "White Stone Brick Slab",
       "block.create_better_building.birch_barrel": "Birch Barrel",
       "block.create_better_building.yellow_stone_brick": "Yellow Stone Brick",
       "block.create_better_building.gray_stone_brick": "Gray Stone Brick",
@@ -1546,7 +1924,16 @@
         "children": [
           {
             "name": "Standard",
-            "children": []
+            "children": [
+              {
+                "name": "Slabs",
+                "children": []
+              },
+              {
+                "name": "Stairs",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Mossy",

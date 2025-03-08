@@ -59,6 +59,23 @@ public class CreateBetterBuildingModItems {
 	public static final RegistryObject<Item> MOSSY_PURPLE_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_PURPLE_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
 	public static final RegistryObject<Item> MOSSY_MAGENTA_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_MAGENTA_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
 	public static final RegistryObject<Item> MOSSY_PINK_STONE_BRICK = block(CreateBetterBuildingModBlocks.MOSSY_PINK_STONE_BRICK, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> WHITE_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.WHITE_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> WHITE_STONE_BRICK_STAIR = block(CreateBetterBuildingModBlocks.WHITE_STONE_BRICK_STAIR, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> LIGHT_GRAY_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.LIGHT_GRAY_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> GRAY_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.GRAY_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> BLACK_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.BLACK_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> BROWN_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.BROWN_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> RED_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.RED_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> ORANGE_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.ORANGE_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> YELLOW_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.YELLOW_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> LIME_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.LIME_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> GREEN_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.GREEN_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> CYAN_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.CYAN_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> LIGHT_BLUE_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.LIGHT_BLUE_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> BLUE_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.BLUE_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> PURPLE_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.PURPLE_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> MAGENTA = block(CreateBetterBuildingModBlocks.MAGENTA, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
+	public static final RegistryObject<Item> PINK_STONE_BRICK_SLAB = block(CreateBetterBuildingModBlocks.PINK_STONE_BRICK_SLAB, CreateBetterBuildingModTabs.TAB_CREATIVE_TAB);
 
 	// Start of user code block custom items
 	// End of user code block custom items

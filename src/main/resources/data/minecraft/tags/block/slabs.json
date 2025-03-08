@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "create_better_building:pink_stone_brick_slab",
+    "create_better_building:magenta",
+    "create_better_building:purple_stone_brick_slab",
+    "create_better_building:blue_stone_brick_slab",
+    "create_better_building:light_blue_stone_brick_slab",
+    "create_better_building:cyan_stone_brick_slab",
+    "create_better_building:green_stone_brick_slab",
+    "create_better_building:lime_stone_brick_slab",
+    "create_better_building:yellow_stone_brick_slab",
+    "create_better_building:orange_stone_brick_slab",
+    "create_better_building:red_stone_brick_slab",
+    "create_better_building:brown_stone_brick_slab",
+    "create_better_building:black_stone_brick_slab",
+    "create_better_building:gray_stone_brick_slab",
+    "create_better_building:light_gray_stone_brick_slab",
+    "create_better_building:white_stone_brick_slab"
+  ]
+}

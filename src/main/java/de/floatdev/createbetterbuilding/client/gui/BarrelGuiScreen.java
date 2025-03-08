@@ -28,7 +28,7 @@ public class BarrelGuiScreen extends AbstractContainerScreen<BarrelGuiMenu> {
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 176;
-		this.imageHeight = 184;
+		this.imageHeight = 189;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("create_better_building:textures/screens/barrel_gui.png");
@@ -61,6 +61,8 @@ public class BarrelGuiScreen extends AbstractContainerScreen<BarrelGuiMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack, Component.translatable("gui.create_better_building.barrel_gui.label_inventory"), 6, 96, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.create_better_building.barrel_gui.label_barrel"), 6, 4, -12829636);
 	}
 
 	@Override

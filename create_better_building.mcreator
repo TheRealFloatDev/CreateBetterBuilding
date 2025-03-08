@@ -1,0 +1,713 @@
+{
+  "mod_elements": [
+    {
+      "name": "CreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Handrail",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handrail",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/loot_tables/blocks/handrail.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/HandrailBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/handrail.json",
+          "src/main/resources/assets/create_better_building/models/item/handrail.json",
+          "src/main/resources/assets/create_better_building/models/block/handrail.json"
+        ]
+      }
+    },
+    {
+      "name": "HandrailCraftingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handrail_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/handrail_crafting_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SafetyFirstAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "safety_first_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/advancements/safety_first_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "HandrailTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handrail_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "OakBarrel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_barrel",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/OakBarrelBlock.java",
+          "src/main/java/de/floatdev/createbetterbuilding/block/entity/OakBarrelBlockEntity.java",
+          "src/main/resources/assets/create_better_building/blockstates/oak_barrel.json",
+          "src/main/resources/assets/create_better_building/models/item/oak_barrel.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/oak_barrel.json",
+          "src/main/resources/assets/create_better_building/models/block/oak_barrel.json"
+        ]
+      }
+    },
+    {
+      "name": "BarrelGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrel_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/client/gui/BarrelGuiScreen.java",
+          "src/main/java/de/floatdev/createbetterbuilding/world/inventory/BarrelGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "BarrelGuiOpenProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrel_gui_open_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/procedures/BarrelGuiOpenProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BarrelGuiCloseProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrel_gui_close_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/procedures/BarrelGuiCloseProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhiteStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/WhiteStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/white_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/white_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/white_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/white_stone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "WhiteStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/white_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "LightGrayStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/loot_tables/blocks/light_gray_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/light_gray_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/light_gray_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/LightGrayStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/item/light_gray_stone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "LightGrayStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/light_gray_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/gray_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/gray_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/gray_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/gray_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/GrayStoneBrickBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GrayStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/gray_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/BlackStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/black_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/black_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/black_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/black_stone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/black_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "BrownStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/brown_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/brown_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/BrownStoneBrickBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/brown_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/brown_stone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "BrownStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/brown_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "RedStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/item/red_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/red_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/red_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/red_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/RedStoneBrickBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RedStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/red_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/orange_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/orange_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/OrangeStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/item/orange_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/orange_stone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/orange_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "UndyeStoneBrickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undye_stone_brick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/undye_stone_brick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/item/yellow_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/yellow_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/yellow_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/yellow_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/YellowStoneBrickBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "YellowStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/yellow_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "LimeStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/lime_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/LimeStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/item/lime_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/lime_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/lime_stone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "LimeStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/lime_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/green_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/GreenStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/item/green_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/green_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/green_stone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/green_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/block/cyan_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/cyan_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/cyan_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/cyan_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/CyanStoneBrickBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CyanStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/cyan_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "LightBlueStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/loot_tables/blocks/light_blue_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/light_blue_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/LightBlueStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/blockstates/light_blue_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/light_blue_stone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "LightBlueStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/light_blue_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/de/floatdev/createbetterbuilding/block/BlueStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/blue_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/blue_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/blue_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/blue_stone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/blue_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PurpleStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/blockstates/purple_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/purple_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/item/purple_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/PurpleStoneBrickBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/purple_stone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "PurpleStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/purple_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "MagentaStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/item/magenta_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/MagentaStoneBrickBlock.java",
+          "src/main/resources/assets/create_better_building/models/block/magenta_stone_brick.json",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/magenta_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/magenta_stone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "MagentaStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/magenta_stone_brick_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_better_building/models/item/pink_stone_brick.json",
+          "src/main/resources/assets/create_better_building/blockstates/pink_stone_brick.json",
+          "src/main/resources/assets/create_better_building/models/block/pink_stone_brick.json",
+          "src/main/java/de/floatdev/createbetterbuilding/block/PinkStoneBrickBlock.java",
+          "src/main/resources/data/create_better_building/loot_tables/blocks/pink_stone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkStoneBrickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_stone_brick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_better_building/recipes/pink_stone_brick_crafting.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PinkStoneBrick",
+      "~CUSTOM:MagentaStoneBrick",
+      "~CUSTOM:PurpleStoneBrick",
+      "~CUSTOM:BlueStoneBrick",
+      "~CUSTOM:LightBlueStoneBrick",
+      "~CUSTOM:CyanStoneBrick",
+      "~CUSTOM:GreenStoneBrick",
+      "~CUSTOM:LimeStoneBrick",
+      "~CUSTOM:YellowStoneBrick",
+      "~CUSTOM:OrangeStoneBrick",
+      "~CUSTOM:RedStoneBrick",
+      "~CUSTOM:BrownStoneBrick",
+      "~CUSTOM:BlackStoneBrick",
+      "~CUSTOM:GrayStoneBrick",
+      "~CUSTOM:LightGrayStoneBrick",
+      "~CUSTOM:WhiteStoneBrick",
+      "~CUSTOM:Handrail"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:OakBarrel"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Handrail"
+    ],
+    "ITEMS:mod:dyed_stone_brick": [
+      "CUSTOM:WhiteStoneBrick",
+      "CUSTOM:LightGrayStoneBrick",
+      "CUSTOM:GrayStoneBrick",
+      "CUSTOM:BlackStoneBrick",
+      "CUSTOM:BrownStoneBrick",
+      "CUSTOM:RedStoneBrick",
+      "CUSTOM:OrangeStoneBrick",
+      "CUSTOM:YellowStoneBrick",
+      "CUSTOM:LimeStoneBrick",
+      "CUSTOM:GreenStoneBrick",
+      "CUSTOM:CyanStoneBrick",
+      "CUSTOM:LightBlueStoneBrick",
+      "CUSTOM:BlueStoneBrick",
+      "CUSTOM:PurpleStoneBrick",
+      "CUSTOM:MagentaStoneBrick",
+      "CUSTOM:PinkStoneBrick"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.safety_first_advancement.descr": "Equip your factory with handrails",
+      "block.create_better_building.brown_stone_brick": "Brown Stone Brick",
+      "block.create_better_building.cyan_stone_brick": "Cyan Stone Brick",
+      "block.create_better_building.red_stone_brick": "Red Stone Brick",
+      "block.create_better_building.lime_stone_brick": "Lime Stone Brick",
+      "block.create_better_building.handrail": "Handrail",
+      "block.create_better_building.green_stone_brick": "Green Stone Brick",
+      "block.create_better_building.purple_stone_brick": "Purple Stone Brick",
+      "block.create_better_building.orange_stone_brick": "Orange Stone Brick",
+      "block.create_better_building.light_gray_stone_brick": "Light Gray Stone Brick",
+      "itemGroup.tab_creative_tab": "Create: Better Building",
+      "block.create_better_building.pink_stone_brick": "Pink Stone Brick",
+      "block.create_better_building.white_stone_brick": "White Stone Brick",
+      "block.create_better_building.oak_barrel": "Oak Barrel",
+      "block.create_better_building.black_stone_brick": "Black Stone Brick",
+      "item_group.create_better_building.creative_tab": "Create: Better Building",
+      "block.create_better_building.blue_stone_brick": "Blue Stone Brick",
+      "block.create_better_building.yellow_stone_brick": "Yellow Stone Brick",
+      "block.create_better_building.gray_stone_brick": "Gray Stone Brick",
+      "block.create_better_building.magenta_stone_brick": "Magenta Stone Brick",
+      "advancements.safety_first_advancement.title": "Safety First",
+      "block.create_better_building.light_blue_stone_brick": "Light Blue Stone Brick"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "create_better_building",
+    "modName": "Create: Better Building",
+    "version": "1.0.0",
+    "description": "This mod adds a variety of new (mainly decorative) building blocks to the game, which are themed around Create and factories.",
+    "author": "FloatDev",
+    "websiteURL": "https://modrinth.com/project/create-better-building/",
+    "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "mod_logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "create"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created by FloatDev, inspired by the Create Mod, partially created using MCreator",
+    "modElementsPackage": "de.floatdev.createbetterbuilding"
+  },
+  "mcreatorVersion": 202400452410
+}

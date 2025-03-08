@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="GNU Lesser General Public License version 3 (LGPLv3)"
+
+[[mods]]
+modId="create_better_building"
+version="1.0.0"
+displayName="Create: Better Building"
+displayURL="https://modrinth.com/project/create-better-building/"
+logoFile="logo.png"
+credits="Created by FloatDev, inspired by the Create Mod, partially created using MCreator"
+authors="FloatDev"
+description="This mod adds a variety of new (mainly decorative) building blocks to the game, which are themed around Create and factories."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.create_better_building]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.create_better_building]]
+    modId="create"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

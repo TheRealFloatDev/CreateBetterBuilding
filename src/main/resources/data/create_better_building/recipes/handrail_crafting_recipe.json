@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:air"
+    },
+    "b": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "create_better_building:handrail",
+    "count": 8
+  }
+}

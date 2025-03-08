@@ -1,0 +1,9 @@
+{
+  "parent": "create_better_building:custom/handrail",
+  "textures": {
+    "all": "create_better_building:block/handrail_texture",
+    "particle": "create_better_building:block/handrail_texture",
+    "0": "create_better_building:block/handrail_texture"
+  },
+  "render_type": "cutout_mipped"
+}

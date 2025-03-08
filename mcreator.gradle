@@ -1,0 +1,27 @@
+repositories {
+    maven {
+        name = 'tterrag maven'
+        url = 'https://maven.tterrag.com'
+    }
+    maven {
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
+}
+
+dependencies {
+    implementation fg.deobf("com.simibubi.create:create-1.19.2:0.5.1.e-44:slim") { transitive = false }
+    implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-1.19.2:0.6.10-20")
+    implementation fg.deobf("com.tterrag.registrate:Registrate:MC1.19-1.1.5")
+}
+
+minecraft {
+    runs {
+        client {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+        }
+    }
+}
+
+

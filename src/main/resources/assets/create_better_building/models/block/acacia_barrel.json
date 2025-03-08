@@ -4,7 +4,7 @@
     "all": "create_better_building:block/acacia_planks",
     "particle": "create_better_building:block/acacia_planks",
     "1": "create_better_building:block/acacia_planks",
-    "2": "create_better_building:block/",
+    "2": "create_better_building:block/iron_block",
     "missing": "create_better_building:block/"
   },
   "render_type": "solid"

@@ -8,14 +8,6 @@
       },
       "name": "default"
     },
-    "acacia": {
-      "map": {
-        "1": "acacia_planks",
-        "2": "iron_block",
-        "missing": ""
-      },
-      "name": "acacia"
-    },
     "birch": {
       "map": {
         "1": "birch_planks",
@@ -71,6 +63,14 @@
         "missing": ""
       },
       "name": "warped"
+    },
+    "acacia": {
+      "map": {
+        "1": "acacia_planks",
+        "2": "iron_block",
+        "missing": ""
+      },
+      "name": "acacia"
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_better_building:block/orange_brick",
+    "up": "create_better_building:block/orange_brick",
+    "north": "create_better_building:block/orange_brick",
+    "east": "create_better_building:block/orange_brick",
+    "south": "create_better_building:block/orange_brick",
+    "west": "create_better_building:block/orange_brick",
+    "particle": "create_better_building:block/orange_brick"
+  },
+  "render_type": "solid"
+}

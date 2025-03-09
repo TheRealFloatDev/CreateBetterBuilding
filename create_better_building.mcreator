@@ -173,7 +173,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/white_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "WhiteStoneBrickCrafting",
@@ -186,7 +186,7 @@
           "src/main/resources/data/create_better_building/recipes/white_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "LightGrayStoneBrick",
@@ -203,7 +203,7 @@
           "src/main/resources/assets/create_better_building/models/item/light_gray_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "LightGrayStoneBrickCrafting",
@@ -216,7 +216,7 @@
           "src/main/resources/data/create_better_building/recipes/light_gray_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "GrayStoneBrick",
@@ -233,7 +233,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/GrayStoneBrickBlock.java"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "GrayStoneBrickCrafting",
@@ -246,7 +246,7 @@
           "src/main/resources/data/create_better_building/recipes/gray_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "BlackStoneBrick",
@@ -263,7 +263,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/black_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "BlackStoneBrickCrafting",
@@ -276,7 +276,7 @@
           "src/main/resources/data/create_better_building/recipes/black_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "BrownStoneBrick",
@@ -293,7 +293,7 @@
           "src/main/resources/assets/create_better_building/models/block/brown_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "BrownStoneBrickCrafting",
@@ -306,7 +306,7 @@
           "src/main/resources/data/create_better_building/recipes/brown_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "RedStoneBrick",
@@ -323,7 +323,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/RedStoneBrickBlock.java"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "RedStoneBrickCrafting",
@@ -336,7 +336,7 @@
           "src/main/resources/data/create_better_building/recipes/red_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "OrangeStoneBrick",
@@ -353,7 +353,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/orange_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "OrangeStoneBrickCrafting",
@@ -366,7 +366,7 @@
           "src/main/resources/data/create_better_building/recipes/orange_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "UndyeStoneBrickRecipe",
@@ -379,7 +379,7 @@
           "src/main/resources/data/create_better_building/recipes/undye_stone_brick_recipe.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "YellowStoneBrick",
@@ -396,7 +396,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/YellowStoneBrickBlock.java"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "YellowStoneBrickCrafting",
@@ -409,7 +409,7 @@
           "src/main/resources/data/create_better_building/recipes/yellow_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "LimeStoneBrick",
@@ -426,7 +426,7 @@
           "src/main/resources/assets/create_better_building/blockstates/lime_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "LimeStoneBrickCrafting",
@@ -439,7 +439,7 @@
           "src/main/resources/data/create_better_building/recipes/lime_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "GreenStoneBrick",
@@ -456,7 +456,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/green_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "GreenStoneBrickCrafting",
@@ -469,7 +469,7 @@
           "src/main/resources/data/create_better_building/recipes/green_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "CyanStoneBrick",
@@ -486,7 +486,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/CyanStoneBrickBlock.java"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "CyanStoneBrickCrafting",
@@ -499,7 +499,7 @@
           "src/main/resources/data/create_better_building/recipes/cyan_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "LightBlueStoneBrick",
@@ -516,7 +516,7 @@
           "src/main/resources/assets/create_better_building/models/block/light_blue_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "LightBlueStoneBrickCrafting",
@@ -529,7 +529,7 @@
           "src/main/resources/data/create_better_building/recipes/light_blue_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "BlueStoneBrick",
@@ -546,7 +546,7 @@
           "src/main/resources/assets/create_better_building/blockstates/blue_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "BlueStoneBrickCrafting",
@@ -559,7 +559,7 @@
           "src/main/resources/data/create_better_building/recipes/blue_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "PurpleStoneBrick",
@@ -576,7 +576,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/purple_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "PurpleStoneBrickCrafting",
@@ -589,7 +589,7 @@
           "src/main/resources/data/create_better_building/recipes/purple_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "MagentaStoneBrick",
@@ -606,7 +606,7 @@
           "src/main/resources/assets/create_better_building/blockstates/magenta_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "MagentaStoneBrickCrafting",
@@ -619,7 +619,7 @@
           "src/main/resources/data/create_better_building/recipes/magenta_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "PinkStoneBrick",
@@ -636,7 +636,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/pink_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "PinkStoneBrickCrafting",
@@ -649,7 +649,7 @@
           "src/main/resources/data/create_better_building/recipes/pink_stone_brick_crafting.json"
         ]
       },
-      "path": "~/Bricks/Standard"
+      "path": "~/Stone Bricks/Standard"
     },
     {
       "name": "AcaciaBarrel",
@@ -927,7 +927,7 @@
           "src/main/resources/assets/create_better_building/models/item/mossy_white_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyLightGrayStoneBrick",
@@ -944,7 +944,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_light_gray_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyGrayStoneBrick",
@@ -961,7 +961,7 @@
           "src/main/resources/assets/create_better_building/blockstates/mossy_gray_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyBlackStoneBrick",
@@ -978,7 +978,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/MossyBlackStoneBrickBlock.java"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyBrownStoneBrick",
@@ -995,7 +995,7 @@
           "src/main/resources/assets/create_better_building/blockstates/mossy_brown_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyRedStoneBrick",
@@ -1012,7 +1012,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_red_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyOrangeStoneBrick",
@@ -1029,7 +1029,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/MossyOrangeStoneBrickBlock.java"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyYellowStoneBrick",
@@ -1046,7 +1046,7 @@
           "src/main/resources/assets/create_better_building/blockstates/mossy_yellow_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyLimeStoneBrick",
@@ -1063,7 +1063,7 @@
           "src/main/resources/assets/create_better_building/models/block/mossy_lime_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyGreenStoneBrick",
@@ -1080,7 +1080,7 @@
           "src/main/resources/assets/create_better_building/models/item/mossy_green_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyCyanStoneBrick",
@@ -1097,7 +1097,7 @@
           "src/main/resources/assets/create_better_building/models/block/mossy_cyan_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyLightBlueStoneBrick",
@@ -1114,7 +1114,7 @@
           "src/main/resources/assets/create_better_building/models/item/mossy_light_blue_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyBlueStoneBrick",
@@ -1131,7 +1131,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/MossyBlueStoneBrickBlock.java"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyPurpleStoneBrick",
@@ -1148,7 +1148,7 @@
           "src/main/resources/assets/create_better_building/models/block/mossy_purple_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyMagentaStoneBrick",
@@ -1165,7 +1165,7 @@
           "src/main/resources/assets/create_better_building/models/block/mossy_magenta_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyPinkStoneBrick",
@@ -1182,7 +1182,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/mossy_pink_stone_brick.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyWhiteStoneBrickCutting",
@@ -1195,7 +1195,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_white_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyLightGrayStoneBrickCutting",
@@ -1208,7 +1208,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_light_gray_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyGrayStoneBrickCutting",
@@ -1221,7 +1221,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_gray_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyBlackStoneBrickCutting",
@@ -1234,7 +1234,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_black_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyBrownStoneBrickCutting",
@@ -1247,7 +1247,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_brown_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyRedStoneBrickCutting",
@@ -1260,7 +1260,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_red_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyOrangeStoneBrickCutting",
@@ -1273,7 +1273,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_orange_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyYellowStoneBrickCutting",
@@ -1286,7 +1286,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_yellow_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyLimeStoneBrickCutting",
@@ -1299,7 +1299,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_lime_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyGreenStoneBrickCutting",
@@ -1312,7 +1312,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_green_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyCyanStoneBrickCutting",
@@ -1325,7 +1325,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_cyan_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyLightBlueStoneBrickCutting",
@@ -1338,7 +1338,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_light_blue_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyBlueStoneBrickCutting",
@@ -1351,7 +1351,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_blue_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyPurpleStoneBrickCutting",
@@ -1364,7 +1364,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_purple_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyMagentaStoneBrickCutting",
@@ -1377,7 +1377,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_magenta_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "MossyPinkStoneBrickCutting",
@@ -1390,7 +1390,7 @@
           "src/main/resources/data/create_better_building/recipes/mossy_pink_stone_brick_cutting.json"
         ]
       },
-      "path": "~/Bricks/Mossy"
+      "path": "~/Stone Bricks/Mossy"
     },
     {
       "name": "WhiteStoneBrickSlab",
@@ -1409,7 +1409,7 @@
           "src/main/resources/assets/create_better_building/models/item/white_stone_brick_slab.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "WhiteStoneBrickStair",
@@ -1428,7 +1428,7 @@
           "src/main/resources/assets/create_better_building/models/block/white_stone_brick_stair_inner.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "LightGrayStoneBrickSlab",
@@ -1447,7 +1447,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/LightGrayStoneBrickSlabBlock.java"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "GrayStoneBrickSlab",
@@ -1466,7 +1466,7 @@
           "src/main/resources/assets/create_better_building/models/item/gray_stone_brick_slab.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "BlackStoneBrickSlab",
@@ -1485,7 +1485,7 @@
           "src/main/resources/assets/create_better_building/models/block/black_stone_brick_slab_top.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "BrownStoneBrickSlab",
@@ -1504,7 +1504,7 @@
           "src/main/resources/assets/create_better_building/blockstates/brown_stone_brick_slab.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "RedStoneBrickSlab",
@@ -1523,7 +1523,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/RedStoneBrickSlabBlock.java"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "OrangeStoneBrickSlab",
@@ -1542,7 +1542,7 @@
           "src/main/resources/assets/create_better_building/blockstates/orange_stone_brick_slab.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "YellowStoneBrickSlab",
@@ -1561,7 +1561,7 @@
           "src/main/resources/assets/create_better_building/models/block/yellow_stone_brick_slab.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "LimeStoneBrickSlab",
@@ -1580,7 +1580,7 @@
           "src/main/resources/assets/create_better_building/models/block/lime_stone_brick_slab_top.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "GreenStoneBrickSlab",
@@ -1599,7 +1599,7 @@
           "src/main/resources/assets/create_better_building/models/block/green_stone_brick_slab_full.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "CyanStoneBrickSlab",
@@ -1618,7 +1618,7 @@
           "src/main/resources/assets/create_better_building/models/block/cyan_stone_brick_slab_top.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "LightBlueStoneBrickSlab",
@@ -1637,7 +1637,7 @@
           "src/main/resources/assets/create_better_building/blockstates/light_blue_stone_brick_slab.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "BlueStoneBrickSlab",
@@ -1656,7 +1656,7 @@
           "src/main/resources/assets/create_better_building/models/block/blue_stone_brick_slab_full.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "PurpleStoneBrickSlab",
@@ -1675,7 +1675,7 @@
           "src/main/resources/assets/create_better_building/models/item/purple_stone_brick_slab.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "Magenta",
@@ -1694,7 +1694,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/MagentaBlock.java"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "PinkStoneBrickSlab",
@@ -1713,7 +1713,7 @@
           "src/main/resources/assets/create_better_building/models/block/pink_stone_brick_slab_full.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "WhiteStoneBrickSlabCutting",
@@ -1726,7 +1726,7 @@
           "src/main/resources/data/create_better_building/recipes/white_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "LightGrayStoneBrickSlabCutting",
@@ -1739,7 +1739,7 @@
           "src/main/resources/data/create_better_building/recipes/light_gray_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "GrayStoneBrickSlabCutting",
@@ -1752,7 +1752,7 @@
           "src/main/resources/data/create_better_building/recipes/gray_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "BlackStoneBrickSlabCutting",
@@ -1765,7 +1765,7 @@
           "src/main/resources/data/create_better_building/recipes/black_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "BrownStoneBrickSlabCutting",
@@ -1778,7 +1778,7 @@
           "src/main/resources/data/create_better_building/recipes/brown_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "RedStoneBrickSlabCutting",
@@ -1791,7 +1791,7 @@
           "src/main/resources/data/create_better_building/recipes/red_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "OrangeStoneBrickSlabCutting",
@@ -1804,7 +1804,7 @@
           "src/main/resources/data/create_better_building/recipes/orange_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "YellowStoneBrickSlabCutting",
@@ -1817,7 +1817,7 @@
           "src/main/resources/data/create_better_building/recipes/yellow_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "LimeStoneBrickSlabCutting",
@@ -1830,7 +1830,7 @@
           "src/main/resources/data/create_better_building/recipes/lime_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "GreenStoneBrickSlabCutting",
@@ -1843,7 +1843,7 @@
           "src/main/resources/data/create_better_building/recipes/green_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "CyanStoneBrickSlabCutting",
@@ -1856,7 +1856,7 @@
           "src/main/resources/data/create_better_building/recipes/cyan_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "LightBlueStoneBrickSlabCutting",
@@ -1869,7 +1869,7 @@
           "src/main/resources/data/create_better_building/recipes/light_blue_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "BlueStoneBrickSlabCutting",
@@ -1882,7 +1882,7 @@
           "src/main/resources/data/create_better_building/recipes/blue_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "PurpleStoneBrickSlabCutting",
@@ -1895,7 +1895,7 @@
           "src/main/resources/data/create_better_building/recipes/purple_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "MagentaStoneBrickSlabCutting",
@@ -1908,7 +1908,7 @@
           "src/main/resources/data/create_better_building/recipes/magenta_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "PinkStoneBrickSlabCutting",
@@ -1921,7 +1921,7 @@
           "src/main/resources/data/create_better_building/recipes/pink_stone_brick_slab_cutting.json"
         ]
       },
-      "path": "~/Bricks/Standard/Slabs"
+      "path": "~/Stone Bricks/Standard/Slabs"
     },
     {
       "name": "LightGrayStoneBrickStairs",
@@ -1940,7 +1940,7 @@
           "src/main/resources/assets/create_better_building/blockstates/light_gray_stone_brick_stairs.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "GrayStoneBrickStairs",
@@ -1959,7 +1959,7 @@
           "src/main/java/de/floatdev/createbetterbuilding/block/GrayStoneBrickStairsBlock.java"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "BlackStoneBrickStairs",
@@ -1978,7 +1978,7 @@
           "src/main/resources/assets/create_better_building/models/block/black_stone_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "BrownStoneBrickStairs",
@@ -1997,7 +1997,7 @@
           "src/main/resources/assets/create_better_building/blockstates/brown_stone_brick_stairs.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "RedStoneBrickStairs",
@@ -2016,7 +2016,7 @@
           "src/main/resources/assets/create_better_building/blockstates/red_stone_brick_stairs.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "OrangeStoneBrickStairs",
@@ -2035,7 +2035,7 @@
           "src/main/resources/assets/create_better_building/models/block/orange_stone_brick_stairs.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "YellowStoneBrickStairs",
@@ -2054,7 +2054,7 @@
           "src/main/resources/assets/create_better_building/models/block/yellow_stone_brick_stairs.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "LimeStoneBrickStairs",
@@ -2073,7 +2073,7 @@
           "src/main/resources/data/create_better_building/loot_tables/blocks/lime_stone_brick_stairs.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "GreenStoneBrickStairs",
@@ -2092,7 +2092,7 @@
           "src/main/resources/assets/create_better_building/models/block/green_stone_brick_stairs_outer.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "CyanStoneBrickStairs",
@@ -2111,7 +2111,7 @@
           "src/main/resources/assets/create_better_building/models/block/cyan_stone_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "LightBlueStoneBrickStairs",
@@ -2130,7 +2130,7 @@
           "src/main/resources/assets/create_better_building/blockstates/light_blue_stone_brick_stairs.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "BlueStoneBrickStairs",
@@ -2149,7 +2149,7 @@
           "src/main/resources/assets/create_better_building/blockstates/blue_stone_brick_stairs.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "PurpleStoneBrickStairs",
@@ -2168,7 +2168,7 @@
           "src/main/resources/assets/create_better_building/models/block/purple_stone_brick_stairs.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "MagentaStoneBrickStairs",
@@ -2187,7 +2187,7 @@
           "src/main/resources/assets/create_better_building/models/block/magenta_stone_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     },
     {
       "name": "PinkStoneBrickStairs",
@@ -2206,7 +2206,7 @@
           "src/main/resources/assets/create_better_building/models/block/pink_stone_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Bricks/Standard/Stairs"
+      "path": "~/Stone Bricks/Standard/Stairs"
     }
   ],
   "variable_elements": [],
@@ -2351,9 +2351,9 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "advancements.safety_first_advancement.descr": "Equip your factory with handrails",
-      "block.create_better_building.mangrove_barrel": "Mangrove Barrel",
       "block.create_better_building.yellow_stone_brick_slab": "Yellow Stone Brick Slab",
+      "block.create_better_building.mangrove_barrel": "Mangrove Barrel",
+      "advancements.safety_first_advancement.descr": "Equip your factory with handrails",
       "block.create_better_building.mossy_green_stone_brick": "Mossy Green Stone Brick",
       "block.create_better_building.magenta": "Magenta Stone Brick Slab",
       "block.create_better_building.gray_stone_brick_stairs": "Gray Stone Brick Stairs",
@@ -2458,7 +2458,7 @@
         "children": []
       },
       {
-        "name": "Bricks",
+        "name": "Stone Bricks",
         "children": [
           {
             "name": "Standard",

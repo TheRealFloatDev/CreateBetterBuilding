@@ -13,9 +13,9 @@
   "icon": "assets/create_better_building/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": ["de.floatdev.betterbuilding.fabric.ExampleModFabric"],
+    "main": ["de.floatdev.betterbuilding.fabric.BetterBuildingModFabric"],
     "client": [
-      "de.floatdev.betterbuilding.fabric.client.ExampleModFabricClient"
+      "de.floatdev.betterbuilding.fabric.client.BetterBuildingModFabricClient"
     ]
   },
   "mixins": ["create_better_building.mixins.json"],

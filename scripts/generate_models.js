@@ -22,7 +22,7 @@ const EXECUTION_PATH = process.cwd();
 
 // === CONFIGURABLE SETTINGS ===
 const MOD_ID = "create_better_building";  // Replace with your mod ID
-const BLOCK_ID = "brick";  // Base block name (e.g., "brick" -> "light_blue_brick")
+const BLOCK_ID = "stone_brick";  // Base block name (e.g., "brick" -> "light_blue_brick")
 const RESOURCE_PATH = path.join(EXECUTION_PATH, "common", "src", "main", "resources", "assets", MOD_ID);
 
 // === COLOR LIST ===
@@ -142,7 +142,43 @@ colors.forEach(color => {
             "facing=east,half=top,shape=straight": { model: `${MOD_ID}:${blockName}_stairs`, x: 180 },
             "facing=west,half=top,shape=straight": { model: `${MOD_ID}:${blockName}_stairs`, x: 180, y: 180 },
             "facing=south,half=top,shape=straight": { model: `${MOD_ID}:${blockName}_stairs`, x: 180, y: 90 },
-            "facing=north,half=top,shape=straight": { model: `${MOD_ID}:${blockName}_stairs`, x: 180, y: 270 }
+            "facing=north,half=top,shape=straight": { model: `${MOD_ID}:${blockName}_stairs`, x: 180, y: 270 },
+
+            "facing=east,half=bottom,shape=inner_right": { model: `${MOD_ID}:${blockName}_stairs_inner` },
+            "facing=west,half=bottom,shape=inner_right": { model: `${MOD_ID}:${blockName}_stairs_inner`, y: 180 },
+            "facing=south,half=bottom,shape=inner_right": { model: `${MOD_ID}:${blockName}_stairs_inner`, y: 90 },
+            "facing=north,half=bottom,shape=inner_right": { model: `${MOD_ID}:${blockName}_stairs_inner`, y: 270 },
+            "facing=east,half=top,shape=inner_right": { model: `${MOD_ID}:${blockName}_stairs_inner`, x: 180 },
+            "facing=west,half=top,shape=inner_right": { model: `${MOD_ID}:${blockName}_stairs_inner`, x: 180, y: 180 },
+            "facing=south,half=top,shape=inner_right": { model: `${MOD_ID}:${blockName}_stairs_inner`, x: 180, y: 90 },
+            "facing=north,half=top,shape=inner_right": { model: `${MOD_ID}:${blockName}_stairs_inner`, x: 180, y: 270 },
+
+            "facing=east,half=bottom,shape=outer_right": { model: `${MOD_ID}:${blockName}_stairs_outer` },
+            "facing=west,half=bottom,shape=outer_right": { model: `${MOD_ID}:${blockName}_stairs_outer`, y: 180 },
+            "facing=south,half=bottom,shape=outer_right": { model: `${MOD_ID}:${blockName}_stairs_outer`, y: 90 },
+            "facing=north,half=bottom,shape=outer_right": { model: `${MOD_ID}:${blockName}_stairs_outer`, y: 270 },
+            "facing=east,half=top,shape=outer_right": { model: `${MOD_ID}:${blockName}_stairs_outer`, x: 180 },
+            "facing=west,half=top,shape=outer_right": { model: `${MOD_ID}:${blockName}_stairs_outer`, x: 180, y: 180 },
+            "facing=south,half=top,shape=outer_right": { model: `${MOD_ID}:${blockName}_stairs_outer`, x: 180, y: 90 },
+            "facing=north,half=top,shape=outer_right": { model: `${MOD_ID}:${blockName}_stairs_outer`, x: 180, y: 270 },
+
+            "facing=east,half=bottom,shape=inner_left": { model: `${MOD_ID}:${blockName}_stairs_inner` },
+            "facing=west,half=bottom,shape=inner_left": { model: `${MOD_ID}:${blockName}_stairs_inner`, y: 180 },
+            "facing=south,half=bottom,shape=inner_left": { model: `${MOD_ID}:${blockName}_stairs_inner`, y: 90 },
+            "facing=north,half=bottom,shape=inner_left": { model: `${MOD_ID}:${blockName}_stairs_inner`, y: 270 },
+            "facing=east,half=top,shape=inner_left": { model: `${MOD_ID}:${blockName}_stairs_inner`, x: 180 },
+            "facing=west,half=top,shape=inner_left": { model: `${MOD_ID}:${blockName}_stairs_inner`, x: 180, y: 180 },
+            "facing=south,half=top,shape=inner_left": { model: `${MOD_ID}:${blockName}_stairs_inner`, x: 180, y: 90 },
+            "facing=north,half=top,shape=inner_left": { model: `${MOD_ID}:${blockName}_stairs_inner`, x: 180, y: 270 },
+
+            "facing=east,half=bottom,shape=outer_left": { model: `${MOD_ID}:${blockName}_stairs_outer` },
+            "facing=west,half=bottom,shape=outer_left": { model: `${MOD_ID}:${blockName}_stairs_outer`, y: 180 },
+            "facing=south,half=bottom,shape=outer_left": { model: `${MOD_ID}:${blockName}_stairs_outer`, y: 90 },
+            "facing=north,half=bottom,shape=outer_left": { model: `${MOD_ID}:${blockName}_stairs_outer`, y: 270 },
+            "facing=east,half=top,shape=outer_left": { model: `${MOD_ID}:${blockName}_stairs_outer`, x: 180 },
+            "facing=west,half=top,shape=outer_left": { model: `${MOD_ID}:${blockName}_stairs_outer`, x: 180, y: 180 },
+            "facing=south,half=top,shape=outer_left": { model: `${MOD_ID}:${blockName}_stairs_outer`, x: 180, y: 90 },
+            "facing=north,half=top,shape=outer_left": { model: `${MOD_ID}:${blockName}_stairs_outer`, x: 180, y: 270 }
         }
     });
 

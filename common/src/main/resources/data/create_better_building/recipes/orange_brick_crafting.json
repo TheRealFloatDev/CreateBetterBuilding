@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "ada",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bricks"
+    },
+    "b": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "result": {
+    "item": "create_better_building:orange_brick",
+    "count": 8
+  }
+}

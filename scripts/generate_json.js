@@ -22,7 +22,16 @@ const EXECUTION_PATH = process.cwd();
 
 // === CONFIGURABLE SETTINGS ===
 const MOD_ID = "create_better_building";  // Replace with your mod ID
-const BLOCK_IDS = ["brick", "stone_brick"];  // Base block name (e.g., "brick" -> "light_blue_brick")
+const BLOCKS = [
+    {
+        blockId: "brick",
+        craftingBase: "minecraft:bricks"
+    },
+    {
+        blockId: "stone_brick",
+        craftingBase: "minecraft:stone_bricks"
+    },
+];  // Base block name (e.g., "brick" -> "light_blue_brick")
 const RESOURCE_PATH = path.join(EXECUTION_PATH, "common", "src", "main", "resources", "assets", MOD_ID);
 const DATA_PATH = path.join(EXECUTION_PATH, "common", "src", "main", "resources", "data");
 
@@ -59,8 +68,11 @@ function writeFile(directory, filename, data) {
 }
 
 // === GENERATE JSON FILES ===
-BLOCK_IDS.forEach(BLOCK_ID => {
+BLOCKS.forEach(block => {
     colors.forEach(color => {
+        const BLOCK_ID = block.blockId;
+        const CRAFTING_BASE = block.craftingBase;
+
         const blockName = `${color}_${BLOCK_ID}`;
         const texture = `${MOD_ID}:block/${blockName}`;
 
@@ -215,8 +227,8 @@ BLOCK_IDS.forEach(BLOCK_ID => {
             type: "minecraft:crafting_shaped",
             pattern: ["aaa", "ada", "aaa"],
             key: {
-                a: { item: `minecraft:${color}_dye` },
-                d: { item: `minecraft:${BLOCK_ID}` }
+                a: { item: CRAFTING_BASE },
+                b: { item: `minecraft:${color}_dye` }
             },
             result: { item: `${MOD_ID}:${blockName}`, count: 8 }
         });
@@ -247,6 +259,8 @@ BLOCK_IDS.forEach(BLOCK_ID => {
 });
 
 // === GENERATE TAGS ===
+
+const BLOCK_IDS = BLOCKS.map(block => block.blockId);
 
 // Walls
 writeFile(BLOCK_TAGS_PATH, "walls.json", {

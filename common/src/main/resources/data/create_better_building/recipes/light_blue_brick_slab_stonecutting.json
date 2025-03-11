@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create_better_building:light_blue_brick"
+  },
+  "result": "create_better_building:light_blue_brick_slab",
+  "count": 2
+}

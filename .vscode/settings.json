@@ -1,5 +1,6 @@
 {
     "java.compile.nullAnalysis.mode": "automatic",
     "copyrighter.author": "Alexander Neitzel (TheRealFloatDev)",
-    "copyrighter.license": "GPL3"
+    "copyrighter.license": "GPL3",
+    "java.configuration.updateBuildConfiguration": "automatic"
 }

@@ -18,7 +18,6 @@
 package de.floatdev.betterbuilding;
 
 import dev.architectury.registry.CreativeTabRegistry;
-import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -28,7 +27,7 @@ public final class BetterBuildingMod {
     public static final String MOD_ID = "create_better_building";
 
     public static final CreativeModeTab MY_TAB = CreativeTabRegistry.create(
-            new ResourceLocation(MOD_ID, Component.translatable(MOD_ID + ".tab").getString()), // Tab ID
+            new ResourceLocation(MOD_ID, "tab"), // Tab ID
             () -> new ItemStack(Items.STONE) // Icon
     );
 

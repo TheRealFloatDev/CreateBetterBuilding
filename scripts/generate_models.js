@@ -22,7 +22,7 @@ const EXECUTION_PATH = process.cwd();
 
 // === CONFIGURABLE SETTINGS ===
 const MOD_ID = "create_better_building";  // Replace with your mod ID
-const BLOCK_ID = "brick";  // Base block name (e.g., "brick" -> "light_blue_brick")
+const BLOCK_ID = "stone_brick";  // Base block name (e.g., "brick" -> "light_blue_brick")
 const RESOURCE_PATH = path.join(EXECUTION_PATH, "common", "src", "main", "resources", "assets", MOD_ID);
 
 // === COLOR LIST ===

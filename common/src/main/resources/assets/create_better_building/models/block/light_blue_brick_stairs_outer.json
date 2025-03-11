@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "create_better_building:block/light_blue_brick",
+    "top": "create_better_building:block/light_blue_brick",
+    "side": "create_better_building:block/light_blue_brick"
+  }
+}

@@ -24,6 +24,9 @@ import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SlabBlock;
+import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.WallBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.core.Registry;
@@ -49,20 +52,22 @@ public class ModBlocks {
     static {
         for (DyeColor color : DyeColor.values()) {
             String name = color.getName() + "_brick"; // e.g., "light_blue_brick"
-            COLORED_BRICKS.put(color, BLOCKS.register(name,
-                    () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f))));
+            RegistrySupplier<Block> brickBlock = BLOCKS.register(name,
+                    () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f)));
+            COLORED_BRICKS.put(color, brickBlock);
 
             String slabName = color.getName() + "_brick_slab"; // e.g., "light_blue_brick_slab"
             COLORED_BRICKS_SLABS.put(color, BLOCKS.register(slabName,
-                    () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f))));
+                    () -> new SlabBlock(BlockBehaviour.Properties.copy(brickBlock.get()))));
 
             String stairsName = color.getName() + "_brick_stairs"; // e.g., "light_blue_brick_stairs"
             COLORED_BRICKS_STAIRS.put(color, BLOCKS.register(stairsName,
-                    () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f))));
+                    () -> new StairBlock(brickBlock.get().defaultBlockState(),
+                            BlockBehaviour.Properties.copy(brickBlock.get()))));
 
             String wallsName = color.getName() + "_brick_wall"; // e.g., "light_blue_brick_wall"
             COLORED_BRICKS_WALLS.put(color, BLOCKS.register(wallsName,
-                    () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f))));
+                    () -> new WallBlock(BlockBehaviour.Properties.copy(brickBlock.get()))));
         }
     }
 
@@ -74,20 +79,22 @@ public class ModBlocks {
     static {
         for (DyeColor color : DyeColor.values()) {
             String name = color.getName() + "_stone_brick"; // e.g., "light_blue_stone_brick"
-            COLORED_STONE_BRICKS.put(color, BLOCKS.register(name,
-                    () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f))));
+            RegistrySupplier<Block> stoneBrickBlock = BLOCKS.register(name,
+                    () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f)));
+            COLORED_STONE_BRICKS.put(color, stoneBrickBlock);
 
             String slabName = color.getName() + "_stone_brick_slab"; // e.g., "light_blue_stone_brick_slab"
             COLORED_STONE_BRICKS_SLABS.put(color, BLOCKS.register(slabName,
-                    () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f))));
+                    () -> new SlabBlock(BlockBehaviour.Properties.copy(stoneBrickBlock.get()))));
 
             String stairsName = color.getName() + "_stone_brick_stairs"; // e.g., "light_blue_stone_brick_stairs"
             COLORED_STONE_BRICKS_STAIRS.put(color, BLOCKS.register(stairsName,
-                    () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f))));
+                    () -> new StairBlock(stoneBrickBlock.get().defaultBlockState(),
+                            BlockBehaviour.Properties.copy(stoneBrickBlock.get()))));
 
             String wallsName = color.getName() + "_stone_brick_wall"; // e.g., "light_blue_stone_brick_wall"
             COLORED_STONE_BRICKS_WALLS.put(color, BLOCKS.register(wallsName,
-                    () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f))));
+                    () -> new WallBlock(BlockBehaviour.Properties.copy(stoneBrickBlock.get()))));
         }
     }
 

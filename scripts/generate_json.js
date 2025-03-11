@@ -33,6 +33,9 @@ const colors = [
     "purple", "blue", "brown", "green", "red", "black"
 ];
 
+// === CONSTANTS ===
+const constants = require("./constants");
+
 // === PATH SETUP ===
 const BLOCK_PATH = path.join(RESOURCE_PATH, "models", "block");
 const ITEM_PATH = path.join(RESOURCE_PATH, "models", "item");
@@ -210,19 +213,19 @@ BLOCK_IDS.forEach(BLOCK_ID => {
 // Walls
 writeFile(BLOCK_TAGS_PATH, "walls.json", {
     replace: false,
-    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => `${MOD_ID}:${color}_${BLOCK_ID}_wall`)).flat()
+    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => `${MOD_ID}:${color}_${BLOCK_ID}_wall`)).flat().concat(constants.WALLS)
 });
 
 // Slabs
 writeFile(BLOCK_TAGS_PATH, "slabs.json", {
     replace: false,
-    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => `${MOD_ID}:${color}_${BLOCK_ID}_slab`)).flat()
+    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => `${MOD_ID}:${color}_${BLOCK_ID}_slab`)).flat().concat(constants.SLABS)
 });
 
 // Stairs
 writeFile(BLOCK_TAGS_PATH, "stairs.json", {
     replace: false,
-    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => `${MOD_ID}:${color}_${BLOCK_ID}_stairs`)).flat()
+    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => `${MOD_ID}:${color}_${BLOCK_ID}_stairs`)).flat().concat(constants.STAIRS)
 });
 
 // Mineable pickaxe
@@ -233,7 +236,7 @@ writeFile(MINEABLE_TAGS_PATH, "pickaxe.json", {
         `${MOD_ID}:${color}_${BLOCK_ID}_slab`,
         `${MOD_ID}:${color}_${BLOCK_ID}_stairs`,
         `${MOD_ID}:${color}_${BLOCK_ID}_wall`
-    ]).flat()).flat()
+    ]).flat()).flat().concat(constants.PICKAXE_MINEABLES)
 });
 
 console.log("\n🎉 All JSON models generated successfully and placed in assets!");

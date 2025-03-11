@@ -27,7 +27,7 @@ public final class BetterBuildingMod {
     public static final String MOD_ID = "create_better_building";
 
     public static final CreativeModeTab MY_TAB = CreativeTabRegistry.create(
-            new ResourceLocation(MOD_ID, "tab"), // Tab ID
+            new ResourceLocation(MOD_ID, "tab_creative_tab"), // Tab ID
             () -> new ItemStack(Items.STONE) // Icon
     );
 

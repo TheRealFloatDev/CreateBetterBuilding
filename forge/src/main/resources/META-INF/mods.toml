@@ -1,17 +1,18 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/TheRealFloatDev/CreateBetterBuilding/issues"
+license="GNU Lesser General Public License version 3 (LGPLv3)"
 
 [[mods]]
 modId = "create_better_building"
 version = "${version}"
 displayName = "Create: Better Building"
-authors = "Me!"
+displayURL = "https://modrinth.com/mod/create-better-building/"
+authors = "FloatDev"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+This mod adds a variety of new (mainly decorative) building blocks to the game, which are themed around Create and factories.
 '''
-#logoFile = ""
+logoFile = "logo.png"
 
 [[dependencies.create_better_building]]
 modId = "forge"
@@ -33,3 +34,10 @@ mandatory = true
 versionRange = "[6.6.92,)"
 ordering = "AFTER"
 side = "BOTH"
+
+[[dependencies.create_better_building]]
+modId="create"
+mandatory=true
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"

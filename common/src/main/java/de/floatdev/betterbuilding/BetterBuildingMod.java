@@ -24,6 +24,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 
 public final class BetterBuildingMod {
+
     public static final String MOD_ID = "create_better_building";
 
     public static final CreativeModeTab MY_TAB = CreativeTabRegistry.create(
@@ -33,5 +34,6 @@ public final class BetterBuildingMod {
 
     public static void init() {
         // Write common init code here.
+        ModBlocks.register();
     }
 }

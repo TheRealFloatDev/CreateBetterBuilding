@@ -3,34 +3,29 @@
   "id": "create_better_building",
   "version": "${version}",
   "name": "Create: Better Building",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
+  "description": "This mod adds a variety of new (mainly decorative) building blocks to the game, which are themed around Create and factories.",
+  "authors": ["FloatDev"],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/mod/create-better-building/",
+    "sources": "https://github.com/TheRealFloatDev/CreateBetterBuilding"
   },
-  "license": "CC0-1.0",
+  "license": "GNU Lesser General Public License version 3 (LGPLv3)",
   "icon": "assets/create_better_building/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "de.floatdev.betterbuilding.fabric.ExampleModFabric"
-    ],
+    "main": ["de.floatdev.betterbuilding.fabric.ExampleModFabric"],
     "client": [
       "de.floatdev.betterbuilding.fabric.client.ExampleModFabricClient"
     ]
   },
-  "mixins": [
-    "create_better_building.mixins.json"
-  ],
+  "mixins": ["create_better_building.mixins.json"],
   "depends": {
     "fabricloader": ">=0.16.10",
     "minecraft": "~1.19.2",
     "java": ">=17",
     "architectury": ">=6.6.92",
-    "fabric-api": "*"
+    "fabric-api": "*",
+    "create": "*"
   },
   "suggests": {
     "another-mod": "*"

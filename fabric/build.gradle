@@ -2,6 +2,13 @@ plugins {
     id 'com.github.johnrengelman.shadow'
 }
 
+repositories {
+    // ...
+    maven {
+        url = "https://api.modrinth.com/maven"
+    }
+}
+
 architectury {
     platformSetupLoomIde()
     fabric()

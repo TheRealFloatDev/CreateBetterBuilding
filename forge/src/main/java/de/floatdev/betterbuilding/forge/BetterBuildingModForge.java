@@ -25,6 +25,7 @@ import de.floatdev.betterbuilding.BetterBuildingMod;
 
 @Mod(BetterBuildingMod.MOD_ID)
 public final class BetterBuildingModForge {
+    @SuppressWarnings("removal")
     public BetterBuildingModForge() {
         // Submit our event bus to let Architectury API register our content on the
         // right time.

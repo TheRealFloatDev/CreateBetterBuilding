@@ -225,7 +225,7 @@ BLOCKS.forEach(block => {
         // Crafting Recipes
         writeFile(RECIPE_PATH, `${blockName}_crafting.json`, {
             type: "minecraft:crafting_shaped",
-            pattern: ["aaa", "ada", "aaa"],
+            pattern: ["aaa", "aba", "aaa"],
             key: {
                 a: { item: CRAFTING_BASE },
                 b: { item: `minecraft:${color}_dye` }

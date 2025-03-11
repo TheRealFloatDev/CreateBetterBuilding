@@ -24,6 +24,7 @@ const EXECUTION_PATH = process.cwd();
 const MOD_ID = "create_better_building";  // Replace with your mod ID
 const BLOCK_IDS = ["brick", "stone_brick"];  // Base block name (e.g., "brick" -> "light_blue_brick")
 const RESOURCE_PATH = path.join(EXECUTION_PATH, "common", "src", "main", "resources", "assets", MOD_ID);
+const DATA_PATH = path.join(EXECUTION_PATH, "common", "src", "main", "resources", "data");
 
 // === COLOR LIST ===
 const colors = [
@@ -37,8 +38,11 @@ const BLOCK_PATH = path.join(RESOURCE_PATH, "models", "block");
 const ITEM_PATH = path.join(RESOURCE_PATH, "models", "item");
 const BLOCKSTATE_PATH = path.join(RESOURCE_PATH, "blockstates");
 
+const BLOCK_TAGS_PATH = path.join(DATA_PATH, "minecraft", "tags", "blocks");
+const MINEABLE_TAGS_PATH = path.join(BLOCK_TAGS_PATH, "mineable");
+
 // Ensure directories exist
-[BLOCK_PATH, ITEM_PATH, BLOCKSTATE_PATH].forEach(dir => {
+[BLOCK_PATH, ITEM_PATH, BLOCKSTATE_PATH, BLOCK_TAGS_PATH, MINEABLE_TAGS_PATH].forEach(dir => {
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 });
 
@@ -199,6 +203,37 @@ BLOCK_IDS.forEach(BLOCK_ID => {
 
 
     });
+});
+
+// === GENERATE TAGS ===
+
+// Walls
+writeFile(BLOCK_TAGS_PATH, "walls.json", {
+    replace: false,
+    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => `${MOD_ID}:${color}_${BLOCK_ID}_wall`)).flat()
+});
+
+// Slabs
+writeFile(BLOCK_TAGS_PATH, "slabs.json", {
+    replace: false,
+    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => `${MOD_ID}:${color}_${BLOCK_ID}_slab`)).flat()
+});
+
+// Stairs
+writeFile(BLOCK_TAGS_PATH, "stairs.json", {
+    replace: false,
+    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => `${MOD_ID}:${color}_${BLOCK_ID}_stairs`)).flat()
+});
+
+// Mineable pickaxe
+writeFile(MINEABLE_TAGS_PATH, "pickaxe.json", {
+    replace: false,
+    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => [
+        `${MOD_ID}:${color}_${BLOCK_ID}`,
+        `${MOD_ID}:${color}_${BLOCK_ID}_slab`,
+        `${MOD_ID}:${color}_${BLOCK_ID}_stairs`,
+        `${MOD_ID}:${color}_${BLOCK_ID}_wall`
+    ]).flat()).flat()
 });
 
 console.log("\n🎉 All JSON models generated successfully and placed in assets!");

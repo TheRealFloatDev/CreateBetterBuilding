@@ -44,8 +44,10 @@ const BLOCKSTATE_PATH = path.join(RESOURCE_PATH, "blockstates");
 const BLOCK_TAGS_PATH = path.join(DATA_PATH, "minecraft", "tags", "blocks");
 const MINEABLE_TAGS_PATH = path.join(BLOCK_TAGS_PATH, "mineable");
 
+const RECIPE_PATH = path.join(DATA_PATH, MOD_ID, "recipes");
+
 // Ensure directories exist
-[BLOCK_PATH, ITEM_PATH, BLOCKSTATE_PATH, BLOCK_TAGS_PATH, MINEABLE_TAGS_PATH].forEach(dir => {
+[BLOCK_PATH, ITEM_PATH, BLOCKSTATE_PATH, BLOCK_TAGS_PATH, MINEABLE_TAGS_PATH, RECIPE_PATH].forEach(dir => {
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 });
 
@@ -208,6 +210,38 @@ BLOCK_IDS.forEach(BLOCK_ID => {
             ]
         });
 
+        // Crafting Recipes
+        writeFile(RECIPE_PATH, `${blockName}.json`, {
+            type: "minecraft:crafting_shaped",
+            pattern: ["aaa", "ada", "aaa"],
+            key: {
+                a: { item: `minecraft:${color}_dye` },
+                d: { item: `minecraft:${BLOCK_ID}` }
+            },
+            result: { item: `${MOD_ID}:${blockName}`, count: 8 }
+        });
+
+        // Stone Cutter Recipes
+        writeFile(RECIPE_PATH, `${blockName}_slab.json`, {
+            type: "minecraft:stonecutting",
+            ingredient: { item: `${MOD_ID}:${blockName}` },
+            result: `${MOD_ID}:${blockName}_slab`,
+            count: 2
+        });
+
+        writeFile(RECIPE_PATH, `${blockName}_stairs.json`, {
+            type: "minecraft:stonecutting",
+            ingredient: { item: `${MOD_ID}:${blockName}` },
+            result: `${MOD_ID}:${blockName}_stairs`,
+            count: 1
+        });
+
+        writeFile(RECIPE_PATH, `${blockName}_wall.json`, {
+            type: "minecraft:stonecutting",
+            ingredient: { item: `${MOD_ID}:${blockName}` },
+            result: `${MOD_ID}:${blockName}_wall`,
+            count: 1
+        });
 
     });
 });

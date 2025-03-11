@@ -45,6 +45,7 @@ public class ModBlocks {
     public static final Map<DyeColor, RegistrySupplier<Block>> COLORED_BRICKS = new HashMap<>();
     public static final Map<DyeColor, RegistrySupplier<Block>> COLORED_BRICKS_SLABS = new HashMap<>();
     public static final Map<DyeColor, RegistrySupplier<Block>> COLORED_BRICKS_STAIRS = new HashMap<>();
+    public static final Map<DyeColor, RegistrySupplier<Block>> COLORED_BRICKS_WALLS = new HashMap<>();
     static {
         for (DyeColor color : DyeColor.values()) {
             String name = color.getName() + "_brick"; // e.g., "light_blue_brick"
@@ -58,6 +59,10 @@ public class ModBlocks {
             String stairsName = color.getName() + "_brick_stairs"; // e.g., "light_blue_brick_stairs"
             COLORED_BRICKS_STAIRS.put(color, BLOCKS.register(stairsName,
                     () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f))));
+
+            String wallsName = color.getName() + "_brick_wall"; // e.g., "light_blue_brick_wall"
+            COLORED_BRICKS_WALLS.put(color, BLOCKS.register(wallsName,
+                    () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f))));
         }
     }
 
@@ -65,6 +70,7 @@ public class ModBlocks {
     public static final Map<DyeColor, RegistrySupplier<Block>> COLORED_STONE_BRICKS = new HashMap<>();
     public static final Map<DyeColor, RegistrySupplier<Block>> COLORED_STONE_BRICKS_SLABS = new HashMap<>();
     public static final Map<DyeColor, RegistrySupplier<Block>> COLORED_STONE_BRICKS_STAIRS = new HashMap<>();
+    public static final Map<DyeColor, RegistrySupplier<Block>> COLORED_STONE_BRICKS_WALLS = new HashMap<>();
     static {
         for (DyeColor color : DyeColor.values()) {
             String name = color.getName() + "_stone_brick"; // e.g., "light_blue_stone_brick"
@@ -77,6 +83,10 @@ public class ModBlocks {
 
             String stairsName = color.getName() + "_stone_brick_stairs"; // e.g., "light_blue_stone_brick_stairs"
             COLORED_STONE_BRICKS_STAIRS.put(color, BLOCKS.register(stairsName,
+                    () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f))));
+
+            String wallsName = color.getName() + "_stone_brick_wall"; // e.g., "light_blue_stone_brick_wall"
+            COLORED_STONE_BRICKS_WALLS.put(color, BLOCKS.register(wallsName,
                     () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0f))));
         }
     }

@@ -94,8 +94,8 @@ colors.forEach(color => {
         textures: { wall: texture }
     });
 
-    writeFile(BLOCK_PATH, `${blockName}_wall_inventory.json`, {
-        parent: "minecraft:block/template_wall_inventory",
+    writeFile(BLOCK_PATH, `${blockName}_wall_side_tall.json`, {
+        parent: "minecraft:block/template_wall_side_tall",
         textures: { wall: texture }
     });
 
@@ -113,7 +113,7 @@ colors.forEach(color => {
     });
 
     writeFile(ITEM_PATH, `${blockName}_wall.json`, {
-        parent: `${MOD_ID}:block/${blockName}_wall_inventory`
+        parent: `${MOD_ID}:block/${blockName}_wall_post`
     });
 });
 

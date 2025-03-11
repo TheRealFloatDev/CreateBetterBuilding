@@ -211,7 +211,7 @@ BLOCK_IDS.forEach(BLOCK_ID => {
         });
 
         // Crafting Recipes
-        writeFile(RECIPE_PATH, `${blockName}.json`, {
+        writeFile(RECIPE_PATH, `${blockName}_crafting.json`, {
             type: "minecraft:crafting_shaped",
             pattern: ["aaa", "ada", "aaa"],
             key: {
@@ -222,21 +222,21 @@ BLOCK_IDS.forEach(BLOCK_ID => {
         });
 
         // Stone Cutter Recipes
-        writeFile(RECIPE_PATH, `${blockName}_slab.json`, {
+        writeFile(RECIPE_PATH, `${blockName}_slab_stonecutting.json`, {
             type: "minecraft:stonecutting",
             ingredient: { item: `${MOD_ID}:${blockName}` },
             result: `${MOD_ID}:${blockName}_slab`,
             count: 2
         });
 
-        writeFile(RECIPE_PATH, `${blockName}_stairs.json`, {
+        writeFile(RECIPE_PATH, `${blockName}_stairs_stonecutting.json`, {
             type: "minecraft:stonecutting",
             ingredient: { item: `${MOD_ID}:${blockName}` },
             result: `${MOD_ID}:${blockName}_stairs`,
             count: 1
         });
 
-        writeFile(RECIPE_PATH, `${blockName}_wall.json`, {
+        writeFile(RECIPE_PATH, `${blockName}_wall_stonecutting.json`, {
             type: "minecraft:stonecutting",
             ingredient: { item: `${MOD_ID}:${blockName}` },
             result: `${MOD_ID}:${blockName}_wall`,

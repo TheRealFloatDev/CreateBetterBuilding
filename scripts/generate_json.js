@@ -192,15 +192,19 @@ BLOCK_IDS.forEach(BLOCK_ID => {
 
         writeFile(BLOCKSTATE_PATH, `${blockName}_wall.json`, {
             multipart: [
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_post` }, when: { "up": "true" } },
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side` }, when: { "north": "low" } },
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side` }, when: { "south": "low" } },
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side` }, when: { "east": "low" } },
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side` }, when: { "west": "low" } },
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall` }, when: { "north": "tall" } },
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall` }, when: { "south": "tall" } },
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall` }, when: { "east": "tall" } },
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall` }, when: { "west": "tall" } }
+                { apply: { model: `${MOD_ID}:block/${blockName}_wall_post` }, when: { up: "true" } },
+
+                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side`, y: 90, uvlock: true }, when: { east: "low" } },
+                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall`, y: 90, uvlock: true }, when: { east: "tall" } },
+
+                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side`, uvlock: true }, when: { north: "low" } },
+                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall`, uvlock: true }, when: { north: "tall" } },
+
+                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side`, y: 270, uvlock: true }, when: { west: "low" } },
+                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall`, y: 270, uvlock: true }, when: { west: "tall" } },
+
+                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side`, y: 180, uvlock: true }, when: { south: "low" } },
+                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall`, y: 180, uvlock: true }, when: { south: "tall" } }
             ]
         });
 

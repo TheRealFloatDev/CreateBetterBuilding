@@ -17,20 +17,9 @@
 
 package de.floatdev.betterbuilding;
 
-import dev.architectury.registry.CreativeTabRegistry;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
-
 public final class BetterBuildingMod {
 
     public static final String MOD_ID = "create_better_building";
-
-    public static final CreativeModeTab MY_TAB = CreativeTabRegistry.create(
-            new ResourceLocation(MOD_ID, "tab_creative_tab"), // Tab ID
-            () -> new ItemStack(Items.STONE) // Icon
-    );
 
     public static void init() {
         // Write common init code here.

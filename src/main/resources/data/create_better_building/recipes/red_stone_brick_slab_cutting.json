@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create_better_building:red_stone_brick"
-  },
-  "result": "create_better_building:red_stone_brick_slab"
-}

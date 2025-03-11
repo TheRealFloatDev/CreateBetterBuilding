@@ -10,23 +10,9 @@
     },
     {
       "apply": {
-        "model": "create_better_building:block/yellow_stone_brick_wall_side"
-      },
-      "when": {
-        "north": "low"
-      }
-    },
-    {
-      "apply": {
-        "model": "create_better_building:block/yellow_stone_brick_wall_side"
-      },
-      "when": {
-        "south": "low"
-      }
-    },
-    {
-      "apply": {
-        "model": "create_better_building:block/yellow_stone_brick_wall_side"
+        "model": "create_better_building:block/yellow_stone_brick_wall_side",
+        "y": 90,
+        "uvlock": true
       },
       "when": {
         "east": "low"
@@ -34,31 +20,9 @@
     },
     {
       "apply": {
-        "model": "create_better_building:block/yellow_stone_brick_wall_side"
-      },
-      "when": {
-        "west": "low"
-      }
-    },
-    {
-      "apply": {
-        "model": "create_better_building:block/yellow_stone_brick_wall_side_tall"
-      },
-      "when": {
-        "north": "tall"
-      }
-    },
-    {
-      "apply": {
-        "model": "create_better_building:block/yellow_stone_brick_wall_side_tall"
-      },
-      "when": {
-        "south": "tall"
-      }
-    },
-    {
-      "apply": {
-        "model": "create_better_building:block/yellow_stone_brick_wall_side_tall"
+        "model": "create_better_building:block/yellow_stone_brick_wall_side_tall",
+        "y": 90,
+        "uvlock": true
       },
       "when": {
         "east": "tall"
@@ -66,10 +30,60 @@
     },
     {
       "apply": {
-        "model": "create_better_building:block/yellow_stone_brick_wall_side_tall"
+        "model": "create_better_building:block/yellow_stone_brick_wall_side",
+        "uvlock": true
+      },
+      "when": {
+        "north": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_better_building:block/yellow_stone_brick_wall_side_tall",
+        "uvlock": true
+      },
+      "when": {
+        "north": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_better_building:block/yellow_stone_brick_wall_side",
+        "y": 270,
+        "uvlock": true
+      },
+      "when": {
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_better_building:block/yellow_stone_brick_wall_side_tall",
+        "y": 270,
+        "uvlock": true
       },
       "when": {
         "west": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_better_building:block/yellow_stone_brick_wall_side",
+        "y": 180,
+        "uvlock": true
+      },
+      "when": {
+        "south": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_better_building:block/yellow_stone_brick_wall_side_tall",
+        "y": 180,
+        "uvlock": true
+      },
+      "when": {
+        "south": "tall"
       }
     }
   ]

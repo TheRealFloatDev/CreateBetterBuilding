@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "create_better_building:yellow_stone_brick"
+      "model": "create_better_building:block/yellow_stone_brick"
     }
   }
 }

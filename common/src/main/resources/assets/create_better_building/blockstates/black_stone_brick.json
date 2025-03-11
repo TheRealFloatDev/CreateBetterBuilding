@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "create_better_building:black_stone_brick"
+      "model": "create_better_building:block/black_stone_brick"
     }
   }
 }

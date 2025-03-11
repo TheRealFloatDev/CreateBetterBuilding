@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "create_better_building:magenta_brick"
+      "model": "create_better_building:block/magenta_brick"
     }
   }
 }

@@ -22,7 +22,7 @@ const EXECUTION_PATH = process.cwd();
 
 // === CONFIGURABLE SETTINGS ===
 const MOD_ID = "create_better_building";  // Replace with your mod ID
-const BLOCK_ID = "stone_brick";  // Base block name (e.g., "brick" -> "light_blue_brick")
+const BLOCK_ID = "brick";  // Base block name (e.g., "brick" -> "light_blue_brick")
 const RESOURCE_PATH = path.join(EXECUTION_PATH, "common", "src", "main", "resources", "assets", MOD_ID);
 
 // === COLOR LIST ===
@@ -35,9 +35,10 @@ const colors = [
 // === PATH SETUP ===
 const BLOCK_PATH = path.join(RESOURCE_PATH, "models", "block");
 const ITEM_PATH = path.join(RESOURCE_PATH, "models", "item");
+const BLOCKSTATE_PATH = path.join(RESOURCE_PATH, "blockstates");
 
 // Ensure directories exist
-[BLOCK_PATH, ITEM_PATH].forEach(dir => {
+[BLOCK_PATH, ITEM_PATH, BLOCKSTATE_PATH].forEach(dir => {
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 });
 
@@ -116,6 +117,50 @@ colors.forEach(color => {
         parent: "minecraft:block/wall_inventory",
         textures: { wall: texture }
     });
+
+    // Blockstates
+    writeFile(BLOCKSTATE_PATH, `${blockName}.json`, {
+        variants: {
+            "": { model: `${MOD_ID}:${blockName}` }
+        }
+    });
+
+    writeFile(BLOCKSTATE_PATH, `${blockName}_slab.json`, {
+        variants: {
+            "type=bottom": { model: `${MOD_ID}:${blockName}_slab` },
+            "type=top": { model: `${MOD_ID}:${blockName}_slab_top` },
+            "type=double": { model: `${MOD_ID}:${blockName}` }
+        }
+    });
+
+    writeFile(BLOCKSTATE_PATH, `${blockName}_stairs.json`, {
+        variants: {
+            "facing=east,half=bottom,shape=straight": { model: `${MOD_ID}:${blockName}_stairs` },
+            "facing=west,half=bottom,shape=straight": { model: `${MOD_ID}:${blockName}_stairs`, y: 180 },
+            "facing=south,half=bottom,shape=straight": { model: `${MOD_ID}:${blockName}_stairs`, y: 90 },
+            "facing=north,half=bottom,shape=straight": { model: `${MOD_ID}:${blockName}_stairs`, y: 270 },
+            "facing=east,half=top,shape=straight": { model: `${MOD_ID}:${blockName}_stairs`, x: 180 },
+            "facing=west,half=top,shape=straight": { model: `${MOD_ID}:${blockName}_stairs`, x: 180, y: 180 },
+            "facing=south,half=top,shape=straight": { model: `${MOD_ID}:${blockName}_stairs`, x: 180, y: 90 },
+            "facing=north,half=top,shape=straight": { model: `${MOD_ID}:${blockName}_stairs`, x: 180, y: 270 }
+        }
+    });
+
+    writeFile(BLOCKSTATE_PATH, `${blockName}_wall.json`, {
+        multipart: [
+            { apply: { model: `${MOD_ID}:${blockName}_wall_post` }, when: { "up": "true" } },
+            { apply: { model: `${MOD_ID}:${blockName}_wall_side` }, when: { "north": "low" } },
+            { apply: { model: `${MOD_ID}:${blockName}_wall_side` }, when: { "south": "low" } },
+            { apply: { model: `${MOD_ID}:${blockName}_wall_side` }, when: { "east": "low" } },
+            { apply: { model: `${MOD_ID}:${blockName}_wall_side` }, when: { "west": "low" } },
+            { apply: { model: `${MOD_ID}:${blockName}_wall_side_tall` }, when: { "north": "tall" } },
+            { apply: { model: `${MOD_ID}:${blockName}_wall_side_tall` }, when: { "south": "tall" } },
+            { apply: { model: `${MOD_ID}:${blockName}_wall_side_tall` }, when: { "east": "tall" } },
+            { apply: { model: `${MOD_ID}:${blockName}_wall_side_tall` }, when: { "west": "tall" } }
+        ]
+    });
+
+
 });
 
 console.log("\n🎉 All JSON models generated successfully and placed in assets!");

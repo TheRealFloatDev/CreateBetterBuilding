@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_wall_inventory",
-  "textures": {
-    "wall": "create_better_building:block/yellow_brick"
-  }
-}

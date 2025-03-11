@@ -22,7 +22,7 @@ const EXECUTION_PATH = process.cwd();
 
 // === CONFIGURABLE SETTINGS ===
 const MOD_ID = "create_better_building";  // Replace with your mod ID
-const BLOCK_ID = "brick";  // Base block name (e.g., "brick" -> "light_blue_brick")
+const BLOCK_ID = "stone_brick";  // Base block name (e.g., "brick" -> "light_blue_brick")
 const RESOURCE_PATH = path.join(EXECUTION_PATH, "common", "src", "main", "resources", "assets", MOD_ID);
 
 // === COLOR LIST ===
@@ -113,7 +113,8 @@ colors.forEach(color => {
     });
 
     writeFile(ITEM_PATH, `${blockName}_wall.json`, {
-        parent: `${MOD_ID}:block/${blockName}_wall_post`
+        parent: "minecraft:block/wall_inventory",
+        textures: { wall: texture }
     });
 });
 

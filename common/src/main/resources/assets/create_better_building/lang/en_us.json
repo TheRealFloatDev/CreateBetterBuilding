@@ -79,5 +79,85 @@
   "block.create_better_building.pink_brick": "Pink Brick",
   "block.create_better_building.pink_brick_slab": "Pink Brick Slab",
   "block.create_better_building.pink_brick_stairs": "Pink Brick Stairs",
-  "block.create_better_building.pink_brick_wall": "Pink Brick Wall"
+  "block.create_better_building.pink_brick_wall": "Pink Brick Wall",
+
+  "block.create_better_building.white_stone_brick": "White Stone Brick",
+  "block.create_better_building.white_stone_brick_slab": "White Stone Brick Slab",
+  "block.create_better_building.white_stone_brick_stairs": "White Stone Brick Stairs",
+  "block.create_better_building.white_stone_brick_wall": "White Stone Brick Wall",
+
+  "block.create_better_building.light_gray_stone_brick": "Light Gray Stone Brick",
+  "block.create_better_building.light_gray_stone_brick_slab": "Light Gray Stone Brick Slab",
+  "block.create_better_building.light_gray_stone_brick_stairs": "Light Gray Stone Brick Stairs",
+  "block.create_better_building.light_gray_stone_brick_wall": "Light Gray Stone Brick Wall",
+
+  "block.create_better_building.gray_stone_brick": "Gray Stone Brick",
+  "block.create_better_building.gray_stone_brick_slab": "Gray Stone Brick Slab",
+  "block.create_better_building.gray_stone_brick_stairs": "Gray Stone Brick Stairs",
+  "block.create_better_building.gray_stone_brick_wall": "Gray Stone Brick Wall",
+
+  "block.create_better_building.black_stone_brick": "Black Stone Brick",
+  "block.create_better_building.black_stone_brick_slab": "Black Stone Brick Slab",
+  "block.create_better_building.black_stone_brick_stairs": "Black Stone Brick Stairs",
+  "block.create_better_building.black_stone_brick_wall": "Black Stone Brick Wall",
+
+  "block.create_better_building.brown_stone_brick": "Brown Stone Brick",
+  "block.create_better_building.brown_stone_brick_slab": "Brown Stone Brick Slab",
+  "block.create_better_building.brown_stone_brick_stairs": "Brown Stone Brick Stairs",
+  "block.create_better_building.brown_stone_brick_wall": "Brown Stone Brick Wall",
+
+  "block.create_better_building.red_stone_brick": "Red Stone Brick",
+  "block.create_better_building.red_stone_brick_slab": "Red Stone Brick Slab",
+  "block.create_better_building.red_stone_brick_stairs": "Red Stone Brick Stairs",
+  "block.create_better_building.red_stone_brick_wall": "Red Stone Brick Wall",
+
+  "block.create_better_building.orange_stone_brick": "Orange Stone Brick",
+  "block.create_better_building.orange_stone_brick_slab": "Orange Stone Brick Slab",
+  "block.create_better_building.orange_stone_brick_stairs": "Orange Stone Brick Stairs",
+  "block.create_better_building.orange_stone_brick_wall": "Orange Stone Brick Wall",
+
+  "block.create_better_building.yellow_stone_brick": "Yellow Stone Brick",
+  "block.create_better_building.yellow_stone_brick_slab": "Yellow Stone Brick Slab",
+  "block.create_better_building.yellow_stone_brick_stairs": "Yellow Stone Brick Stairs",
+  "block.create_better_building.yellow_stone_brick_wall": "Yellow Stone Brick Wall",
+
+  "block.create_better_building.lime_stone_brick": "Lime Stone Brick",
+  "block.create_better_building.lime_stone_brick_slab": "Lime Stone Brick Slab",
+  "block.create_better_building.lime_stone_brick_stairs": "Lime Stone Brick Stairs",
+  "block.create_better_building.lime_stone_brick_wall": "Lime Stone Brick Wall",
+
+  "block.create_better_building.green_stone_brick": "Green Stone Brick",
+  "block.create_better_building.green_stone_brick_slab": "Green Stone Brick Slab",
+  "block.create_better_building.green_stone_brick_stairs": "Green Stone Brick Stairs",
+  "block.create_better_building.green_stone_brick_wall": "Green Stone Brick Wall",
+
+  "block.create_better_building.cyan_stone_brick": "Cyan Stone Brick",
+  "block.create_better_building.cyan_stone_brick_slab": "Cyan Stone Brick Slab",
+  "block.create_better_building.cyan_stone_brick_stairs": "Cyan Stone Brick Stairs",
+  "block.create_better_building.cyan_stone_brick_wall": "Cyan Stone Brick Wall",
+
+  "block.create_better_building.light_blue_stone_brick": "Light Blue Stone Brick",
+  "block.create_better_building.light_blue_stone_brick_slab": "Light Blue Stone Brick Slab",
+  "block.create_better_building.light_blue_stone_brick_stairs": "Light Blue Stone Brick Stairs",
+  "block.create_better_building.light_blue_stone_brick_wall": "Light Blue Stone Brick Wall",
+
+  "block.create_better_building.blue_stone_brick": "Blue Stone Brick",
+  "block.create_better_building.blue_stone_brick_slab": "Blue Stone Brick Slab",
+  "block.create_better_building.blue_stone_brick_stairs": "Blue Stone Brick Stairs",
+  "block.create_better_building.blue_stone_brick_wall": "Blue Stone Brick Wall",
+
+  "block.create_better_building.purple_stone_brick": "Purple Stone Brick",
+  "block.create_better_building.purple_stone_brick_slab": "Purple Stone Brick Slab",
+  "block.create_better_building.purple_stone_brick_stairs": "Purple Stone Brick Stairs",
+  "block.create_better_building.purple_stone_brick_wall": "Purple Stone Brick Wall",
+
+  "block.create_better_building.magenta_stone_brick": "Magenta Stone Brick",
+  "block.create_better_building.magenta_stone_brick_slab": "Magenta Stone Brick Slab",
+  "block.create_better_building.magenta_stone_brick_stairs": "Magenta Stone Brick Stairs",
+  "block.create_better_building.magenta_stone_brick_wall": "Magenta Stone Brick Wall",
+
+  "block.create_better_building.pink_stone_brick": "Pink Stone Brick",
+  "block.create_better_building.pink_stone_brick_slab": "Pink Stone Brick Slab",
+  "block.create_better_building.pink_stone_brick_stairs": "Pink Stone Brick Stairs",
+  "block.create_better_building.pink_stone_brick_wall": "Pink Stone Brick Wall"
 }

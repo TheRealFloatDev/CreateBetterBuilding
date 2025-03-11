@@ -2,6 +2,12 @@ plugins {
     id 'com.github.johnrengelman.shadow'
 }
 
+repositories {
+    maven {
+        url = "https://api.modrinth.com/maven"
+    }
+}
+
 loom {
     forge {
         mixinConfig "create_better_building.mixins.json"

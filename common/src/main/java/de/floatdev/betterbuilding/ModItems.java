@@ -38,22 +38,22 @@ public class ModItems {
             String name = color.getName() + "_brick"; // e.g., "light_blue_brick"
             COLORED_BRICK_ITEMS.put(color, ITEMS.register(name,
                     () -> new BlockItem(ModBlocks.COLORED_BRICKS.get(color).get(),
-                            new Item.Properties().tab(ModCreativeTabs.CREATIVE_MODE_TAB))));
+                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
             String slabName = color.getName() + "_brick_slab"; // e.g., "light_blue_brick_slab"
             COLORED_BRICK_ITEMS.put(color, ITEMS.register(slabName,
                     () -> new BlockItem(ModBlocks.COLORED_BRICKS_SLABS.get(color).get(),
-                            new Item.Properties().tab(ModCreativeTabs.CREATIVE_MODE_TAB))));
+                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
             String stairsName = color.getName() + "_brick_stairs"; // e.g., "light_blue_brick_stairs"
             COLORED_BRICK_ITEMS.put(color, ITEMS.register(stairsName,
                     () -> new BlockItem(ModBlocks.COLORED_BRICKS_STAIRS.get(color).get(),
-                            new Item.Properties().tab(ModCreativeTabs.CREATIVE_MODE_TAB))));
+                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
             String wallName = color.getName() + "_brick_wall"; // e.g., "light_blue_brick_wall"
             COLORED_BRICK_ITEMS.put(color, ITEMS.register(wallName,
                     () -> new BlockItem(ModBlocks.COLORED_BRICKS_WALLS.get(color).get(),
-                            new Item.Properties().tab(ModCreativeTabs.CREATIVE_MODE_TAB))));
+                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
         }
     }
 
@@ -64,22 +64,22 @@ public class ModItems {
             String name = color.getName() + "_stone_brick"; // e.g., "light_blue_stone_brick"
             COLORED_STONE_BRICK_ITEMS.put(color, ITEMS.register(name,
                     () -> new BlockItem(ModBlocks.COLORED_STONE_BRICKS.get(color).get(),
-                            new Item.Properties().tab(ModCreativeTabs.CREATIVE_MODE_TAB))));
+                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
             String slabName = color.getName() + "_stone_brick_slab"; // e.g., "light_blue_stone_brick_slab"
             COLORED_STONE_BRICK_ITEMS.put(color, ITEMS.register(slabName,
                     () -> new BlockItem(ModBlocks.COLORED_STONE_BRICKS_SLABS.get(color).get(),
-                            new Item.Properties().tab(ModCreativeTabs.CREATIVE_MODE_TAB))));
+                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
             String stairsName = color.getName() + "_stone_brick_stairs"; // e.g., "light_blue_stone_brick_stairs"
             COLORED_STONE_BRICK_ITEMS.put(color, ITEMS.register(stairsName,
                     () -> new BlockItem(ModBlocks.COLORED_STONE_BRICKS_STAIRS.get(color).get(),
-                            new Item.Properties().tab(ModCreativeTabs.CREATIVE_MODE_TAB))));
+                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
             String wallName = color.getName() + "_stone_brick_wall"; // e.g., "light_blue_stone_brick_wall"
             COLORED_STONE_BRICK_ITEMS.put(color, ITEMS.register(wallName,
                     () -> new BlockItem(ModBlocks.COLORED_STONE_BRICKS_WALLS.get(color).get(),
-                            new Item.Properties().tab(ModCreativeTabs.CREATIVE_MODE_TAB))));
+                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
         }
     }
 

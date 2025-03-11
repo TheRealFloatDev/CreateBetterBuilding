@@ -17,9 +17,20 @@
 
 package de.floatdev.betterbuilding;
 
+import dev.architectury.registry.CreativeTabRegistry;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.DyeColor;
+import net.minecraft.world.item.ItemStack;
+
 public final class BetterBuildingMod {
 
     public static final String MOD_ID = "create_better_building";
+
+    public static final CreativeModeTab CREATIVE_MODE_TAB = CreativeTabRegistry.create(
+            new ResourceLocation(BetterBuildingMod.MOD_ID, "tab_creative_tab"), // Tab ID
+            () -> new ItemStack(ModItems.COLORED_BRICK_ITEMS.get(DyeColor.RED).get()) // Example icon
+    );
 
     public static void init() {
         // Write common init code here.

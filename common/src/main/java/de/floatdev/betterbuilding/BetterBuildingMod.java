@@ -35,5 +35,6 @@ public final class BetterBuildingMod {
     public static void init() {
         // Write common init code here.
         ModBlocks.register();
+        ModItems.register();
     }
 }

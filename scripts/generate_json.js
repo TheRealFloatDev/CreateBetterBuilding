@@ -25,12 +25,18 @@ const MOD_ID = "create_better_building";  // Replace with your mod ID
 const BLOCKS = [
     {
         blockId: "brick",
-        craftingBase: "minecraft:bricks"
+        craftingBase: "minecraft:bricks",
+        createStonecutterRecipe: true
     },
     {
         blockId: "stone_brick",
-        craftingBase: "minecraft:stone_bricks"
+        craftingBase: "minecraft:stone_bricks",
+        createStonecutterRecipe: true
     },
+    {
+        blockId: "mossy_stone_brick",
+        createStonecutterRecipe: false
+    }
 ];  // Base block name (e.g., "brick" -> "light_blue_brick")
 const RESOURCE_PATH = path.join(EXECUTION_PATH, "common", "src", "main", "resources", "assets", MOD_ID);
 const DATA_PATH = path.join(EXECUTION_PATH, "common", "src", "main", "resources", "data");
@@ -236,6 +242,7 @@ BLOCKS.forEach(block => {
         }
 
         // Stone Cutter Recipes
+        if (!block.createStonecutterRecipe) { return }
         writeFile(RECIPE_PATH, `${blockName}_slab_stonecutting.json`, {
             type: "minecraft:stonecutting",
             ingredient: { item: `${MOD_ID}:${blockName}` },

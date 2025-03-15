@@ -33,7 +33,7 @@ const BLOCKS = [
         blockId: "stone_brick",
         craftingBase: "minecraft:stone_bricks",
         createStonecutterRecipe: true,
-        variants: []
+        variants: ["mossy"]
     }
 ];  // Base block name (e.g., "brick" -> "light_blue_brick")
 const RESOURCE_PATH = path.join(EXECUTION_PATH, "common", "src", "main", "resources", "assets", MOD_ID);

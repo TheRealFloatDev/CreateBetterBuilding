@@ -31,11 +31,7 @@ const BLOCKS = [
     {
         blockId: "stone_brick",
         craftingBase: "minecraft:stone_bricks",
-        createStonecutterRecipe: true
-    },
-    {
-        blockId: "mossy_stone_brick",
-        createStonecutterRecipe: false
+        createStonecutterRecipe: true,
     }
 ];  // Base block name (e.g., "brick" -> "light_blue_brick")
 const RESOURCE_PATH = path.join(EXECUTION_PATH, "common", "src", "main", "resources", "assets", MOD_ID);
@@ -79,157 +75,164 @@ BLOCKS.forEach(block => {
         const BLOCK_ID = block.blockId;
         const CRAFTING_BASE = block.craftingBase;
 
-        const blockName = `${color}_${BLOCK_ID}`;
-        const texture = `${MOD_ID}:block/${blockName}`;
 
-        // Block Models
-        writeFile(BLOCK_PATH, `${blockName}.json`, {
-            parent: "minecraft:block/cube_all",
-            textures: { all: texture }
-        });
 
-        writeFile(BLOCK_PATH, `${blockName}_slab.json`, {
-            parent: "minecraft:block/slab",
-            textures: { bottom: texture, top: texture, side: texture }
-        });
+        ["", ...block.variants].forEach(variant => {
+            const variantPrefix = variant.length > 0 ? `${variant}_` : "";
+            const blockName = `${variantPrefix}${color}_${BLOCK_ID}`;
+            const texture = `${MOD_ID}:block/${blockName}`;
 
-        writeFile(BLOCK_PATH, `${blockName}_slab_top.json`, {
-            parent: "minecraft:block/slab_top",
-            textures: { bottom: texture, top: texture, side: texture }
-        });
+            // Block Models
+            writeFile(BLOCK_PATH, `${blockName}.json`, {
+                parent: "minecraft:block/cube_all",
+                textures: { all: texture }
+            });
 
-        writeFile(BLOCK_PATH, `${blockName}_stairs.json`, {
-            parent: "minecraft:block/stairs",
-            textures: { bottom: texture, top: texture, side: texture }
-        });
+            writeFile(BLOCK_PATH, `${blockName}_slab.json`, {
+                parent: "minecraft:block/slab",
+                textures: { bottom: texture, top: texture, side: texture }
+            });
 
-        writeFile(BLOCK_PATH, `${blockName}_stairs_inner.json`, {
-            parent: "minecraft:block/inner_stairs",
-            textures: { bottom: texture, top: texture, side: texture }
-        });
+            writeFile(BLOCK_PATH, `${blockName}_slab_top.json`, {
+                parent: "minecraft:block/slab_top",
+                textures: { bottom: texture, top: texture, side: texture }
+            });
 
-        writeFile(BLOCK_PATH, `${blockName}_stairs_outer.json`, {
-            parent: "minecraft:block/outer_stairs",
-            textures: { bottom: texture, top: texture, side: texture }
-        });
+            writeFile(BLOCK_PATH, `${blockName}_stairs.json`, {
+                parent: "minecraft:block/stairs",
+                textures: { bottom: texture, top: texture, side: texture }
+            });
 
-        writeFile(BLOCK_PATH, `${blockName}_wall_post.json`, {
-            parent: "minecraft:block/template_wall_post",
-            textures: { wall: texture }
-        });
+            writeFile(BLOCK_PATH, `${blockName}_stairs_inner.json`, {
+                parent: "minecraft:block/inner_stairs",
+                textures: { bottom: texture, top: texture, side: texture }
+            });
 
-        writeFile(BLOCK_PATH, `${blockName}_wall_side.json`, {
-            parent: "minecraft:block/template_wall_side",
-            textures: { wall: texture }
-        });
+            writeFile(BLOCK_PATH, `${blockName}_stairs_outer.json`, {
+                parent: "minecraft:block/outer_stairs",
+                textures: { bottom: texture, top: texture, side: texture }
+            });
 
-        writeFile(BLOCK_PATH, `${blockName}_wall_side_tall.json`, {
-            parent: "minecraft:block/template_wall_side_tall",
-            textures: { wall: texture }
-        });
+            writeFile(BLOCK_PATH, `${blockName}_wall_post.json`, {
+                parent: "minecraft:block/template_wall_post",
+                textures: { wall: texture }
+            });
 
-        // Item Models
-        writeFile(ITEM_PATH, `${blockName}.json`, {
-            parent: `${MOD_ID}:block/${blockName}`
-        });
+            writeFile(BLOCK_PATH, `${blockName}_wall_side.json`, {
+                parent: "minecraft:block/template_wall_side",
+                textures: { wall: texture }
+            });
 
-        writeFile(ITEM_PATH, `${blockName}_slab.json`, {
-            parent: `${MOD_ID}:block/${blockName}_slab`
-        });
+            writeFile(BLOCK_PATH, `${blockName}_wall_side_tall.json`, {
+                parent: "minecraft:block/template_wall_side_tall",
+                textures: { wall: texture }
+            });
 
-        writeFile(ITEM_PATH, `${blockName}_stairs.json`, {
-            parent: `${MOD_ID}:block/${blockName}_stairs`
-        });
+            // Item Models
+            writeFile(ITEM_PATH, `${blockName}.json`, {
+                parent: `${MOD_ID}:block/${blockName}`
+            });
 
-        writeFile(ITEM_PATH, `${blockName}_wall.json`, {
-            parent: "minecraft:block/wall_inventory",
-            textures: { wall: texture }
-        });
+            writeFile(ITEM_PATH, `${blockName}_slab.json`, {
+                parent: `${MOD_ID}:block/${blockName}_slab`
+            });
 
-        // Blockstates
-        writeFile(BLOCKSTATE_PATH, `${blockName}.json`, {
-            variants: {
-                "": { model: `${MOD_ID}:block/${blockName}` }
-            }
-        });
+            writeFile(ITEM_PATH, `${blockName}_stairs.json`, {
+                parent: `${MOD_ID}:block/${blockName}_stairs`
+            });
 
-        writeFile(BLOCKSTATE_PATH, `${blockName}_slab.json`, {
-            variants: {
-                "type=bottom": { model: `${MOD_ID}:block/${blockName}_slab` },
-                "type=top": { model: `${MOD_ID}:block/${blockName}_slab_top` },
-                "type=double": { model: `${MOD_ID}:block/${blockName}` }
-            }
-        });
+            writeFile(ITEM_PATH, `${blockName}_wall.json`, {
+                parent: "minecraft:block/wall_inventory",
+                textures: { wall: texture }
+            });
 
-        writeFile(BLOCKSTATE_PATH, `${blockName}_stairs.json`, {
-            variants: {
-                "facing=east,half=bottom,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs` },
-                "facing=west,half=bottom,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, y: 180 },
-                "facing=south,half=bottom,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, y: 90 },
-                "facing=north,half=bottom,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, y: 270 },
-                "facing=east,half=top,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, x: 180 },
-                "facing=west,half=top,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, x: 180, y: 180 },
-                "facing=south,half=top,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, x: 180, y: 90 },
-                "facing=north,half=top,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, x: 180, y: 270 },
+            // Blockstates
+            writeFile(BLOCKSTATE_PATH, `${blockName}.json`, {
+                variants: {
+                    "": { model: `${MOD_ID}:block/${blockName}` }
+                }
+            });
 
-                "facing=east,half=bottom,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner` },
-                "facing=west,half=bottom,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, y: 180 },
-                "facing=south,half=bottom,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, y: 90 },
-                "facing=north,half=bottom,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, y: 270 },
-                "facing=east,half=top,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180 },
-                "facing=west,half=top,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180, y: 180 },
-                "facing=south,half=top,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180, y: 90 },
-                "facing=north,half=top,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180, y: 270 },
+            writeFile(BLOCKSTATE_PATH, `${blockName}_slab.json`, {
+                variants: {
+                    "type=bottom": { model: `${MOD_ID}:block/${blockName}_slab` },
+                    "type=top": { model: `${MOD_ID}:block/${blockName}_slab_top` },
+                    "type=double": { model: `${MOD_ID}:block/${blockName}` }
+                }
+            });
 
-                "facing=east,half=bottom,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer` },
-                "facing=west,half=bottom,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, y: 180 },
-                "facing=south,half=bottom,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, y: 90 },
-                "facing=north,half=bottom,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, y: 270 },
-                "facing=east,half=top,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180 },
-                "facing=west,half=top,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180, y: 180 },
-                "facing=south,half=top,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180, y: 90 },
-                "facing=north,half=top,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180, y: 270 },
+            writeFile(BLOCKSTATE_PATH, `${blockName}_stairs.json`, {
+                variants: {
+                    "facing=east,half=bottom,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs` },
+                    "facing=west,half=bottom,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, y: 180 },
+                    "facing=south,half=bottom,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, y: 90 },
+                    "facing=north,half=bottom,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, y: 270 },
+                    "facing=east,half=top,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, x: 180 },
+                    "facing=west,half=top,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, x: 180, y: 180 },
+                    "facing=south,half=top,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, x: 180, y: 90 },
+                    "facing=north,half=top,shape=straight": { model: `${MOD_ID}:block/${blockName}_stairs`, x: 180, y: 270 },
 
-                "facing=east,half=bottom,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner` },
-                "facing=west,half=bottom,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, y: 180 },
-                "facing=south,half=bottom,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, y: 90 },
-                "facing=north,half=bottom,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, y: 270 },
-                "facing=east,half=top,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180 },
-                "facing=west,half=top,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180, y: 180 },
-                "facing=south,half=top,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180, y: 90 },
-                "facing=north,half=top,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180, y: 270 },
+                    "facing=east,half=bottom,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner` },
+                    "facing=west,half=bottom,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, y: 180 },
+                    "facing=south,half=bottom,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, y: 90 },
+                    "facing=north,half=bottom,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, y: 270 },
+                    "facing=east,half=top,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180 },
+                    "facing=west,half=top,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180, y: 180 },
+                    "facing=south,half=top,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180, y: 90 },
+                    "facing=north,half=top,shape=inner_right": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180, y: 270 },
 
-                "facing=east,half=bottom,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer` },
-                "facing=west,half=bottom,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, y: 180 },
-                "facing=south,half=bottom,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, y: 90 },
-                "facing=north,half=bottom,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, y: 270 },
-                "facing=east,half=top,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180 },
-                "facing=west,half=top,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180, y: 180 },
-                "facing=south,half=top,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180, y: 90 },
-                "facing=north,half=top,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180, y: 270 }
-            }
-        });
+                    "facing=east,half=bottom,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer` },
+                    "facing=west,half=bottom,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, y: 180 },
+                    "facing=south,half=bottom,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, y: 90 },
+                    "facing=north,half=bottom,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, y: 270 },
+                    "facing=east,half=top,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180 },
+                    "facing=west,half=top,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180, y: 180 },
+                    "facing=south,half=top,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180, y: 90 },
+                    "facing=north,half=top,shape=outer_right": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180, y: 270 },
 
-        writeFile(BLOCKSTATE_PATH, `${blockName}_wall.json`, {
-            multipart: [
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_post` }, when: { up: "true" } },
+                    "facing=east,half=bottom,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner` },
+                    "facing=west,half=bottom,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, y: 180 },
+                    "facing=south,half=bottom,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, y: 90 },
+                    "facing=north,half=bottom,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, y: 270 },
+                    "facing=east,half=top,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180 },
+                    "facing=west,half=top,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180, y: 180 },
+                    "facing=south,half=top,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180, y: 90 },
+                    "facing=north,half=top,shape=inner_left": { model: `${MOD_ID}:block/${blockName}_stairs_inner`, x: 180, y: 270 },
 
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side`, y: 90, uvlock: true }, when: { east: "low" } },
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall`, y: 90, uvlock: true }, when: { east: "tall" } },
+                    "facing=east,half=bottom,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer` },
+                    "facing=west,half=bottom,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, y: 180 },
+                    "facing=south,half=bottom,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, y: 90 },
+                    "facing=north,half=bottom,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, y: 270 },
+                    "facing=east,half=top,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180 },
+                    "facing=west,half=top,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180, y: 180 },
+                    "facing=south,half=top,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180, y: 90 },
+                    "facing=north,half=top,shape=outer_left": { model: `${MOD_ID}:block/${blockName}_stairs_outer`, x: 180, y: 270 }
+                }
+            });
 
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side`, uvlock: true }, when: { north: "low" } },
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall`, uvlock: true }, when: { north: "tall" } },
+            writeFile(BLOCKSTATE_PATH, `${blockName}_wall.json`, {
+                multipart: [
+                    { apply: { model: `${MOD_ID}:block/${blockName}_wall_post` }, when: { up: "true" } },
 
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side`, y: 270, uvlock: true }, when: { west: "low" } },
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall`, y: 270, uvlock: true }, when: { west: "tall" } },
+                    { apply: { model: `${MOD_ID}:block/${blockName}_wall_side`, y: 90, uvlock: true }, when: { east: "low" } },
+                    { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall`, y: 90, uvlock: true }, when: { east: "tall" } },
 
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side`, y: 180, uvlock: true }, when: { south: "low" } },
-                { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall`, y: 180, uvlock: true }, when: { south: "tall" } }
-            ]
+                    { apply: { model: `${MOD_ID}:block/${blockName}_wall_side`, uvlock: true }, when: { north: "low" } },
+                    { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall`, uvlock: true }, when: { north: "tall" } },
+
+                    { apply: { model: `${MOD_ID}:block/${blockName}_wall_side`, y: 270, uvlock: true }, when: { west: "low" } },
+                    { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall`, y: 270, uvlock: true }, when: { west: "tall" } },
+
+                    { apply: { model: `${MOD_ID}:block/${blockName}_wall_side`, y: 180, uvlock: true }, when: { south: "low" } },
+                    { apply: { model: `${MOD_ID}:block/${blockName}_wall_side_tall`, y: 180, uvlock: true }, when: { south: "tall" } }
+                ]
+            });
+
         });
 
         // Crafting Recipes
         if (CRAFTING_BASE) {
+            const blockName = `${color}_${BLOCK_ID}`;
             writeFile(RECIPE_PATH, `${blockName}_crafting.json`, {
                 type: "minecraft:crafting_shaped",
                 pattern: ["aaa", "aba", "aaa"],
@@ -243,25 +246,33 @@ BLOCKS.forEach(block => {
 
         // Stone Cutter Recipes
         if (!block.createStonecutterRecipe) { return }
-        writeFile(RECIPE_PATH, `${blockName}_slab_stonecutting.json`, {
-            type: "minecraft:stonecutting",
-            ingredient: { item: `${MOD_ID}:${blockName}` },
-            result: `${MOD_ID}:${blockName}_slab`,
-            count: 2
-        });
 
-        writeFile(RECIPE_PATH, `${blockName}_stairs_stonecutting.json`, {
-            type: "minecraft:stonecutting",
-            ingredient: { item: `${MOD_ID}:${blockName}` },
-            result: `${MOD_ID}:${blockName}_stairs`,
-            count: 1
-        });
+        ["", ...block.variants].forEach(variant => {
+            const variantPrefix = variant.length > 0 ? `${variant}_` : "";
+            const blockName = `${variantPrefix}${color}_${BLOCK_ID}`;
 
-        writeFile(RECIPE_PATH, `${blockName}_wall_stonecutting.json`, {
-            type: "minecraft:stonecutting",
-            ingredient: { item: `${MOD_ID}:${blockName}` },
-            result: `${MOD_ID}:${blockName}_wall`,
-            count: 1
+
+            writeFile(RECIPE_PATH, `${blockName}_slab_stonecutting.json`, {
+                type: "minecraft:stonecutting",
+                ingredient: { item: `${MOD_ID}:${blockName}` },
+                result: `${MOD_ID}:${blockName}_slab`,
+                count: 2
+            });
+
+            writeFile(RECIPE_PATH, `${blockName}_stairs_stonecutting.json`, {
+                type: "minecraft:stonecutting",
+                ingredient: { item: `${MOD_ID}:${blockName}` },
+                result: `${MOD_ID}:${blockName}_stairs`,
+                count: 1
+            });
+
+            writeFile(RECIPE_PATH, `${blockName}_wall_stonecutting.json`, {
+                type: "minecraft:stonecutting",
+                ingredient: { item: `${MOD_ID}:${blockName}` },
+                result: `${MOD_ID}:${blockName}_wall`,
+                count: 1
+            });
+
         });
 
     });

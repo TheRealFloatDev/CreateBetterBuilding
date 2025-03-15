@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "create_better_building",
+  "version": "${version}",
+  "name": "Create: Better Building",
+  "description": "This mod adds a variety of new (mainly decorative) building blocks to the game, which are themed around Create and factories.",
+  "authors": ["FloatDev"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/create-better-building/",
+    "sources": "https://github.com/TheRealFloatDev/CreateBetterBuilding"
+  },
+  "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+  "icon": "assets/create_better_building/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.floatdev.betterbuilding.fabric.BetterBuildingModFabric"],
+    "client": [
+      "de.floatdev.betterbuilding.fabric.client.BetterBuildingModFabricClient"
+    ]
+  },
+  "mixins": ["create_better_building.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.19.2",
+    "java": ">=17",
+    "architectury": ">=6.6.92",
+    "fabric-api": "*",
+    "create": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

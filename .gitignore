@@ -6,8 +6,8 @@ build/
 .idea/
 .settings/
 
-# MCreator workspace
-.mcreator/
+# Build output
+bin/
 
 # Minecraft client/server files
 run/

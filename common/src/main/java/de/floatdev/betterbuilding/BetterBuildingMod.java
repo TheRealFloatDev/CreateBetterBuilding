@@ -17,6 +17,9 @@
 
 package de.floatdev.betterbuilding;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import dev.architectury.registry.CreativeTabRegistry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -27,9 +30,11 @@ public final class BetterBuildingMod {
 
     public static final String MOD_ID = "create_better_building";
 
+    private static final Logger LOGGER = LogManager.getLogger();
+
     public static final CreativeModeTab CREATIVE_MODE_TAB = CreativeTabRegistry.create(
             new ResourceLocation(BetterBuildingMod.MOD_ID, "tab_creative_tab"), // Tab ID
-            () -> new ItemStack(ModItems.COLORED_BRICK_ITEMS.get(DyeColor.RED).get()) // Example icon
+            () -> new ItemStack(ModItems.COLORED_BRICK_ITEMS.get(DyeColor.RED.getName()).get()) // Example icon
     );
 
     public static void init() {

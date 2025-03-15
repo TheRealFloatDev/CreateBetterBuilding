@@ -323,12 +323,22 @@ writeFile(BLOCK_TAGS_PATH, "stairs.json", {
 // Mineable pickaxe
 writeFile(MINEABLE_TAGS_PATH, "pickaxe.json", {
     replace: false,
-    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => [
-        `${MOD_ID}:${color}_${BLOCK_ID}`,
-        `${MOD_ID}:${color}_${BLOCK_ID}_slab`,
-        `${MOD_ID}:${color}_${BLOCK_ID}_stairs`,
-        `${MOD_ID}:${color}_${BLOCK_ID}_wall`
-    ]).flat()).flat().concat(constants.PICKAXE_MINEABLES)
+    values: BLOCKS.map(block =>
+        colors.map(color => [
+            // Base block and its variants
+            `${MOD_ID}:${color}_${block.blockId}`,
+            ...block.variants.map(variant => `${MOD_ID}:${variant}_${color}_${block.blockId}`),
+            // Base block slabs and variants
+            `${MOD_ID}:${color}_${block.blockId}_slab`,
+            ...block.variants.map(variant => `${MOD_ID}:${variant}_${color}_${block.blockId}_slab`),
+            // Base block stairs and variants
+            `${MOD_ID}:${color}_${block.blockId}_stairs`,
+            ...block.variants.map(variant => `${MOD_ID}:${variant}_${color}_${block.blockId}_stairs`),
+            // Base block walls and variants
+            `${MOD_ID}:${color}_${block.blockId}_wall`,
+            ...block.variants.map(variant => `${MOD_ID}:${variant}_${color}_${block.blockId}_wall`)
+        ]).flat()
+    ).flat().concat(constants.PICKAXE_MINEABLES)
 });
 
 console.log("\n🎉 All JSON models generated successfully and placed in assets!");

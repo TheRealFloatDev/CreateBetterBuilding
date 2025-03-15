@@ -54,23 +54,26 @@ public class ModBlocks {
                 for (DyeColor color : DyeColor.values()) {
                         for (String variation : COLORED_BRICKS_VARIATIONS) {
                                 String name = variation + color.getName() + "_brick"; // e.g., "light_blue_brick"
+
+                                String variationID = variation + color.getId();
+
                                 RegistrySupplier<Block> brickBlock = BLOCKS.register(name,
                                                 () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(
                                                                 2.0f,
                                                                 6.0f)));
-                                COLORED_BRICKS.put(variation + color.getName(), brickBlock);
+                                COLORED_BRICKS.put(variationID, brickBlock);
 
                                 String slabName = name + "_slab"; // e.g., "light_blue_brick_slab"
-                                COLORED_BRICKS_SLABS.put(variation + color.getName(), BLOCKS.register(slabName,
+                                COLORED_BRICKS_SLABS.put(variationID, BLOCKS.register(slabName,
                                                 () -> new SlabBlock(BlockBehaviour.Properties.copy(brickBlock.get()))));
 
                                 String stairsName = name + "_stairs"; // e.g., "light_blue_brick_stairs"
-                                COLORED_BRICKS_STAIRS.put(variation + color.getName(), BLOCKS.register(stairsName,
+                                COLORED_BRICKS_STAIRS.put(variationID, BLOCKS.register(stairsName,
                                                 () -> new StairBlock(brickBlock.get().defaultBlockState(),
                                                                 BlockBehaviour.Properties.copy(brickBlock.get()))));
 
                                 String wallsName = name + "_wall"; // e.g., "light_blue_brick_wall"
-                                COLORED_BRICKS_WALLS.put(variation + color.getName(), BLOCKS.register(wallsName,
+                                COLORED_BRICKS_WALLS.put(variationID, BLOCKS.register(wallsName,
                                                 () -> new WallBlock(BlockBehaviour.Properties.copy(brickBlock.get()))));
                         }
 
@@ -88,27 +91,29 @@ public class ModBlocks {
                         for (String variation : COLORED_STONE_BRICKS_VARIATIONS) {
                                 String name = variation + color.getName() + "_stone_brick"; // e.g.,
                                                                                             // "light_blue_stone_brick"
+                                String variationID = variation + color.getId();
+
                                 RegistrySupplier<Block> stoneBrickBlock = BLOCKS.register(name,
                                                 () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                                                                 .strength(2.0f, 6.0f)));
-                                COLORED_STONE_BRICKS.put(variation + color.getName(), stoneBrickBlock);
+                                COLORED_STONE_BRICKS.put(variationID, stoneBrickBlock);
 
                                 String slabName = name + "_slab"; // e.g.,
                                                                   // "light_blue_stone_brick_slab"
-                                COLORED_STONE_BRICKS_SLABS.put(variation + color.getName(), BLOCKS.register(slabName,
+                                COLORED_STONE_BRICKS_SLABS.put(variationID, BLOCKS.register(slabName,
                                                 () -> new SlabBlock(BlockBehaviour.Properties
                                                                 .copy(stoneBrickBlock.get()))));
 
                                 String stairsName = name + "_stairs"; // e.g.,
                                                                       // "light_blue_stone_brick_stairs"
-                                COLORED_STONE_BRICKS_STAIRS.put(variation + color.getName(), BLOCKS.register(stairsName,
+                                COLORED_STONE_BRICKS_STAIRS.put(variationID, BLOCKS.register(stairsName,
                                                 () -> new StairBlock(stoneBrickBlock.get().defaultBlockState(),
                                                                 BlockBehaviour.Properties
                                                                                 .copy(stoneBrickBlock.get()))));
 
                                 String wallsName = name + "_wall"; // e.g.,
                                                                    // "light_blue_stone_brick_wall"
-                                COLORED_STONE_BRICKS_WALLS.put(variation + color.getName(), BLOCKS.register(wallsName,
+                                COLORED_STONE_BRICKS_WALLS.put(variationID, BLOCKS.register(wallsName,
                                                 () -> new WallBlock(BlockBehaviour.Properties
                                                                 .copy(stoneBrickBlock.get()))));
                         }

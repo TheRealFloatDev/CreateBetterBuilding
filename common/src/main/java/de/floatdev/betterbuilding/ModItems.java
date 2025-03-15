@@ -39,10 +39,13 @@ public class ModItems {
                         for (String variation : COLORED_BRICKS_VARIATIONS) {
                                 String name = variation + color.getName() + "_brick"; // e.g., "light_blue_brick" or
                                                                                       // "mossy_light_blue_brick"
-                                COLORED_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(name,
+
+                                String variationID = variation + color.getId();
+
+                                COLORED_BRICK_ITEMS.put(variationID, ITEMS.register(name,
                                                 () -> new BlockItem(
                                                                 ModBlocks.COLORED_BRICKS
-                                                                                .get(variation + color.getName()).get(),
+                                                                                .get(variationID).get(),
                                                                 new Item.Properties()
                                                                                 .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
@@ -50,7 +53,7 @@ public class ModItems {
                                 COLORED_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(slabName,
                                                 () -> new BlockItem(
                                                                 ModBlocks.COLORED_BRICKS_SLABS
-                                                                                .get(variation + color.getName()).get(),
+                                                                                .get(variationID).get(),
                                                                 new Item.Properties()
                                                                                 .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
@@ -59,7 +62,7 @@ public class ModItems {
                                 COLORED_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(stairsName,
                                                 () -> new BlockItem(
                                                                 ModBlocks.COLORED_BRICKS_STAIRS
-                                                                                .get(variation + color.getName()).get(),
+                                                                                .get(variationID).get(),
                                                                 new Item.Properties()
                                                                                 .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
@@ -67,7 +70,7 @@ public class ModItems {
                                 COLORED_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(wallName,
                                                 () -> new BlockItem(
                                                                 ModBlocks.COLORED_BRICKS_WALLS
-                                                                                .get(variation + color.getName()).get(),
+                                                                                .get(variationID).get(),
                                                                 new Item.Properties()
                                                                                 .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
                         }
@@ -82,10 +85,13 @@ public class ModItems {
                         for (String variation : COLORED_STONE_BRICKS_VARIATIONS) {
                                 String name = variation + color.getName() + "_stone_brick"; // e.g.,
                                                                                             // "light_blue_stone_brick"
+
+                                String variationID = variation + color.getId();
+
                                 COLORED_STONE_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(name,
                                                 () -> new BlockItem(
                                                                 ModBlocks.COLORED_STONE_BRICKS
-                                                                                .get(variation + color.getName()).get(),
+                                                                                .get(variationID).get(),
                                                                 new Item.Properties()
                                                                                 .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
@@ -94,7 +100,7 @@ public class ModItems {
                                 COLORED_STONE_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(slabName,
                                                 () -> new BlockItem(
                                                                 ModBlocks.COLORED_STONE_BRICKS_SLABS
-                                                                                .get(variation + color.getName()).get(),
+                                                                                .get(variationID).get(),
                                                                 new Item.Properties()
                                                                                 .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
@@ -103,7 +109,7 @@ public class ModItems {
                                 COLORED_STONE_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(stairsName,
                                                 () -> new BlockItem(
                                                                 ModBlocks.COLORED_STONE_BRICKS_STAIRS
-                                                                                .get(variation + color.getName()).get(),
+                                                                                .get(variationID).get(),
                                                                 new Item.Properties()
                                                                                 .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
@@ -112,7 +118,7 @@ public class ModItems {
                                 COLORED_STONE_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(wallName,
                                                 () -> new BlockItem(
                                                                 ModBlocks.COLORED_STONE_BRICKS_WALLS
-                                                                                .get(variation + color.getName()).get(),
+                                                                                .get(variationID).get(),
                                                                 new Item.Properties()
                                                                                 .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
                         }

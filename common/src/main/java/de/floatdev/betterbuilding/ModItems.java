@@ -28,62 +28,99 @@ import net.minecraft.world.item.Item;
 import net.minecraft.core.Registry;
 
 public class ModItems {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(BetterBuildingMod.MOD_ID,
-            Registry.ITEM_REGISTRY);
+        public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(BetterBuildingMod.MOD_ID,
+                        Registry.ITEM_REGISTRY);
 
-    // Colored brick items
-    public static final Map<DyeColor, RegistrySupplier<Item>> COLORED_BRICK_ITEMS = new HashMap<>();
-    static {
-        for (DyeColor color : DyeColor.values()) {
-            String name = color.getName() + "_brick"; // e.g., "light_blue_brick"
-            COLORED_BRICK_ITEMS.put(color, ITEMS.register(name,
-                    () -> new BlockItem(ModBlocks.COLORED_BRICKS.get(color).get(),
-                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
+        // Colored brick items
+        public static final Map<String, RegistrySupplier<Item>> COLORED_BRICK_ITEMS = new HashMap<>();
+        public static final String[] COLORED_BRICKS_VARIATIONS = { "" };
+        static {
+                for (DyeColor color : DyeColor.values()) {
+                        for (String variation : COLORED_BRICKS_VARIATIONS) {
+                                String name = variation + color.getName() + "_brick"; // e.g., "light_blue_brick" or
+                                                                                      // "mossy_light_blue_brick"
+                                COLORED_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(name,
+                                                () -> new BlockItem(
+                                                                ModBlocks.COLORED_BRICKS
+                                                                                .get(variation + color.getName()).get(),
+                                                                new Item.Properties()
+                                                                                .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
-            String slabName = color.getName() + "_brick_slab"; // e.g., "light_blue_brick_slab"
-            COLORED_BRICK_ITEMS.put(color, ITEMS.register(slabName,
-                    () -> new BlockItem(ModBlocks.COLORED_BRICKS_SLABS.get(color).get(),
-                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
+                                String slabName = name + "_slab"; // e.g., "light_blue_brick_slab"
+                                COLORED_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(slabName,
+                                                () -> new BlockItem(
+                                                                ModBlocks.COLORED_BRICKS_SLABS
+                                                                                .get(variation + color.getName()).get(),
+                                                                new Item.Properties()
+                                                                                .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
-            String stairsName = color.getName() + "_brick_stairs"; // e.g., "light_blue_brick_stairs"
-            COLORED_BRICK_ITEMS.put(color, ITEMS.register(stairsName,
-                    () -> new BlockItem(ModBlocks.COLORED_BRICKS_STAIRS.get(color).get(),
-                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
+                                String stairsName = name + "_stairs"; // e.g.,
+                                                                      // "light_blue_brick_stairs"
+                                COLORED_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(stairsName,
+                                                () -> new BlockItem(
+                                                                ModBlocks.COLORED_BRICKS_STAIRS
+                                                                                .get(variation + color.getName()).get(),
+                                                                new Item.Properties()
+                                                                                .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
-            String wallName = color.getName() + "_brick_wall"; // e.g., "light_blue_brick_wall"
-            COLORED_BRICK_ITEMS.put(color, ITEMS.register(wallName,
-                    () -> new BlockItem(ModBlocks.COLORED_BRICKS_WALLS.get(color).get(),
-                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
+                                String wallName = name + "_wall"; // e.g., "light_blue_brick_wall"
+                                COLORED_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(wallName,
+                                                () -> new BlockItem(
+                                                                ModBlocks.COLORED_BRICKS_WALLS
+                                                                                .get(variation + color.getName()).get(),
+                                                                new Item.Properties()
+                                                                                .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
+                        }
+                }
         }
-    }
 
-    // Colored stone brick items
-    public static final Map<DyeColor, RegistrySupplier<Item>> COLORED_STONE_BRICK_ITEMS = new HashMap<>();
-    static {
-        for (DyeColor color : DyeColor.values()) {
-            String name = color.getName() + "_stone_brick"; // e.g., "light_blue_stone_brick"
-            COLORED_STONE_BRICK_ITEMS.put(color, ITEMS.register(name,
-                    () -> new BlockItem(ModBlocks.COLORED_STONE_BRICKS.get(color).get(),
-                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
+        // Colored stone brick items
+        public static final Map<String, RegistrySupplier<Item>> COLORED_STONE_BRICK_ITEMS = new HashMap<>();
+        public static final String[] COLORED_STONE_BRICKS_VARIATIONS = { "", "mossy_" };
+        static {
+                for (DyeColor color : DyeColor.values()) {
+                        for (String variation : COLORED_STONE_BRICKS_VARIATIONS) {
+                                String name = variation + color.getName() + "_stone_brick"; // e.g.,
+                                                                                            // "light_blue_stone_brick"
+                                COLORED_STONE_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(name,
+                                                () -> new BlockItem(
+                                                                ModBlocks.COLORED_STONE_BRICKS
+                                                                                .get(variation + color.getName()).get(),
+                                                                new Item.Properties()
+                                                                                .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
-            String slabName = color.getName() + "_stone_brick_slab"; // e.g., "light_blue_stone_brick_slab"
-            COLORED_STONE_BRICK_ITEMS.put(color, ITEMS.register(slabName,
-                    () -> new BlockItem(ModBlocks.COLORED_STONE_BRICKS_SLABS.get(color).get(),
-                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
+                                String slabName = name + "_slab"; // e.g.,
+                                                                  // "light_blue_stone_brick_slab"
+                                COLORED_STONE_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(slabName,
+                                                () -> new BlockItem(
+                                                                ModBlocks.COLORED_STONE_BRICKS_SLABS
+                                                                                .get(variation + color.getName()).get(),
+                                                                new Item.Properties()
+                                                                                .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
-            String stairsName = color.getName() + "_stone_brick_stairs"; // e.g., "light_blue_stone_brick_stairs"
-            COLORED_STONE_BRICK_ITEMS.put(color, ITEMS.register(stairsName,
-                    () -> new BlockItem(ModBlocks.COLORED_STONE_BRICKS_STAIRS.get(color).get(),
-                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
+                                String stairsName = name + "_stairs"; // e.g.,
+                                                                      // "light_blue_stone_brick_stairs"
+                                COLORED_STONE_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(stairsName,
+                                                () -> new BlockItem(
+                                                                ModBlocks.COLORED_STONE_BRICKS_STAIRS
+                                                                                .get(variation + color.getName()).get(),
+                                                                new Item.Properties()
+                                                                                .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
 
-            String wallName = color.getName() + "_stone_brick_wall"; // e.g., "light_blue_stone_brick_wall"
-            COLORED_STONE_BRICK_ITEMS.put(color, ITEMS.register(wallName,
-                    () -> new BlockItem(ModBlocks.COLORED_STONE_BRICKS_WALLS.get(color).get(),
-                            new Item.Properties().tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
+                                String wallName = name + "_wall"; // e.g.,
+                                                                  // "light_blue_stone_brick_wall"
+                                COLORED_STONE_BRICK_ITEMS.put(variation + color.getName(), ITEMS.register(wallName,
+                                                () -> new BlockItem(
+                                                                ModBlocks.COLORED_STONE_BRICKS_WALLS
+                                                                                .get(variation + color.getName()).get(),
+                                                                new Item.Properties()
+                                                                                .tab(BetterBuildingMod.CREATIVE_MODE_TAB))));
+                        }
+
+                }
         }
-    }
 
-    public static void register() {
-        ITEMS.register();
-    }
+        public static void register() {
+                ITEMS.register();
+        }
 }

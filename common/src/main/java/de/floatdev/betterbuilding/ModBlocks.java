@@ -57,6 +57,9 @@ public class ModBlocks {
 
                                 String variationID = variation + color.getId();
 
+                                // Log
+                                System.out.println("Registering block: " + name + " with variationID: " + variationID);
+
                                 RegistrySupplier<Block> brickBlock = BLOCKS.register(name,
                                                 () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(
                                                                 2.0f,
@@ -92,6 +95,9 @@ public class ModBlocks {
                                 String name = variation + color.getName() + "_stone_brick"; // e.g.,
                                                                                             // "light_blue_stone_brick"
                                 String variationID = variation + color.getId();
+
+                                // Log
+                                System.out.println("Registering block: " + name + " with variationID: " + variationID);
 
                                 RegistrySupplier<Block> stoneBrickBlock = BLOCKS.register(name,
                                                 () -> new Block(BlockBehaviour.Properties.of(Material.STONE)

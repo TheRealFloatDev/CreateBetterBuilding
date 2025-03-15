@@ -256,7 +256,7 @@ BLOCKS.forEach(block => {
             writeFile(RECIPE_PATH, `${color}_${BLOCK_ID}_to_${variant}.json`, {
                 type: "minecraft:stonecutting",
                 ingredient: { item: `${MOD_ID}:${blockName}` },
-                result: `${MOD_ID}:${variant}_${BLOCK_ID}`,
+                result: `${MOD_ID}:${variant}_${blockName}`,
                 count: 1
             });
         });

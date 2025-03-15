@@ -299,19 +299,25 @@ const BLOCK_IDS = BLOCKS.map(block => block.blockId);
 // Walls
 writeFile(BLOCK_TAGS_PATH, "walls.json", {
     replace: false,
-    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => `${MOD_ID}:${color}_${BLOCK_ID}_wall`)).flat().concat(constants.WALLS)
+    values: BLOCKS.map(block =>
+        colors.map(color => [`${MOD_ID}:${color}_${block.blockId}_wall`, ...block.variants.map(variant => `${MOD_ID}:${variant}_${color}_${block.blockId}_wall`)]).flat()
+    ).flat().concat(constants.WALLS)
 });
 
 // Slabs
 writeFile(BLOCK_TAGS_PATH, "slabs.json", {
     replace: false,
-    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => `${MOD_ID}:${color}_${BLOCK_ID}_slab`)).flat().concat(constants.SLABS)
+    values: BLOCKS.map(block =>
+        colors.map(color => [`${MOD_ID}:${color}_${block.blockId}_slab`, ...block.variants.map(variant => `${MOD_ID}:${variant}_${color}_${block.blockId}_slab`)]).flat()
+    ).flat().concat(constants.SLABS)
 });
 
 // Stairs
 writeFile(BLOCK_TAGS_PATH, "stairs.json", {
     replace: false,
-    values: BLOCK_IDS.map(BLOCK_ID => colors.map(color => `${MOD_ID}:${color}_${BLOCK_ID}_stairs`)).flat().concat(constants.STAIRS)
+    values: BLOCKS.map(block =>
+        colors.map(color => [`${MOD_ID}:${color}_${block.blockId}_stair`, ...block.variants.map(variant => `${MOD_ID}:${variant}_${color}_${block.blockId}_stair`)]).flat()
+    ).flat().concat(constants.STAIRS)
 });
 
 // Mineable pickaxe

@@ -249,6 +249,18 @@ BLOCKS.forEach(block => {
         // Stone Cutter Recipes
         if (!block.createStonecutterRecipe) { return }
 
+        variants.forEach(variant => {
+            const blockName = `${color}_${BLOCK_ID}`;
+
+            // Standard block to variant block
+            writeFile(RECIPE_PATH, `${color}_${BLOCK_ID}_to_${variant}.json`, {
+                type: "minecraft:stonecutting",
+                ingredient: { item: `${MOD_ID}:${blockName}` },
+                result: `${MOD_ID}:${variant}_${BLOCK_ID}`,
+                count: 1
+            });
+        });
+
         ["", ...block.variants].forEach(variant => {
             const variantPrefix = variant.length > 0 ? `${variant}_` : "";
             const blockName = `${variantPrefix}${color}_${BLOCK_ID}`;

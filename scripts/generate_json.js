@@ -223,15 +223,17 @@ BLOCKS.forEach(block => {
         });
 
         // Crafting Recipes
-        writeFile(RECIPE_PATH, `${blockName}_crafting.json`, {
-            type: "minecraft:crafting_shaped",
-            pattern: ["aaa", "aba", "aaa"],
-            key: {
-                a: { item: CRAFTING_BASE },
-                b: { item: `minecraft:${color}_dye` }
-            },
-            result: { item: `${MOD_ID}:${blockName}`, count: 8 }
-        });
+        if (CRAFTING_BASE) {
+            writeFile(RECIPE_PATH, `${blockName}_crafting.json`, {
+                type: "minecraft:crafting_shaped",
+                pattern: ["aaa", "aba", "aaa"],
+                key: {
+                    a: { item: CRAFTING_BASE },
+                    b: { item: `minecraft:${color}_dye` }
+                },
+                result: { item: `${MOD_ID}:${blockName}`, count: 8 }
+            });
+        }
 
         // Stone Cutter Recipes
         writeFile(RECIPE_PATH, `${blockName}_slab_stonecutting.json`, {

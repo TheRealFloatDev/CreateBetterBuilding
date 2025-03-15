@@ -249,7 +249,7 @@ BLOCKS.forEach(block => {
         // Stone Cutter Recipes
         if (!block.createStonecutterRecipe) { return }
 
-        variants.forEach(variant => {
+        block.variants.forEach(variant => {
             const blockName = `${color}_${BLOCK_ID}`;
 
             // Standard block to variant block

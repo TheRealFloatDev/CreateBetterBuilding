@@ -55,7 +55,7 @@ public class ModBlocks {
                         for (String variation : COLORED_BRICKS_VARIATIONS) {
                                 String name = variation + color.getName() + "_brick"; // e.g., "light_blue_brick"
 
-                                String variationID = variation + color.getId();
+                                String variationID = variation + color.getName();
 
                                 // Log
                                 System.out.println("Registering block: " + name + " with variationID: " + variationID);
@@ -94,7 +94,7 @@ public class ModBlocks {
                         for (String variation : COLORED_STONE_BRICKS_VARIATIONS) {
                                 String name = variation + color.getName() + "_stone_brick"; // e.g.,
                                                                                             // "light_blue_stone_brick"
-                                String variationID = variation + color.getId();
+                                String variationID = variation + color.getName();
 
                                 // Log
                                 System.out.println("Registering block: " + name + " with variationID: " + variationID);

@@ -293,9 +293,6 @@ BLOCKS.forEach(block => {
 });
 
 // === GENERATE TAGS ===
-
-const BLOCK_IDS = BLOCKS.map(block => block.blockId);
-
 // Walls
 writeFile(BLOCK_TAGS_PATH, "walls.json", {
     replace: false,

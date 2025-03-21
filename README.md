@@ -32,16 +32,22 @@ The brand new handrail block allows you to add some factory-themed safety mechan
 ## Dyed Stone Bricks
 ![Dyed Stone Brick Wall](https://cdn.modrinth.com/data/cached_images/9157ffb274378334deaacbbb0657698e1c43c160.png)
 
-You can now dye Stone Bricks to all vanilla dye colors.
+You can now dye Stone Bricks to all vanilla dye colors and they all also have slabs, stairs and walls
 This gives you more color variants for your factories, while still allowing you to build using bricks.
 
 ![Mossy Stone Bricks](https://cdn.modrinth.com/data/cached_images/b4e0af1f972483e464cfa33c0ef447c2f5213363.png)
 
 They also come in different varieties each.
 
+## Dyed Clay bricks
+![Dyed Clay Bricks](https://cdn.modrinth.com/data/cached_images/94b232c61bd626d2356366888df9f343ddd2f53b.png)
+
+They also come in all vanilla dye colors and all with slabs, stairs and walls
+
 ## Roadmap
 - ~~Dyed Stone Bricks: Walls, Slabs, Stairs~~
 - ~~Add Dyed Bricks and their variants~~
 - Add steel beams
 - Add industrial lamps
+- Add aged, dirty and cracked variants
 - ...

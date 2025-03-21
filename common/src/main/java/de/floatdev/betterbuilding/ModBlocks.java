@@ -49,7 +49,7 @@ public class ModBlocks {
         public static final Map<String, RegistrySupplier<Block>> COLORED_BRICKS_SLABS = new HashMap<>();
         public static final Map<String, RegistrySupplier<Block>> COLORED_BRICKS_STAIRS = new HashMap<>();
         public static final Map<String, RegistrySupplier<Block>> COLORED_BRICKS_WALLS = new HashMap<>();
-        public static final String[] COLORED_BRICKS_VARIATIONS = { "", "mossy" };
+        public static final String[] COLORED_BRICKS_VARIATIONS = { "", "mossy_" };
         static {
                 for (DyeColor color : DyeColor.values()) {
                         for (String variation : COLORED_BRICKS_VARIATIONS) {

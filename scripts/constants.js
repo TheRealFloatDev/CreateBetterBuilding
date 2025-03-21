@@ -19,3 +19,6 @@ export const PICKAXE_MINEABLES = [];
 export const WALLS = [];
 export const STAIRS = [];
 export const SLABS = [];
+export const TRANSLATIONS = {
+    "itemGroup.create_better_building.tab_creative_tab": "Create: Better Building",
+};

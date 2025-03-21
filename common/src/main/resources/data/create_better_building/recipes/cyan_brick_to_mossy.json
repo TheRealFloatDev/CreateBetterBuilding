@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create_better_building:cyan_brick"
+  },
+  "result": "create_better_building:mossy_cyan_brick",
+  "count": 1
+}

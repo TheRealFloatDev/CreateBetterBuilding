@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "create_better_building:block/mossy_light_blue_brick"
+  }
+}

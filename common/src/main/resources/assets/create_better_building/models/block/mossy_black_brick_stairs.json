@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "create_better_building:block/mossy_black_brick",
+    "top": "create_better_building:block/mossy_black_brick",
+    "side": "create_better_building:block/mossy_black_brick"
+  }
+}

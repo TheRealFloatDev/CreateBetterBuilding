@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create_better_building:mossy_yellow_brick"
+  },
+  "result": "create_better_building:mossy_yellow_brick_stairs",
+  "count": 1
+}

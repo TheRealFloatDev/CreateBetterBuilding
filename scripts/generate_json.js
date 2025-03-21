@@ -28,7 +28,7 @@ const BLOCKS = [
         displayName: "Brick",
         craftingBase: "minecraft:bricks",
         createStonecutterRecipe: true,
-        variants: []
+        variants: ["mossy"]
     },
     {
         blockId: "stone_brick",

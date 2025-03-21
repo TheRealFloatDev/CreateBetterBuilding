@@ -40,8 +40,8 @@ This gives you more color variants for your factories, while still allowing you 
 They also come in different varieties each.
 
 ## Roadmap
-- Dyed Stone Bricks: Walls, Slabs, Stairs
-- Add Dyed Bricks and their variants
+- ~~Dyed Stone Bricks: Walls, Slabs, Stairs~~
+- ~~Add Dyed Bricks and their variants~~
 - Add steel beams
 - Add industrial lamps
 - ...

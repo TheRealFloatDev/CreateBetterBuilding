@@ -33,10 +33,9 @@ public class ModItems {
 
         // Colored brick items
         public static final Map<String, RegistrySupplier<Item>> COLORED_BRICK_ITEMS = new HashMap<>();
-        public static final String[] COLORED_BRICKS_VARIATIONS = { "" };
         static {
                 for (DyeColor color : DyeColor.values()) {
-                        for (String variation : COLORED_BRICKS_VARIATIONS) {
+                        for (String variation : ModBlocks.COLORED_BRICKS_VARIATIONS) {
                                 String name = variation + color.getName() + "_brick"; // e.g., "light_blue_brick" or
                                                                                       // "mossy_light_blue_brick"
 
@@ -79,10 +78,9 @@ public class ModItems {
 
         // Colored stone brick items
         public static final Map<String, RegistrySupplier<Item>> COLORED_STONE_BRICK_ITEMS = new HashMap<>();
-        public static final String[] COLORED_STONE_BRICKS_VARIATIONS = { "", "mossy_" };
         static {
                 for (DyeColor color : DyeColor.values()) {
-                        for (String variation : COLORED_STONE_BRICKS_VARIATIONS) {
+                        for (String variation : ModBlocks.COLORED_STONE_BRICKS_VARIATIONS) {
                                 String name = variation + color.getName() + "_stone_brick"; // e.g.,
                                                                                             // "light_blue_stone_brick"
 
